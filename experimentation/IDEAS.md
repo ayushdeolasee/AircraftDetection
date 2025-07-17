@@ -1,0 +1,4 @@
+- [Layer Wise Learning](layer_wise_learning_rate.ipynb)
+- Using a cosine scheduler 
+- Clipping gradients
+- Scale classification layer from just one linear layer to few more
