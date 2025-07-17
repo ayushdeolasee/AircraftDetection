@@ -1,0 +1,2 @@
+resnet_data filter=lfs diff=lfs merge=lfs -text
+vit_data filter=lfs diff=lfs merge=lfs -text

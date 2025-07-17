@@ -1,0 +1,10 @@
+other_data
+results
+vit_data
+vit_data_augmentation_2
+vit_data_augmented
+vit_data_augmentation
+wandb
+.DS_Store
+__pycache__
+.idea
