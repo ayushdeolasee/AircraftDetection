@@ -1,0 +1,80 @@
+2025-07-18 01:01:37,470 INFO    StreamThr :86212 [internal.py:wandb_internal():86] W&B internal server running at pid: 86212, started at: 2025-07-18 01:01:37.469637
+2025-07-18 01:01:37,470 DEBUG   HandlerThread:86212 [handler.py:handle_request():144] handle_request: status
+2025-07-18 01:01:37,476 INFO    WriterThread:86212 [datastore.py:open_for_write():85] open: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/run-f9uhrpx1.wandb
+2025-07-18 01:01:37,476 DEBUG   SenderThread:86212 [sender.py:send():379] send: header
+2025-07-18 01:01:37,534 DEBUG   SenderThread:86212 [sender.py:send():379] send: run
+2025-07-18 01:01:38,257 INFO    SenderThread:86212 [dir_watcher.py:__init__():211] watching files in: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files
+2025-07-18 01:01:38,257 INFO    SenderThread:86212 [sender.py:_start_run_threads():1121] run started: f9uhrpx1 with start time 1752780697.470106
+2025-07-18 01:01:38,257 DEBUG   SenderThread:86212 [sender.py:send_request():406] send_request: summary_record
+2025-07-18 01:01:38,257 INFO    SenderThread:86212 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2025-07-18 01:01:38,265 DEBUG   HandlerThread:86212 [handler.py:handle_request():144] handle_request: check_version
+2025-07-18 01:01:38,265 DEBUG   SenderThread:86212 [sender.py:send_request():406] send_request: check_version
+2025-07-18 01:01:38,346 DEBUG   HandlerThread:86212 [handler.py:handle_request():144] handle_request: run_start
+2025-07-18 01:01:38,354 DEBUG   HandlerThread:86212 [system_info.py:__init__():31] System info init
+2025-07-18 01:01:38,355 DEBUG   HandlerThread:86212 [system_info.py:__init__():46] System info init done
+2025-07-18 01:01:38,355 INFO    HandlerThread:86212 [system_monitor.py:start():181] Starting system monitor
+2025-07-18 01:01:38,355 INFO    SystemMonitor:86212 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2025-07-18 01:01:38,355 INFO    HandlerThread:86212 [system_monitor.py:probe():201] Collecting system info
+2025-07-18 01:01:38,355 INFO    SystemMonitor:86212 [interfaces.py:start():190] Started cpu monitoring
+2025-07-18 01:01:38,355 DEBUG   HandlerThread:86212 [system_info.py:probe():195] Probing system
+2025-07-18 01:01:38,356 INFO    SystemMonitor:86212 [interfaces.py:start():190] Started disk monitoring
+2025-07-18 01:01:38,356 INFO    SystemMonitor:86212 [interfaces.py:start():190] Started gpuapple monitoring
+2025-07-18 01:01:38,356 INFO    SystemMonitor:86212 [interfaces.py:start():190] Started memory monitoring
+2025-07-18 01:01:38,359 INFO    SystemMonitor:86212 [interfaces.py:start():190] Started network monitoring
+2025-07-18 01:01:38,365 DEBUG   HandlerThread:86212 [system_info.py:_probe_git():180] Probing git
+2025-07-18 01:01:38,409 DEBUG   HandlerThread:86212 [system_info.py:_probe_git():188] Probing git done
+2025-07-18 01:01:38,410 DEBUG   HandlerThread:86212 [system_info.py:probe():240] Probing system done
+2025-07-18 01:01:38,410 DEBUG   HandlerThread:86212 [system_monitor.py:probe():210] {'os': 'macOS-16.0-arm64-arm-64bit', 'python': '3.10.12', 'heartbeatAt': '2025-07-17T19:31:38.356024', 'startedAt': '2025-07-17T19:31:37.464357', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'git@github.com:pypdeveloper/AircraftDetection.git', 'commit': '92861d40f21f5bcf9e01528550068d00b58b5da0'}, 'email': 'pypdeveloper@deolasee.org', 'root': '/Users/ayushdeolasee/Developer/AircraftDetection', 'host': 'Ayushs-MacBook-Pro.local', 'username': 'ayushdeolasee', 'executable': '/opt/homebrew/Caskroom/miniconda/base/envs/AircraftDetection/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'disk': {'total': 926.3224220275879, 'used': 729.5195350646973}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 32.0}}
+2025-07-18 01:01:38,410 INFO    HandlerThread:86212 [system_monitor.py:probe():211] Finished collecting system info
+2025-07-18 01:01:38,410 INFO    HandlerThread:86212 [system_monitor.py:probe():214] Publishing system info
+2025-07-18 01:01:38,410 DEBUG   HandlerThread:86212 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2025-07-18 01:01:38,410 DEBUG   HandlerThread:86212 [system_info.py:_save_pip():67] Saving pip packages done
+2025-07-18 01:01:38,410 DEBUG   HandlerThread:86212 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2025-07-18 01:01:39,260 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/conda-environment.yaml
+2025-07-18 01:01:39,260 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/requirements.txt
+2025-07-18 01:01:39,260 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/wandb-summary.json
+2025-07-18 01:01:39,605 DEBUG   HandlerThread:86212 [system_info.py:_save_conda():86] Saving conda packages done
+2025-07-18 01:01:39,605 INFO    HandlerThread:86212 [system_monitor.py:probe():216] Finished publishing system info
+2025-07-18 01:01:39,612 DEBUG   SenderThread:86212 [sender.py:send():379] send: files
+2025-07-18 01:01:39,612 INFO    SenderThread:86212 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2025-07-18 01:01:39,621 DEBUG   HandlerThread:86212 [handler.py:handle_request():144] handle_request: stop_status
+2025-07-18 01:01:39,622 DEBUG   SenderThread:86212 [sender.py:send_request():406] send_request: stop_status
+2025-07-18 01:01:40,041 DEBUG   SenderThread:86212 [sender.py:send():379] send: telemetry
+2025-07-18 01:01:40,265 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/conda-environment.yaml
+2025-07-18 01:01:40,265 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/wandb-metadata.json
+2025-07-18 01:01:40,265 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/output.log
+2025-07-18 01:01:40,725 INFO    wandb-upload_0:86212 [upload_job.py:push():131] Uploaded file /var/folders/tf/g3md_wds3j183knw90n18sdm0000gn/T/tmpg901i__wwandb/h4fbidwl-wandb-metadata.json
+2025-07-18 01:01:42,271 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/output.log
+2025-07-18 01:01:42,615 DEBUG   HandlerThread:86212 [handler.py:handle_request():144] handle_request: status_report
+2025-07-18 01:01:44,280 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/output.log
+2025-07-18 01:01:46,290 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/output.log
+2025-07-18 01:01:47,899 DEBUG   HandlerThread:86212 [handler.py:handle_request():144] handle_request: status_report
+2025-07-18 01:01:48,298 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/output.log
+2025-07-18 01:01:50,306 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/output.log
+2025-07-18 01:01:52,315 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/output.log
+2025-07-18 01:01:53,222 DEBUG   HandlerThread:86212 [handler.py:handle_request():144] handle_request: status_report
+2025-07-18 01:01:54,325 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/output.log
+2025-07-18 01:01:54,627 DEBUG   HandlerThread:86212 [handler.py:handle_request():144] handle_request: stop_status
+2025-07-18 01:01:54,627 DEBUG   SenderThread:86212 [sender.py:send_request():406] send_request: stop_status
+2025-07-18 01:01:56,335 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/output.log
+2025-07-18 01:01:58,225 DEBUG   HandlerThread:86212 [handler.py:handle_request():144] handle_request: status_report
+2025-07-18 01:01:58,338 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/output.log
+2025-07-18 01:02:00,346 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/output.log
+2025-07-18 01:02:02,351 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/output.log
+2025-07-18 01:02:03,912 DEBUG   HandlerThread:86212 [handler.py:handle_request():144] handle_request: status_report
+2025-07-18 01:02:04,360 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/output.log
+2025-07-18 01:02:06,368 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/output.log
+2025-07-18 01:02:08,376 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/output.log
+2025-07-18 01:02:09,240 DEBUG   HandlerThread:86212 [handler.py:handle_request():144] handle_request: status_report
+2025-07-18 01:02:09,626 DEBUG   HandlerThread:86212 [handler.py:handle_request():144] handle_request: stop_status
+2025-07-18 01:02:09,626 DEBUG   SenderThread:86212 [sender.py:send_request():406] send_request: stop_status
+2025-07-18 01:02:10,382 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/config.yaml
+2025-07-18 01:02:10,382 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/output.log
+2025-07-18 01:02:12,390 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/output.log
+2025-07-18 01:02:14,401 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/output.log
+2025-07-18 01:02:14,724 DEBUG   HandlerThread:86212 [handler.py:handle_request():144] handle_request: status_report
+2025-07-18 01:02:16,412 INFO    Thread-12 :86212 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010137-f9uhrpx1/files/output.log
+2025-07-18 01:02:19,929 DEBUG   HandlerThread:86212 [handler.py:handle_request():144] handle_request: status_report
+2025-07-18 01:02:24,631 DEBUG   HandlerThread:86212 [handler.py:handle_request():144] handle_request: stop_status
+2025-07-18 01:02:24,631 DEBUG   SenderThread:86212 [sender.py:send_request():406] send_request: stop_status
+2025-07-18 01:02:25,068 DEBUG   HandlerThread:86212 [handler.py:handle_request():144] handle_request: status_report

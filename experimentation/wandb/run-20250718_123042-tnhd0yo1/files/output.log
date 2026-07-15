@@ -1,0 +1,42 @@
+
+  0%|          | 0/75 [00:00<?, ?it/s]
+Image tensor:
+<PIL.Image.Image image mode=RGB size=913x687 at 0x17D1E2DA0>
+/opt/homebrew/Caskroom/miniconda/base/envs/AircraftDetection/lib/python3.10/site-packages/torchvision/transforms/v2/_deprecated.py:42: UserWarning: The transform `ToTensor()` is deprecated and will be removed in a future release. Instead, please use `v2.Compose([v2.ToImage(), v2.ToDtype(torch.float32, scale=True)])`.Output is equivalent up to float precision.
+  warnings.warn(
+Image tensor:
+tensor([[[0.4941, 0.4980, 0.5059,  ..., 0.5020, 0.5098, 0.5216],
+         [0.5020, 0.5059, 0.5059,  ..., 0.5020, 0.5098, 0.5216],
+         [0.5176, 0.5176, 0.5176,  ..., 0.5059, 0.5137, 0.5098],
+         ...,
+         [0.0941, 0.0706, 0.0784,  ..., 0.0000, 0.0118, 0.0000],
+         [0.0000, 0.0000, 0.0588,  ..., 0.0118, 0.0431, 0.0000],
+         [0.0706, 0.0000, 0.0000,  ..., 0.1216, 0.0000, 0.0000]],
+        [[0.6431, 0.6471, 0.6549,  ..., 0.6745, 0.6824, 0.6549],
+         [0.6510, 0.6549, 0.6549,  ..., 0.6745, 0.6824, 0.6588],
+         [0.6549, 0.6549, 0.6549,  ..., 0.6784, 0.6863, 0.6784],
+         ...,
+         [0.0000, 0.0706, 0.0078,  ..., 0.1412, 0.0000, 0.0000],
+         [0.0510, 0.0314, 0.0000,  ..., 0.0000, 0.0275, 0.0000],
+         [0.0000, 0.0353, 0.0353,  ..., 0.0392, 0.0118, 0.0000]],
+        [[0.7882, 0.7922, 0.8000,  ..., 0.8118, 0.8196, 0.8039],
+         [0.7961, 0.8000, 0.8000,  ..., 0.8118, 0.8196, 0.8078],
+         [0.8039, 0.8039, 0.8039,  ..., 0.8157, 0.8235, 0.8157],
+         ...,
+         [0.0000, 0.0392, 0.0706,  ..., 0.1373, 0.0549, 0.0000],
+         [0.0000, 0.0000, 0.0157,  ..., 0.0000, 0.0863, 0.0000],
+         [0.0275, 0.0000, 0.0000,  ..., 0.0000, 0.0000, 0.0000]]])
+Image shape: torch.Size([3, 687, 913])
+Image datatype: torch.float32
+Image label: 0
+Label datatype: <class 'int'>
+[INFO] Using MPS (Metal Performance Shaders)
+[INFO] Device set to: mps
+[INFO] Model created and moved to mps
+[INFO] Number of parameter groups: 4
+[INFO] Parameter group 0: lr=0.01, params=12
+[INFO] Parameter group 1: lr=0.009000000000000001, params=12
+[INFO] Parameter group 2: lr=0.008100000000000001, params=12
+[INFO] Parameter group 3: lr=0.007290000000000001, params=2
+[INFO] MPS cache cleared and garbage collected
+[INFO] Initializing wandb...

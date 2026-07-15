@@ -1,0 +1,37 @@
+[INFO] Starting epoch 1/75
+[INFO] Model moved to device and set to train mode.
+  0%|          | 0/75 [00:00<?, ?it/s]
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 4.6154
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.0000
+Epoch [1/75] Batch [10/3334] Avg Loss: 5.3240 Avg Acc: 0.0000 Elapsed: 4.0s
+Epoch [1/75] Batch [20/3334] Avg Loss: 7.2147 Avg Acc: 0.0000 Elapsed: 1.2s
+Epoch [1/75] Batch [30/3334] Avg Loss: 7.2312 Avg Acc: 0.0000 Elapsed: 1.0s
+Epoch [1/75] Batch [40/3334] Avg Loss: 6.1536 Avg Acc: 0.0000 Elapsed: 1.0s
+Epoch [1/75] Batch [50/3334] Avg Loss: 5.7886 Avg Acc: 0.0000 Elapsed: 1.3s
+Epoch [1/75] Batch [60/3334] Avg Loss: 6.5039 Avg Acc: 0.1000 Elapsed: 1.3s
+Epoch [1/75] Batch [70/3334] Avg Loss: 5.8440 Avg Acc: 0.0000 Elapsed: 1.2s
+Epoch [1/75] Batch [80/3334] Avg Loss: 5.7507 Avg Acc: 0.0000 Elapsed: 1.2s
+Epoch [1/75] Batch [90/3334] Avg Loss: 6.4178 Avg Acc: 0.0000 Elapsed: 1.3s
+Epoch [1/75] Batch [100/3334] Avg Loss: 7.2743 Avg Acc: 0.0000 Elapsed: 1.2s
+Epoch [1/75] Batch [110/3334] Avg Loss: 7.4347 Avg Acc: 0.0000 Elapsed: 1.3s
+Epoch [1/75] Batch [120/3334] Avg Loss: 5.1821 Avg Acc: 0.0000 Elapsed: 1.3s
+Epoch [1/75] Batch [130/3334] Avg Loss: 6.8794 Avg Acc: 0.0000 Elapsed: 1.1s
+Epoch [1/75] Batch [140/3334] Avg Loss: 5.5047 Avg Acc: 0.0000 Elapsed: 1.3s
+Epoch [1/75] Batch [150/3334] Avg Loss: 5.5391 Avg Acc: 0.0000 Elapsed: 1.1s
+Epoch [1/75] Batch [160/3334] Avg Loss: 5.2519 Avg Acc: 0.0000 Elapsed: 1.2s
+Epoch [1/75] Batch [170/3334] Avg Loss: 5.5254 Avg Acc: 0.0000 Elapsed: 1.1s
+Epoch [1/75] Batch [180/3334] Avg Loss: 4.8933 Avg Acc: 0.0000 Elapsed: 1.1s
+Epoch [1/75] Batch [190/3334] Avg Loss: 4.7270 Avg Acc: 0.0000 Elapsed: 1.1s
+Epoch [1/75] Batch [200/3334] Avg Loss: 4.9092 Avg Acc: 0.0000 Elapsed: 1.1s
+Epoch [1/75] Batch [210/3334] Avg Loss: 5.3029 Avg Acc: 0.0000 Elapsed: 1.0s
+Epoch [1/75] Batch [220/3334] Avg Loss: 5.1110 Avg Acc: 0.0000 Elapsed: 1.0s
+Epoch [1/75] Batch [230/3334] Avg Loss: 4.9225 Avg Acc: 0.0000 Elapsed: 1.1s
+Epoch [1/75] Batch [240/3334] Avg Loss: 5.1400 Avg Acc: 0.0000 Elapsed: 1.0s
+Epoch [1/75] Batch [250/3334] Avg Loss: 4.7710 Avg Acc: 0.0000 Elapsed: 1.0s
+Epoch [1/75] Batch [260/3334] Avg Loss: 5.0044 Avg Acc: 0.0000 Elapsed: 1.1s
+Epoch [1/75] Batch [270/3334] Avg Loss: 5.1750 Avg Acc: 0.0000 Elapsed: 1.3s

@@ -1,0 +1,33 @@
+{
+    "os": "macOS-16.0-arm64-arm-64bit",
+    "python": "3.10.12",
+    "heartbeatAt": "2025-07-18T07:03:19.601060",
+    "startedAt": "2025-07-18T07:03:07.741909",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@github.com:pypdeveloper/AircraftDetection.git",
+        "commit": "92861d40f21f5bcf9e01528550068d00b58b5da0"
+    },
+    "email": "pypdeveloper@deolasee.org",
+    "root": "/Users/ayushdeolasee/Developer/AircraftDetection",
+    "host": "Ayushs-MacBook-Pro.local",
+    "username": "ayushdeolasee",
+    "executable": "/opt/homebrew/Caskroom/miniconda/base/envs/AircraftDetection/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 10,
+    "disk": {
+        "total": 926.3224220275879,
+        "used": 740.8776359558105
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 32.0
+    }
+}

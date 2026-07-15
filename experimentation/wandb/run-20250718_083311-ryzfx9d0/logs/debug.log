@@ -1,0 +1,30 @@
+2025-07-18 08:33:11,467 INFO    MainThread:24638 [wandb_setup.py:_flush():76] Current SDK version is 0.15.8
+2025-07-18 08:33:11,467 INFO    MainThread:24638 [wandb_setup.py:_flush():76] Configure stats pid to 24638
+2025-07-18 08:33:11,467 INFO    MainThread:24638 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushdeolasee/.config/wandb/settings
+2025-07-18 08:33:11,467 INFO    MainThread:24638 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/settings
+2025-07-18 08:33:11,467 INFO    MainThread:24638 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2025-07-18 08:33:11,467 INFO    MainThread:24638 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-07-18 08:33:11,467 INFO    MainThread:24638 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-07-18 08:33:11,467 INFO    MainThread:24638 [wandb_init.py:_log_setup():507] Logging user logs to /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_083311-ryzfx9d0/logs/debug.log
+2025-07-18 08:33:11,467 INFO    MainThread:24638 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_083311-ryzfx9d0/logs/debug-internal.log
+2025-07-18 08:33:11,467 INFO    MainThread:24638 [wandb_init.py:_jupyter_setup():453] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x157befa90>
+2025-07-18 08:33:11,467 INFO    MainThread:24638 [wandb_init.py:init():547] calling init triggers
+2025-07-18 08:33:11,467 INFO    MainThread:24638 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'epochs': 75, 'model name': 'layer_wise_learning_rate'}
+2025-07-18 08:33:11,467 INFO    MainThread:24638 [wandb_init.py:init():596] starting backend
+2025-07-18 08:33:11,467 INFO    MainThread:24638 [wandb_init.py:init():600] setting up manager
+2025-07-18 08:33:11,468 INFO    MainThread:24638 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-07-18 08:33:11,469 INFO    MainThread:24638 [wandb_init.py:init():606] backend started and connected
+2025-07-18 08:33:11,475 INFO    MainThread:24638 [wandb_run.py:_label_probe_notebook():1234] probe notebook
+2025-07-18 08:33:11,475 INFO    MainThread:24638 [wandb_run.py:_label_probe_notebook():1244] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2025-07-18 08:33:11,475 INFO    MainThread:24638 [wandb_init.py:init():697] updated telemetry
+2025-07-18 08:33:11,534 INFO    MainThread:24638 [wandb_init.py:init():730] communicating run to backend with 60.0 second timeout
+2025-07-18 08:33:12,293 INFO    MainThread:24638 [wandb_run.py:_on_init():2180] communicating current version
+2025-07-18 08:33:12,513 INFO    MainThread:24638 [wandb_run.py:_on_init():2189] got version response upgrade_message: "wandb version 0.21.0 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-07-18 08:33:12,513 INFO    MainThread:24638 [wandb_init.py:init():781] starting run threads in backend
+2025-07-18 08:33:13,555 INFO    MainThread:24638 [wandb_run.py:_console_start():2159] atexit reg
+2025-07-18 08:33:13,556 INFO    MainThread:24638 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2025-07-18 08:33:13,558 INFO    MainThread:24638 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2025-07-18 08:33:13,559 INFO    MainThread:24638 [wandb_run.py:_redirect():2104] Redirects installed.
+2025-07-18 08:33:13,562 INFO    MainThread:24638 [wandb_init.py:init():822] run started, returning control to user process

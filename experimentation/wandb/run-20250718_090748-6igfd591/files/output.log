@@ -1,0 +1,14 @@
+
+  0%|          | 0/75 [00:00<?, ?it/s]
+[INFO] Epoch 1 training complete. Avg train_loss: 5.1397, Avg train_acc: 0.0095
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.7936
+[INFO] Test accuracy computed for first batch: 0.0000
+[INFO] First test batch - Predicted classes: tensor([99, 99, 99, 99, 99], device='mps:0')
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0], device='mps:0')
+[INFO] First test batch - Prediction probabilities (max): tensor([0.0317, 0.0348, 0.0321, 0.0335, 0.0334], device='mps:0')
+[INFO] Evaluation complete. Avg test_loss: 4.7759, Avg test_acc: 0.0179
+Epoch: 1 | train_loss: 5.1397 | train_acc: 0.0095 | test_loss: 4.7759 | test_acc: 0.0179
+
+

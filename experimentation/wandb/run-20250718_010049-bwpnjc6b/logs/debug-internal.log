@@ -1,0 +1,58 @@
+2025-07-18 01:00:49,807 INFO    StreamThr :86130 [internal.py:wandb_internal():86] W&B internal server running at pid: 86130, started at: 2025-07-18 01:00:49.807219
+2025-07-18 01:00:49,808 DEBUG   HandlerThread:86130 [handler.py:handle_request():144] handle_request: status
+2025-07-18 01:00:49,813 INFO    WriterThread:86130 [datastore.py:open_for_write():85] open: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010049-bwpnjc6b/run-bwpnjc6b.wandb
+2025-07-18 01:00:49,813 DEBUG   SenderThread:86130 [sender.py:send():379] send: header
+2025-07-18 01:00:49,873 DEBUG   SenderThread:86130 [sender.py:send():379] send: run
+2025-07-18 01:00:50,667 INFO    SenderThread:86130 [dir_watcher.py:__init__():211] watching files in: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010049-bwpnjc6b/files
+2025-07-18 01:00:50,667 INFO    SenderThread:86130 [sender.py:_start_run_threads():1121] run started: bwpnjc6b with start time 1752780649.80751
+2025-07-18 01:00:50,667 DEBUG   SenderThread:86130 [sender.py:send_request():406] send_request: summary_record
+2025-07-18 01:00:50,668 INFO    SenderThread:86130 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2025-07-18 01:00:50,676 DEBUG   HandlerThread:86130 [handler.py:handle_request():144] handle_request: check_version
+2025-07-18 01:00:50,676 DEBUG   SenderThread:86130 [sender.py:send_request():406] send_request: check_version
+2025-07-18 01:00:50,813 DEBUG   HandlerThread:86130 [handler.py:handle_request():144] handle_request: run_start
+2025-07-18 01:00:50,823 DEBUG   HandlerThread:86130 [system_info.py:__init__():31] System info init
+2025-07-18 01:00:50,823 DEBUG   HandlerThread:86130 [system_info.py:__init__():46] System info init done
+2025-07-18 01:00:50,823 INFO    HandlerThread:86130 [system_monitor.py:start():181] Starting system monitor
+2025-07-18 01:00:50,823 INFO    SystemMonitor:86130 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2025-07-18 01:00:50,824 INFO    HandlerThread:86130 [system_monitor.py:probe():201] Collecting system info
+2025-07-18 01:00:50,824 INFO    SystemMonitor:86130 [interfaces.py:start():190] Started cpu monitoring
+2025-07-18 01:00:50,824 DEBUG   HandlerThread:86130 [system_info.py:probe():195] Probing system
+2025-07-18 01:00:50,824 INFO    SystemMonitor:86130 [interfaces.py:start():190] Started disk monitoring
+2025-07-18 01:00:50,827 INFO    SystemMonitor:86130 [interfaces.py:start():190] Started gpuapple monitoring
+2025-07-18 01:00:50,831 INFO    SystemMonitor:86130 [interfaces.py:start():190] Started memory monitoring
+2025-07-18 01:00:50,832 INFO    SystemMonitor:86130 [interfaces.py:start():190] Started network monitoring
+2025-07-18 01:00:50,833 DEBUG   HandlerThread:86130 [system_info.py:_probe_git():180] Probing git
+2025-07-18 01:00:50,880 DEBUG   HandlerThread:86130 [system_info.py:_probe_git():188] Probing git done
+2025-07-18 01:00:50,880 DEBUG   HandlerThread:86130 [system_info.py:probe():240] Probing system done
+2025-07-18 01:00:50,880 DEBUG   HandlerThread:86130 [system_monitor.py:probe():210] {'os': 'macOS-16.0-arm64-arm-64bit', 'python': '3.10.12', 'heartbeatAt': '2025-07-17T19:30:50.824819', 'startedAt': '2025-07-17T19:30:49.802627', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'git@github.com:pypdeveloper/AircraftDetection.git', 'commit': '92861d40f21f5bcf9e01528550068d00b58b5da0'}, 'email': 'pypdeveloper@deolasee.org', 'root': '/Users/ayushdeolasee/Developer/AircraftDetection', 'host': 'Ayushs-MacBook-Pro.local', 'username': 'ayushdeolasee', 'executable': '/opt/homebrew/Caskroom/miniconda/base/envs/AircraftDetection/bin/python', 'cpu_count': 10, 'cpu_count_logical': 10, 'disk': {'total': 926.3224220275879, 'used': 729.5010528564453}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 32.0}}
+2025-07-18 01:00:50,880 INFO    HandlerThread:86130 [system_monitor.py:probe():211] Finished collecting system info
+2025-07-18 01:00:50,880 INFO    HandlerThread:86130 [system_monitor.py:probe():214] Publishing system info
+2025-07-18 01:00:50,880 DEBUG   HandlerThread:86130 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2025-07-18 01:00:50,881 DEBUG   HandlerThread:86130 [system_info.py:_save_pip():67] Saving pip packages done
+2025-07-18 01:00:50,881 DEBUG   HandlerThread:86130 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2025-07-18 01:00:51,674 INFO    Thread-12 :86130 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010049-bwpnjc6b/files/wandb-summary.json
+2025-07-18 01:00:51,674 INFO    Thread-12 :86130 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010049-bwpnjc6b/files/conda-environment.yaml
+2025-07-18 01:00:51,674 INFO    Thread-12 :86130 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010049-bwpnjc6b/files/requirements.txt
+2025-07-18 01:00:51,807 DEBUG   HandlerThread:86130 [system_info.py:_save_conda():86] Saving conda packages done
+2025-07-18 01:00:51,807 INFO    HandlerThread:86130 [system_monitor.py:probe():216] Finished publishing system info
+2025-07-18 01:00:51,811 DEBUG   SenderThread:86130 [sender.py:send():379] send: files
+2025-07-18 01:00:51,811 INFO    SenderThread:86130 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2025-07-18 01:00:51,819 DEBUG   HandlerThread:86130 [handler.py:handle_request():144] handle_request: stop_status
+2025-07-18 01:00:51,820 DEBUG   SenderThread:86130 [sender.py:send_request():406] send_request: stop_status
+2025-07-18 01:00:52,203 DEBUG   SenderThread:86130 [sender.py:send():379] send: telemetry
+2025-07-18 01:00:52,678 INFO    Thread-12 :86130 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010049-bwpnjc6b/files/conda-environment.yaml
+2025-07-18 01:00:52,679 INFO    Thread-12 :86130 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010049-bwpnjc6b/files/wandb-metadata.json
+2025-07-18 01:00:52,679 INFO    Thread-12 :86130 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010049-bwpnjc6b/files/output.log
+2025-07-18 01:00:52,988 INFO    wandb-upload_0:86130 [upload_job.py:push():131] Uploaded file /var/folders/tf/g3md_wds3j183knw90n18sdm0000gn/T/tmp8u792iuzwandb/181f86ab-wandb-metadata.json
+2025-07-18 01:00:54,686 INFO    Thread-12 :86130 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010049-bwpnjc6b/files/output.log
+2025-07-18 01:00:55,574 DEBUG   HandlerThread:86130 [handler.py:handle_request():144] handle_request: status_report
+2025-07-18 01:00:56,696 INFO    Thread-12 :86130 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_010049-bwpnjc6b/files/output.log
+2025-07-18 01:00:56,834 INFO    cpu       :86130 [interfaces.py:monitor():140] Process cpu has exited.
+2025-07-18 01:00:56,834 DEBUG   SystemMonitor:86130 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2025-07-18 01:00:56,834 DEBUG   SystemMonitor:86130 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2025-07-18 01:00:56,834 DEBUG   SystemMonitor:86130 [system_monitor.py:_start():170] Publishing last batch of metrics
+2025-07-18 01:00:56,835 DEBUG   SenderThread:86130 [sender.py:send():379] send: telemetry
+2025-07-18 01:00:56,835 DEBUG   SenderThread:86130 [sender.py:send():379] send: stats
+2025-07-18 01:00:58,821 INFO    MainThread:86130 [internal.py:handle_exit():76] Internal process exited
+2025-07-18 01:00:58,842 WARNING StreamThr :86130 [internal.py:is_dead():414] Internal process exiting, parent pid 86113 disappeared
+2025-07-18 01:00:58,843 ERROR   StreamThr :86130 [internal.py:wandb_internal():152] Internal process shutdown.

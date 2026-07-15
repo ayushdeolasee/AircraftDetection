@@ -1,0 +1,4 @@
+[INFO] Starting epoch 1/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.

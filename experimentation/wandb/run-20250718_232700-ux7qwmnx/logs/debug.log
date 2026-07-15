@@ -1,0 +1,48 @@
+2025-07-18 23:27:00,800 INFO    MainThread:26257 [wandb_setup.py:_flush():76] Current SDK version is 0.15.8
+2025-07-18 23:27:00,801 INFO    MainThread:26257 [wandb_setup.py:_flush():76] Configure stats pid to 26257
+2025-07-18 23:27:00,801 INFO    MainThread:26257 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushdeolasee/.config/wandb/settings
+2025-07-18 23:27:00,801 INFO    MainThread:26257 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/settings
+2025-07-18 23:27:00,801 INFO    MainThread:26257 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2025-07-18 23:27:00,801 INFO    MainThread:26257 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2025-07-18 23:27:00,801 INFO    MainThread:26257 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2025-07-18 23:27:00,801 INFO    MainThread:26257 [wandb_init.py:_log_setup():507] Logging user logs to /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_232700-ux7qwmnx/logs/debug.log
+2025-07-18 23:27:00,801 INFO    MainThread:26257 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/ayushdeolasee/Developer/AircraftDetection/experimentation/wandb/run-20250718_232700-ux7qwmnx/logs/debug-internal.log
+2025-07-18 23:27:00,801 INFO    MainThread:26257 [wandb_init.py:init():547] calling init triggers
+2025-07-18 23:27:00,801 INFO    MainThread:26257 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {'epochs': 75, 'model name': 'layer_wise_learning_rate'}
+2025-07-18 23:27:00,801 INFO    MainThread:26257 [wandb_init.py:init():571] re-initializing run, found existing run on stack: gtyymiba
+2025-07-18 23:27:01,088 ERROR   MainThread:26257 [wandb_init.py:init():1175] error
+Traceback (most recent call last):
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/AircraftDetection/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1147, in init
+    run = wi.init()
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/AircraftDetection/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 581, in init
+    latest_run.finish()
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/AircraftDetection/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 390, in wrapper
+    return func(self, *args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/AircraftDetection/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 331, in wrapper
+    return func(self, *args, **kwargs)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/AircraftDetection/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1885, in finish
+    return self._finish(exit_code, quiet)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/AircraftDetection/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 1892, in _finish
+    with telemetry.context(run=self) as tel:
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/AircraftDetection/lib/python3.10/site-packages/wandb/sdk/lib/telemetry.py", line 42, in __exit__
+    self._run._telemetry_callback(self._obj)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/AircraftDetection/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 713, in _telemetry_callback
+    self._telemetry_flush()
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/AircraftDetection/lib/python3.10/site-packages/wandb/sdk/wandb_run.py", line 724, in _telemetry_flush
+    self._backend.interface._publish_telemetry(self._telemetry_obj)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/AircraftDetection/lib/python3.10/site-packages/wandb/sdk/interface/interface_shared.py", line 101, in _publish_telemetry
+    self._publish(rec)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/AircraftDetection/lib/python3.10/site-packages/wandb/sdk/interface/interface_sock.py", line 51, in _publish
+    self._sock_client.send_record_publish(record)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/AircraftDetection/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 221, in send_record_publish
+    self.send_server_request(server_req)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/AircraftDetection/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/AircraftDetection/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "/opt/homebrew/Caskroom/miniconda/base/envs/AircraftDetection/lib/python3.10/site-packages/wandb/sdk/lib/sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+BrokenPipeError: [Errno 32] Broken pipe
+2025-07-18 23:27:01,454 INFO    MainThread:26257 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2025-07-18 23:27:01,454 INFO    MainThread:26257 [wandb_init.py:_pause_backend():418] pausing backend

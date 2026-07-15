@@ -1,0 +1,2778 @@
+[INFO] Starting epoch 1/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 4.7601
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.0312
+[INFO] First batch - Predicted classes: tensor([ 2, 14, 14,  1, 52])
+[INFO] First batch - True labels: tensor([48, 81, 34, 70, 50])
+[INFO] First batch - Prediction probabilities (max): tensor([0.0199, 0.0200, 0.0189, 0.0192, 0.0216], grad_fn=<SliceBackward0>)
+  0%|                                               | 0/75 [00:00<?, ?it/s]
+Epoch [1/75] Batch [10/105] Avg Loss: 5.0365 Avg Acc: 0.0063 Elapsed: 12.8s
+Epoch [1/75] Batch [20/105] Avg Loss: 5.0953 Avg Acc: 0.0094 Elapsed: 12.0s
+Epoch [1/75] Batch [30/105] Avg Loss: 5.0405 Avg Acc: 0.0125 Elapsed: 12.5s
+Epoch [1/75] Batch [40/105] Avg Loss: 4.9203 Avg Acc: 0.0094 Elapsed: 12.6s
+Epoch [1/75] Batch [50/105] Avg Loss: 4.9146 Avg Acc: 0.0063 Elapsed: 13.2s
+Epoch [1/75] Batch [60/105] Avg Loss: 4.8719 Avg Acc: 0.0063 Elapsed: 12.1s
+Epoch [1/75] Batch [70/105] Avg Loss: 4.8278 Avg Acc: 0.0125 Elapsed: 11.9s
+Epoch [1/75] Batch [80/105] Avg Loss: 4.8796 Avg Acc: 0.0063 Elapsed: 12.3s
+Epoch [1/75] Batch [90/105] Avg Loss: 4.8102 Avg Acc: 0.0031 Elapsed: 12.0s
+Epoch [1/75] Batch [100/105] Avg Loss: 4.8345 Avg Acc: 0.0031 Elapsed: 37.6s
+Epoch [1/75] Batch [105/105] Avg Loss: 4.8589 Avg Acc: 0.0125 Elapsed: 4.7s
+[INFO] Epoch 1 training complete. Avg train_loss: 4.9201, Avg train_acc: 0.0077
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.8975
+[INFO] Test accuracy computed for first batch: 0.0000
+[INFO] First test batch - Predicted classes: tensor([16, 16, 16, 16, 16])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+  1%|▍                                   | 1/75 [03:59<4:55:13, 239.37s/it]
+[INFO] Evaluation complete. Avg test_loss: 4.7627, Avg test_acc: 0.0098
+Epoch: 1 | train_loss: 4.9201 | train_acc: 0.0077 | test_loss: 4.7627 | test_acc: 0.0098
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 2/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 4.7388
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.0312
+[INFO] First batch - Predicted classes: tensor([16, 16, 16, 16, 16])
+[INFO] First batch - True labels: tensor([12, 37, 33, 15, 93])
+[INFO] First batch - Prediction probabilities (max): tensor([0.0306, 0.0306, 0.0306, 0.0306, 0.0306], grad_fn=<SliceBackward0>)
+Epoch [2/75] Batch [10/105] Avg Loss: 4.7454 Avg Acc: 0.0250 Elapsed: 11.7s
+Epoch [2/75] Batch [20/105] Avg Loss: 4.7692 Avg Acc: 0.0094 Elapsed: 11.9s
+Epoch [2/75] Batch [30/105] Avg Loss: 4.7786 Avg Acc: 0.0031 Elapsed: 12.3s
+Epoch [2/75] Batch [40/105] Avg Loss: 4.6784 Avg Acc: 0.0063 Elapsed: 11.8s
+Epoch [2/75] Batch [50/105] Avg Loss: 4.7209 Avg Acc: 0.0094 Elapsed: 12.0s
+Epoch [2/75] Batch [60/105] Avg Loss: 4.6925 Avg Acc: 0.0063 Elapsed: 11.9s
+Epoch [2/75] Batch [70/105] Avg Loss: 4.6434 Avg Acc: 0.0156 Elapsed: 12.3s
+Epoch [2/75] Batch [80/105] Avg Loss: 4.6839 Avg Acc: 0.0094 Elapsed: 12.0s
+Epoch [2/75] Batch [90/105] Avg Loss: 4.6380 Avg Acc: 0.0094 Elapsed: 12.2s
+Epoch [2/75] Batch [100/105] Avg Loss: 4.6831 Avg Acc: 0.0094 Elapsed: 12.0s
+Epoch [2/75] Batch [105/105] Avg Loss: 4.6200 Avg Acc: 0.0125 Elapsed: 5.2s
+[INFO] Epoch 2 training complete. Avg train_loss: 4.6994, Avg train_acc: 0.0104
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.6846
+[INFO] Test accuracy computed for first batch: 0.0000
+[INFO] First test batch - Predicted classes: tensor([14, 14, 14, 14, 14])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+[INFO] First test batch - Prediction probabilities (max): tensor([0.0164, 0.0164, 0.0164, 0.0163, 0.0164])
+[INFO] Evaluation complete. Avg test_loss: 4.6334, Avg test_acc: 0.0104
+Epoch: 2 | train_loss: 4.6994 | train_acc: 0.0104 | test_loss: 4.6334 | test_acc: 0.0104
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 3/75
+
+  3%|▉                                   | 2/75 [07:35<4:34:39, 225.75s/it]
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 4.6690
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.0000
+[INFO] First batch - Predicted classes: tensor([14, 14, 14, 14, 14])
+[INFO] First batch - True labels: tensor([65, 19, 79,  8, 77])
+[INFO] First batch - Prediction probabilities (max): tensor([0.0164, 0.0165, 0.0164, 0.0164, 0.0163], grad_fn=<SliceBackward0>)
+Epoch [3/75] Batch [10/105] Avg Loss: 4.6524 Avg Acc: 0.0031 Elapsed: 12.4s
+Epoch [3/75] Batch [20/105] Avg Loss: 4.6560 Avg Acc: 0.0031 Elapsed: 12.4s
+Epoch [3/75] Batch [30/105] Avg Loss: 4.6498 Avg Acc: 0.0031 Elapsed: 15.5s
+Epoch [3/75] Batch [40/105] Avg Loss: 4.6236 Avg Acc: 0.0094 Elapsed: 12.7s
+Epoch [3/75] Batch [50/105] Avg Loss: 4.6529 Avg Acc: 0.0125 Elapsed: 12.6s
+Epoch [3/75] Batch [60/105] Avg Loss: 4.6276 Avg Acc: 0.0094 Elapsed: 12.1s
+Epoch [3/75] Batch [70/105] Avg Loss: 4.6485 Avg Acc: 0.0031 Elapsed: 12.3s
+Epoch [3/75] Batch [80/105] Avg Loss: 4.6439 Avg Acc: 0.0031 Elapsed: 12.2s
+Epoch [3/75] Batch [90/105] Avg Loss: 4.6508 Avg Acc: 0.0031 Elapsed: 12.3s
+Epoch [3/75] Batch [100/105] Avg Loss: 4.6407 Avg Acc: 0.0125 Elapsed: 12.0s
+Epoch [3/75] Batch [105/105] Avg Loss: 4.6477 Avg Acc: 0.0125 Elapsed: 5.0s
+[INFO] Epoch 3 training complete. Avg train_loss: 4.6448, Avg train_acc: 0.0065
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.6721
+[INFO] Test accuracy computed for first batch: 0.0000
+[INFO] First test batch - Predicted classes: tensor([17, 17, 17, 17, 17])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+[INFO] First test batch - Prediction probabilities (max): tensor([0.0184, 0.0183, 0.0183, 0.0182, 0.0182])
+[INFO] Evaluation complete. Avg test_loss: 4.6183, Avg test_acc: 0.0101
+Epoch: 3 | train_loss: 4.6448 | train_acc: 0.0065 | test_loss: 4.6183 | test_acc: 0.0101
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 4/75
+
+  4%|█▍                                  | 3/75 [11:14<4:26:56, 222.45s/it]
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 4.6177
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.0000
+[INFO] First batch - Predicted classes: tensor([17, 17, 17, 17, 17])
+[INFO] First batch - True labels: tensor([31, 14, 13, 56, 62])
+[INFO] First batch - Prediction probabilities (max): tensor([0.0183, 0.0184, 0.0184, 0.0184, 0.0183], grad_fn=<SliceBackward0>)
+Epoch [4/75] Batch [10/105] Avg Loss: 4.6215 Avg Acc: 0.0031 Elapsed: 12.2s
+Epoch [4/75] Batch [20/105] Avg Loss: 4.6201 Avg Acc: 0.0156 Elapsed: 12.2s
+Epoch [4/75] Batch [30/105] Avg Loss: 4.6480 Avg Acc: 0.0094 Elapsed: 12.7s
+Epoch [4/75] Batch [40/105] Avg Loss: 4.6211 Avg Acc: 0.0094 Elapsed: 12.3s
+Epoch [4/75] Batch [50/105] Avg Loss: 4.6263 Avg Acc: 0.0156 Elapsed: 13.2s
+Epoch [4/75] Batch [60/105] Avg Loss: 4.6083 Avg Acc: 0.0125 Elapsed: 12.5s
+Epoch [4/75] Batch [70/105] Avg Loss: 4.6078 Avg Acc: 0.0094 Elapsed: 12.8s
+Epoch [4/75] Batch [80/105] Avg Loss: 4.5784 Avg Acc: 0.0312 Elapsed: 12.7s
+Epoch [4/75] Batch [90/105] Avg Loss: 4.5036 Avg Acc: 0.0281 Elapsed: 12.9s
+Epoch [4/75] Batch [100/105] Avg Loss: 4.4886 Avg Acc: 0.0125 Elapsed: 13.1s
+Epoch [4/75] Batch [105/105] Avg Loss: 4.5323 Avg Acc: 0.0187 Elapsed: 5.4s
+[INFO] Epoch 4 training complete. Avg train_loss: 4.5895, Avg train_acc: 0.0149
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.8409
+[INFO] Test accuracy computed for first batch: 0.0000
+[INFO] First test batch - Predicted classes: tensor([28, 28, 28, 57, 93])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+  5%|█▉                                  | 4/75 [14:55<4:22:38, 221.96s/it]
+[INFO] Evaluation complete. Avg test_loss: 4.4780, Avg test_acc: 0.0190
+Epoch: 4 | train_loss: 4.5895 | train_acc: 0.0149 | test_loss: 4.4780 | test_acc: 0.0190
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 5/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 4.5790
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.0312
+[INFO] First batch - Predicted classes: tensor([93, 28, 57, 28, 28])
+[INFO] First batch - True labels: tensor([83,  3, 58,  3, 25])
+[INFO] First batch - Prediction probabilities (max): tensor([0.0154, 0.0203, 0.0240, 0.0294, 0.0312], grad_fn=<SliceBackward0>)
+Epoch [5/75] Batch [10/105] Avg Loss: 4.4216 Avg Acc: 0.0312 Elapsed: 13.1s
+Epoch [5/75] Batch [20/105] Avg Loss: 4.4089 Avg Acc: 0.0156 Elapsed: 12.1s
+Epoch [5/75] Batch [30/105] Avg Loss: 4.3823 Avg Acc: 0.0312 Elapsed: 11.9s
+Epoch [5/75] Batch [40/105] Avg Loss: 4.3082 Avg Acc: 0.0344 Elapsed: 13.5s
+Epoch [5/75] Batch [50/105] Avg Loss: 4.2522 Avg Acc: 0.0500 Elapsed: 11.8s
+Epoch [5/75] Batch [60/105] Avg Loss: 4.2784 Avg Acc: 0.0406 Elapsed: 13.5s
+Epoch [5/75] Batch [70/105] Avg Loss: 4.2718 Avg Acc: 0.0563 Elapsed: 12.1s
+Epoch [5/75] Batch [80/105] Avg Loss: 4.5200 Avg Acc: 0.0094 Elapsed: 13.5s
+Epoch [5/75] Batch [90/105] Avg Loss: 4.4951 Avg Acc: 0.0250 Elapsed: 12.5s
+Epoch [5/75] Batch [100/105] Avg Loss: 4.4683 Avg Acc: 0.0281 Elapsed: 11.5s
+Epoch [5/75] Batch [105/105] Avg Loss: 4.4373 Avg Acc: 0.0312 Elapsed: 5.1s
+[INFO] Epoch 5 training complete. Avg train_loss: 4.3834, Avg train_acc: 0.0321
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.7357
+[INFO] Test accuracy computed for first batch: 0.0000
+[INFO] First test batch - Predicted classes: tensor([26, 26, 26, 72, 26])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+  7%|██▍                                 | 5/75 [18:32<4:16:44, 220.06s/it]
+[INFO] Evaluation complete. Avg test_loss: 4.3560, Avg test_acc: 0.0298
+Epoch: 5 | train_loss: 4.3834 | train_acc: 0.0321 | test_loss: 4.3560 | test_acc: 0.0298
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 6/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 4.1024
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.0938
+[INFO] First batch - Predicted classes: tensor([72, 26, 26, 72, 24])
+[INFO] First batch - True labels: tensor([91, 65, 78, 72, 11])
+[INFO] First batch - Prediction probabilities (max): tensor([0.0200, 0.0525, 0.0378, 0.1316, 0.0324], grad_fn=<SliceBackward0>)
+Epoch [6/75] Batch [10/105] Avg Loss: 4.2529 Avg Acc: 0.0281 Elapsed: 11.8s
+Epoch [6/75] Batch [20/105] Avg Loss: 4.4199 Avg Acc: 0.0219 Elapsed: 12.6s
+Epoch [6/75] Batch [30/105] Avg Loss: 4.4654 Avg Acc: 0.0187 Elapsed: 12.9s
+Epoch [6/75] Batch [40/105] Avg Loss: 4.3548 Avg Acc: 0.0219 Elapsed: 12.0s
+Epoch [6/75] Batch [50/105] Avg Loss: 4.3101 Avg Acc: 0.0437 Elapsed: 11.4s
+Epoch [6/75] Batch [60/105] Avg Loss: 4.4296 Avg Acc: 0.0063 Elapsed: 11.5s
+Epoch [6/75] Batch [70/105] Avg Loss: 4.2706 Avg Acc: 0.0344 Elapsed: 12.2s
+Epoch [6/75] Batch [80/105] Avg Loss: 4.2371 Avg Acc: 0.0344 Elapsed: 12.8s
+Epoch [6/75] Batch [90/105] Avg Loss: 4.1986 Avg Acc: 0.0375 Elapsed: 12.0s
+Epoch [6/75] Batch [100/105] Avg Loss: 4.1425 Avg Acc: 0.0375 Elapsed: 11.7s
+Epoch [6/75] Batch [105/105] Avg Loss: 4.2152 Avg Acc: 0.0437 Elapsed: 4.9s
+[INFO] Epoch 6 training complete. Avg train_loss: 4.3037, Avg train_acc: 0.0292
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.5002
+[INFO] Test accuracy computed for first batch: 0.0625
+[INFO] First test batch - Predicted classes: tensor([ 0, 85, 18,  2, 50])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+  8%|██▉                                 | 6/75 [22:04<4:10:10, 217.54s/it]
+[INFO] Evaluation complete. Avg test_loss: 4.0897, Avg test_acc: 0.0643
+Epoch: 6 | train_loss: 4.3037 | train_acc: 0.0292 | test_loss: 4.0897 | test_acc: 0.0643
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 7/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 4.0598
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.1250
+[INFO] First batch - Predicted classes: tensor([40, 18, 68, 60, 18])
+[INFO] First batch - True labels: tensor([82, 32,  9, 77, 18])
+[INFO] First batch - Prediction probabilities (max): tensor([0.0335, 0.0704, 0.0492, 0.0401, 0.0897], grad_fn=<SliceBackward0>)
+Epoch [7/75] Batch [10/105] Avg Loss: 3.9621 Avg Acc: 0.0500 Elapsed: 11.5s
+Epoch [7/75] Batch [20/105] Avg Loss: 3.9659 Avg Acc: 0.0531 Elapsed: 11.5s
+Epoch [7/75] Batch [30/105] Avg Loss: 4.0061 Avg Acc: 0.0688 Elapsed: 12.3s
+Epoch [7/75] Batch [40/105] Avg Loss: 4.0406 Avg Acc: 0.0531 Elapsed: 11.9s
+Epoch [7/75] Batch [50/105] Avg Loss: 4.0505 Avg Acc: 0.0563 Elapsed: 11.4s
+Epoch [7/75] Batch [60/105] Avg Loss: 3.8867 Avg Acc: 0.0469 Elapsed: 12.2s
+Epoch [7/75] Batch [70/105] Avg Loss: 3.9068 Avg Acc: 0.0563 Elapsed: 11.8s
+Epoch [7/75] Batch [80/105] Avg Loss: 3.9250 Avg Acc: 0.0813 Elapsed: 12.6s
+Epoch [7/75] Batch [90/105] Avg Loss: 3.9641 Avg Acc: 0.0563 Elapsed: 12.1s
+Epoch [7/75] Batch [100/105] Avg Loss: 3.8828 Avg Acc: 0.0688 Elapsed: 12.3s
+Epoch [7/75] Batch [105/105] Avg Loss: 3.7122 Avg Acc: 0.0938 Elapsed: 5.3s
+[INFO] Epoch 7 training complete. Avg train_loss: 3.9473, Avg train_acc: 0.0607
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.7630
+[INFO] Test accuracy computed for first batch: 0.0000
+[INFO] First test batch - Predicted classes: tensor([11, 11, 28, 10, 62])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+  9%|███▎                                | 7/75 [25:36<4:04:18, 215.57s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.7374, Avg test_acc: 0.0920
+Epoch: 7 | train_loss: 3.9473 | train_acc: 0.0607 | test_loss: 3.7374 | test_acc: 0.0920
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 8/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 3.8624
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.0938
+[INFO] First batch - Predicted classes: tensor([ 2, 37, 62,  6, 68])
+[INFO] First batch - True labels: tensor([26, 37, 49, 78, 66])
+[INFO] First batch - Prediction probabilities (max): tensor([0.0325, 0.0558, 0.0512, 0.0601, 0.0721], grad_fn=<SliceBackward0>)
+Epoch [8/75] Batch [10/105] Avg Loss: 3.6672 Avg Acc: 0.0906 Elapsed: 13.3s
+Epoch [8/75] Batch [20/105] Avg Loss: 3.6733 Avg Acc: 0.1000 Elapsed: 12.2s
+Epoch [8/75] Batch [30/105] Avg Loss: 3.5574 Avg Acc: 0.1344 Elapsed: 12.7s
+Epoch [8/75] Batch [40/105] Avg Loss: 3.6621 Avg Acc: 0.1000 Elapsed: 11.8s
+Epoch [8/75] Batch [50/105] Avg Loss: 3.7179 Avg Acc: 0.0969 Elapsed: 12.3s
+Epoch [8/75] Batch [60/105] Avg Loss: 3.6460 Avg Acc: 0.1094 Elapsed: 12.4s
+Epoch [8/75] Batch [70/105] Avg Loss: 3.8433 Avg Acc: 0.1000 Elapsed: 12.3s
+Epoch [8/75] Batch [80/105] Avg Loss: 3.6531 Avg Acc: 0.1125 Elapsed: 12.8s
+Epoch [8/75] Batch [90/105] Avg Loss: 3.6172 Avg Acc: 0.1125 Elapsed: 11.8s
+Epoch [8/75] Batch [100/105] Avg Loss: 3.4198 Avg Acc: 0.1313 Elapsed: 12.5s
+Epoch [8/75] Batch [105/105] Avg Loss: 3.6773 Avg Acc: 0.0875 Elapsed: 5.5s
+[INFO] Epoch 8 training complete. Avg train_loss: 3.6472, Avg train_acc: 0.1077
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.8751
+[INFO] Test accuracy computed for first batch: 0.0000
+[INFO] First test batch - Predicted classes: tensor([97, 85, 19, 97,  1])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 11%|███▊                                | 8/75 [29:15<4:02:02, 216.75s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.4725, Avg test_acc: 0.1247
+Epoch: 8 | train_loss: 3.6472 | train_acc: 0.1077 | test_loss: 3.4725 | test_acc: 0.1247
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 9/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 3.5096
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.1250
+[INFO] First batch - Predicted classes: tensor([83, 48, 97, 83, 69])
+[INFO] First batch - True labels: tensor([54, 57, 15, 83, 61])
+[INFO] First batch - Prediction probabilities (max): tensor([0.0514, 0.1596, 0.0821, 0.2051, 0.1889], grad_fn=<SliceBackward0>)
+Epoch [9/75] Batch [10/105] Avg Loss: 3.4120 Avg Acc: 0.1500 Elapsed: 11.6s
+Epoch [9/75] Batch [20/105] Avg Loss: 3.2082 Avg Acc: 0.1688 Elapsed: 12.0s
+Epoch [9/75] Batch [30/105] Avg Loss: 3.3266 Avg Acc: 0.1969 Elapsed: 12.0s
+Epoch [9/75] Batch [40/105] Avg Loss: 3.0734 Avg Acc: 0.2062 Elapsed: 11.5s
+Epoch [9/75] Batch [50/105] Avg Loss: 3.1191 Avg Acc: 0.1938 Elapsed: 11.7s
+Epoch [9/75] Batch [60/105] Avg Loss: 3.2818 Avg Acc: 0.1719 Elapsed: 12.2s
+Epoch [9/75] Batch [70/105] Avg Loss: 3.1912 Avg Acc: 0.1969 Elapsed: 12.6s
+Epoch [9/75] Batch [80/105] Avg Loss: 3.2559 Avg Acc: 0.2031 Elapsed: 12.5s
+Epoch [9/75] Batch [90/105] Avg Loss: 3.3610 Avg Acc: 0.1406 Elapsed: 11.9s
+Epoch [9/75] Batch [100/105] Avg Loss: 3.2810 Avg Acc: 0.1531 Elapsed: 12.8s
+Epoch [9/75] Batch [105/105] Avg Loss: 3.1120 Avg Acc: 0.2417 Elapsed: 5.2s
+[INFO] Epoch 9 training complete. Avg train_loss: 3.2444, Avg train_acc: 0.1812
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.5541
+[INFO] Test accuracy computed for first batch: 0.0625
+[INFO] First test batch - Predicted classes: tensor([29, 30, 14,  1, 50])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 12%|████▎                               | 9/75 [32:52<3:58:26, 216.76s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.2161, Avg test_acc: 0.1631
+Epoch: 9 | train_loss: 3.2444 | train_acc: 0.1812 | test_loss: 3.2161 | test_acc: 0.1631
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 10/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 2.9588
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.2188
+[INFO] First batch - Predicted classes: tensor([30, 43, 71, 14, 52])
+[INFO] First batch - True labels: tensor([55, 43, 71, 14, 10])
+[INFO] First batch - Prediction probabilities (max): tensor([0.0982, 0.5462, 0.4278, 0.1325, 0.1655], grad_fn=<SliceBackward0>)
+Epoch [10/75] Batch [10/105] Avg Loss: 2.9527 Avg Acc: 0.2344 Elapsed: 12.6s
+Epoch [10/75] Batch [20/105] Avg Loss: 2.9259 Avg Acc: 0.2437 Elapsed: 12.6s
+Epoch [10/75] Batch [30/105] Avg Loss: 3.0409 Avg Acc: 0.2562 Elapsed: 12.1s
+Epoch [10/75] Batch [40/105] Avg Loss: 2.8852 Avg Acc: 0.2469 Elapsed: 12.1s
+Epoch [10/75] Batch [50/105] Avg Loss: 2.8582 Avg Acc: 0.2406 Elapsed: 12.1s
+Epoch [10/75] Batch [60/105] Avg Loss: 2.9678 Avg Acc: 0.2406 Elapsed: 12.0s
+Epoch [10/75] Batch [70/105] Avg Loss: 2.7768 Avg Acc: 0.2781 Elapsed: 11.8s
+Epoch [10/75] Batch [80/105] Avg Loss: 3.0389 Avg Acc: 0.2094 Elapsed: 12.0s
+Epoch [10/75] Batch [90/105] Avg Loss: 2.8986 Avg Acc: 0.2313 Elapsed: 12.3s
+Epoch [10/75] Batch [100/105] Avg Loss: 2.8938 Avg Acc: 0.2406 Elapsed: 12.1s
+Epoch [10/75] Batch [105/105] Avg Loss: 2.8498 Avg Acc: 0.2708 Elapsed: 5.1s
+[INFO] Epoch 10 training complete. Avg train_loss: 2.9204, Avg train_acc: 0.2436
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.1529
+[INFO] Test accuracy computed for first batch: 0.1562
+[INFO] First test batch - Predicted classes: tensor([ 0, 30, 19, 84, 55])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+[INFO] First test batch - Prediction probabilities (max): tensor([0.3429, 0.1167, 0.2642, 0.1677, 0.3673])
+[INFO] Evaluation complete. Avg test_loss: 3.0484, Avg test_acc: 0.2013
+Epoch: 10 | train_loss: 2.9204 | train_acc: 0.2436 | test_loss: 3.0484 | test_acc: 0.2013
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 11/75
+
+ 13%|████▋                              | 10/75 [36:27<3:54:11, 216.18s/it]
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 2.4685
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.3438
+[INFO] First batch - Predicted classes: tensor([45, 83, 68, 95,  8])
+[INFO] First batch - True labels: tensor([45, 84, 46, 61, 17])
+[INFO] First batch - Prediction probabilities (max): tensor([0.2799, 0.3096, 0.1280, 0.0512, 0.1134], grad_fn=<SliceBackward0>)
+Epoch [11/75] Batch [10/105] Avg Loss: 2.6863 Avg Acc: 0.3219 Elapsed: 12.7s
+Epoch [11/75] Batch [20/105] Avg Loss: 2.8031 Avg Acc: 0.2750 Elapsed: 11.9s
+Epoch [11/75] Batch [30/105] Avg Loss: 2.5591 Avg Acc: 0.3281 Elapsed: 12.3s
+Epoch [11/75] Batch [40/105] Avg Loss: 2.6337 Avg Acc: 0.2938 Elapsed: 12.5s
+Epoch [11/75] Batch [50/105] Avg Loss: 2.6993 Avg Acc: 0.2969 Elapsed: 12.4s
+Epoch [11/75] Batch [60/105] Avg Loss: 2.6814 Avg Acc: 0.3125 Elapsed: 12.6s
+Epoch [11/75] Batch [70/105] Avg Loss: 2.7359 Avg Acc: 0.3031 Elapsed: 12.1s
+Epoch [11/75] Batch [80/105] Avg Loss: 2.6536 Avg Acc: 0.2781 Elapsed: 12.4s
+Epoch [11/75] Batch [90/105] Avg Loss: 2.6459 Avg Acc: 0.3031 Elapsed: 11.8s
+Epoch [11/75] Batch [100/105] Avg Loss: 2.9047 Avg Acc: 0.2625 Elapsed: 11.9s
+Epoch [11/75] Batch [105/105] Avg Loss: 2.5086 Avg Acc: 0.3438 Elapsed: 5.3s
+[INFO] Epoch 11 training complete. Avg train_loss: 2.6912, Avg train_acc: 0.2997
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 2.1155
+[INFO] Test accuracy computed for first batch: 0.4688
+[INFO] First test batch - Predicted classes: tensor([ 0, 30, 19, 55, 55])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 15%|█████▏                             | 11/75 [40:00<3:49:41, 215.34s/it]
+[INFO] Evaluation complete. Avg test_loss: 2.9796, Avg test_acc: 0.2317
+Epoch: 11 | train_loss: 2.6912 | train_acc: 0.2997 | test_loss: 2.9796 | test_acc: 0.2317
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 12/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 2.3031
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.3125
+[INFO] First batch - Predicted classes: tensor([56,  4, 83, 19,  2])
+[INFO] First batch - True labels: tensor([10, 65, 83, 18, 99])
+[INFO] First batch - Prediction probabilities (max): tensor([0.2571, 0.2902, 0.9979, 0.2516, 0.2277], grad_fn=<SliceBackward0>)
+Epoch [12/75] Batch [10/105] Avg Loss: 2.4896 Avg Acc: 0.3156 Elapsed: 12.2s
+Epoch [12/75] Batch [20/105] Avg Loss: 2.3656 Avg Acc: 0.3656 Elapsed: 12.1s
+Epoch [12/75] Batch [30/105] Avg Loss: 2.4404 Avg Acc: 0.3500 Elapsed: 12.2s
+Epoch [12/75] Batch [40/105] Avg Loss: 2.5284 Avg Acc: 0.3469 Elapsed: 12.7s
+Epoch [12/75] Batch [50/105] Avg Loss: 2.5921 Avg Acc: 0.3375 Elapsed: 11.9s
+Epoch [12/75] Batch [60/105] Avg Loss: 2.5971 Avg Acc: 0.3000 Elapsed: 12.3s
+Epoch [12/75] Batch [70/105] Avg Loss: 2.5801 Avg Acc: 0.2687 Elapsed: 12.2s
+Epoch [12/75] Batch [80/105] Avg Loss: 2.6161 Avg Acc: 0.3281 Elapsed: 12.4s
+Epoch [12/75] Batch [90/105] Avg Loss: 2.5522 Avg Acc: 0.3125 Elapsed: 12.6s
+Epoch [12/75] Batch [100/105] Avg Loss: 2.6051 Avg Acc: 0.3187 Elapsed: 13.0s
+Epoch [12/75] Batch [105/105] Avg Loss: 2.7606 Avg Acc: 0.2313 Elapsed: 5.2s
+[INFO] Epoch 12 training complete. Avg train_loss: 2.5473, Avg train_acc: 0.3199
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 2.8178
+[INFO] Test accuracy computed for first batch: 0.3125
+[INFO] First test batch - Predicted classes: tensor([ 0, 11, 12, 55,  0])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 16%|█████▌                             | 12/75 [43:39<3:47:21, 216.54s/it]
+[INFO] Evaluation complete. Avg test_loss: 2.9393, Avg test_acc: 0.2551
+Epoch: 12 | train_loss: 2.5473 | train_acc: 0.3199 | test_loss: 2.9393 | test_acc: 0.2551
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 13/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 2.1903
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.5625
+[INFO] First batch - Predicted classes: tensor([ 6, 60, 90, 99, 62])
+[INFO] First batch - True labels: tensor([ 6, 67, 90, 99, 62])
+[INFO] First batch - Prediction probabilities (max): tensor([0.0682, 0.0524, 0.9737, 0.9420, 0.5768], grad_fn=<SliceBackward0>)
+Epoch [13/75] Batch [10/105] Avg Loss: 2.3307 Avg Acc: 0.3969 Elapsed: 12.5s
+Epoch [13/75] Batch [20/105] Avg Loss: 2.2078 Avg Acc: 0.4125 Elapsed: 12.0s
+Epoch [13/75] Batch [30/105] Avg Loss: 2.3222 Avg Acc: 0.3688 Elapsed: 12.0s
+Epoch [13/75] Batch [40/105] Avg Loss: 2.2574 Avg Acc: 0.4031 Elapsed: 11.6s
+Epoch [13/75] Batch [50/105] Avg Loss: 2.2226 Avg Acc: 0.4250 Elapsed: 12.1s
+Epoch [13/75] Batch [60/105] Avg Loss: 2.2059 Avg Acc: 0.3906 Elapsed: 11.9s
+Epoch [13/75] Batch [70/105] Avg Loss: 2.2628 Avg Acc: 0.3969 Elapsed: 11.8s
+Epoch [13/75] Batch [80/105] Avg Loss: 2.3839 Avg Acc: 0.3781 Elapsed: 12.0s
+Epoch [13/75] Batch [90/105] Avg Loss: 2.4680 Avg Acc: 0.3438 Elapsed: 11.9s
+Epoch [13/75] Batch [100/105] Avg Loss: 2.4074 Avg Acc: 0.3406 Elapsed: 12.0s
+Epoch [13/75] Batch [105/105] Avg Loss: 2.3216 Avg Acc: 0.4333 Elapsed: 5.3s
+[INFO] Epoch 13 training complete. Avg train_loss: 2.3076, Avg train_acc: 0.3879
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.3854
+[INFO] Test accuracy computed for first batch: 0.0312
+[INFO] First test batch - Predicted classes: tensor([ 0, 11, 12, 55, 55])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 17%|██████                             | 13/75 [47:16<3:43:52, 216.65s/it]
+[INFO] Evaluation complete. Avg test_loss: 2.9273, Avg test_acc: 0.2627
+Epoch: 13 | train_loss: 2.3076 | train_acc: 0.3879 | test_loss: 2.9273 | test_acc: 0.2627
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 14/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 2.2778
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.4375
+[INFO] First batch - Predicted classes: tensor([83, 73, 49, 57, 43])
+[INFO] First batch - True labels: tensor([83, 90, 49, 57, 43])
+[INFO] First batch - Prediction probabilities (max): tensor([0.4598, 0.1517, 0.1204, 0.9914, 0.4857], grad_fn=<SliceBackward0>)
+Epoch [14/75] Batch [10/105] Avg Loss: 2.0481 Avg Acc: 0.4656 Elapsed: 12.6s
+Epoch [14/75] Batch [20/105] Avg Loss: 2.2306 Avg Acc: 0.4562 Elapsed: 13.2s
+Epoch [14/75] Batch [30/105] Avg Loss: 2.8298 Avg Acc: 0.2875 Elapsed: 11.8s
+Epoch [14/75] Batch [40/105] Avg Loss: 3.6476 Avg Acc: 0.1219 Elapsed: 12.4s
+Epoch [14/75] Batch [50/105] Avg Loss: 3.7269 Avg Acc: 0.1313 Elapsed: 12.4s
+Epoch [14/75] Batch [60/105] Avg Loss: 3.5331 Avg Acc: 0.1406 Elapsed: 13.0s
+Epoch [14/75] Batch [70/105] Avg Loss: 3.6817 Avg Acc: 0.1000 Elapsed: 11.8s
+Epoch [14/75] Batch [80/105] Avg Loss: 3.5030 Avg Acc: 0.1625 Elapsed: 12.0s
+Epoch [14/75] Batch [90/105] Avg Loss: 3.4021 Avg Acc: 0.1531 Elapsed: 12.3s
+Epoch [14/75] Batch [100/105] Avg Loss: 3.3644 Avg Acc: 0.1719 Elapsed: 12.5s
+Epoch [14/75] Batch [105/105] Avg Loss: 3.2882 Avg Acc: 0.1313 Elapsed: 4.9s
+[INFO] Epoch 14 training complete. Avg train_loss: 3.2011, Avg train_acc: 0.2149
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 2.5983
+[INFO] Test accuracy computed for first batch: 0.3750
+[INFO] First test batch - Predicted classes: tensor([98, 13, 14,  0, 97])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 19%|██████▌                            | 14/75 [50:57<3:41:37, 218.00s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.3671, Avg test_acc: 0.1521
+Epoch: 14 | train_loss: 3.2011 | train_acc: 0.2149 | test_loss: 3.3671 | test_acc: 0.1521
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 15/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 3.0421
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.2188
+[INFO] First batch - Predicted classes: tensor([ 2,  5, 97, 97, 75])
+[INFO] First batch - True labels: tensor([ 2,  4, 97,  1, 17])
+[INFO] First batch - Prediction probabilities (max): tensor([0.1777, 0.0946, 0.1650, 0.1490, 0.1058], grad_fn=<SliceBackward0>)
+Epoch [15/75] Batch [10/105] Avg Loss: 2.9766 Avg Acc: 0.2500 Elapsed: 12.8s
+Epoch [15/75] Batch [20/105] Avg Loss: 3.2223 Avg Acc: 0.1844 Elapsed: 12.8s
+Epoch [15/75] Batch [30/105] Avg Loss: 2.9699 Avg Acc: 0.2188 Elapsed: 12.4s
+Epoch [15/75] Batch [40/105] Avg Loss: 3.0072 Avg Acc: 0.2562 Elapsed: 13.3s
+Epoch [15/75] Batch [50/105] Avg Loss: 2.9016 Avg Acc: 0.2469 Elapsed: 11.8s
+Epoch [15/75] Batch [60/105] Avg Loss: 3.0180 Avg Acc: 0.2469 Elapsed: 13.0s
+Epoch [15/75] Batch [70/105] Avg Loss: 2.8777 Avg Acc: 0.2781 Elapsed: 11.6s
+Epoch [15/75] Batch [80/105] Avg Loss: 3.0187 Avg Acc: 0.2031 Elapsed: 12.2s
+Epoch [15/75] Batch [90/105] Avg Loss: 3.0822 Avg Acc: 0.2188 Elapsed: 12.6s
+Epoch [15/75] Batch [100/105] Avg Loss: 2.9202 Avg Acc: 0.2406 Elapsed: 12.0s
+Epoch [15/75] Batch [105/105] Avg Loss: 3.1888 Avg Acc: 0.1708 Elapsed: 5.7s
+[INFO] Epoch 15 training complete. Avg train_loss: 3.0084, Avg train_acc: 0.2313
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.2616
+[INFO] Test accuracy computed for first batch: 0.1562
+[INFO] First test batch - Predicted classes: tensor([98, 13, 16,  0, 97])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 20%|███████                            | 15/75 [54:34<3:37:41, 217.69s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.0109, Avg test_acc: 0.2162
+Epoch: 15 | train_loss: 3.0084 | train_acc: 0.2313 | test_loss: 3.0109 | test_acc: 0.2162
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 16/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 2.7816
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.3438
+[INFO] First batch - Predicted classes: tensor([65, 39, 89, 96, 63])
+[INFO] First batch - True labels: tensor([65, 39, 50, 58, 63])
+[INFO] First batch - Prediction probabilities (max): tensor([0.1352, 0.2492, 0.2084, 0.1464, 0.3121], grad_fn=<SliceBackward0>)
+Epoch [16/75] Batch [10/105] Avg Loss: 2.6676 Avg Acc: 0.3438 Elapsed: 13.2s
+Epoch [16/75] Batch [20/105] Avg Loss: 2.6879 Avg Acc: 0.3375 Elapsed: 12.3s
+Epoch [16/75] Batch [30/105] Avg Loss: 2.5623 Avg Acc: 0.3187 Elapsed: 12.3s
+Epoch [16/75] Batch [40/105] Avg Loss: 2.7713 Avg Acc: 0.2938 Elapsed: 12.0s
+Epoch [16/75] Batch [50/105] Avg Loss: 2.7472 Avg Acc: 0.2719 Elapsed: 12.5s
+Epoch [16/75] Batch [60/105] Avg Loss: 2.4903 Avg Acc: 0.3250 Elapsed: 12.5s
+Epoch [16/75] Batch [70/105] Avg Loss: 2.7178 Avg Acc: 0.3063 Elapsed: 12.4s
+Epoch [16/75] Batch [80/105] Avg Loss: 2.5495 Avg Acc: 0.3312 Elapsed: 12.6s
+Epoch [16/75] Batch [90/105] Avg Loss: 2.5156 Avg Acc: 0.3375 Elapsed: 11.8s
+Epoch [16/75] Batch [100/105] Avg Loss: 2.7356 Avg Acc: 0.2719 Elapsed: 12.7s
+Epoch [16/75] Batch [105/105] Avg Loss: 2.4870 Avg Acc: 0.2583 Elapsed: 5.4s
+[INFO] Epoch 16 training complete. Avg train_loss: 2.6370, Avg train_acc: 0.3111
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 2.8087
+[INFO] Test accuracy computed for first batch: 0.1250
+[INFO] First test batch - Predicted classes: tensor([98, 11, 14, 10, 55])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 21%|███████▍                           | 16/75 [58:11<3:33:45, 217.39s/it]
+[INFO] Evaluation complete. Avg test_loss: 2.9246, Avg test_acc: 0.2457
+Epoch: 16 | train_loss: 2.6370 | train_acc: 0.3111 | test_loss: 2.9246 | test_acc: 0.2457
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 17/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 2.2686
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.4062
+[INFO] First batch - Predicted classes: tensor([ 1, 12, 80, 28, 77])
+[INFO] First batch - True labels: tensor([52, 11, 35, 32, 77])
+[INFO] First batch - Prediction probabilities (max): tensor([0.0852, 0.3015, 0.1483, 0.1778, 0.5230], grad_fn=<SliceBackward0>)
+Epoch [17/75] Batch [10/105] Avg Loss: 2.2188 Avg Acc: 0.3625 Elapsed: 11.8s
+Epoch [17/75] Batch [20/105] Avg Loss: 2.3448 Avg Acc: 0.3750 Elapsed: 12.2s
+Epoch [17/75] Batch [30/105] Avg Loss: 2.3755 Avg Acc: 0.3719 Elapsed: 12.0s
+Epoch [17/75] Batch [40/105] Avg Loss: 2.4813 Avg Acc: 0.3844 Elapsed: 12.8s
+Epoch [17/75] Batch [50/105] Avg Loss: 2.1853 Avg Acc: 0.3969 Elapsed: 12.1s
+Epoch [17/75] Batch [60/105] Avg Loss: 2.3988 Avg Acc: 0.3531 Elapsed: 11.5s
+Epoch [17/75] Batch [70/105] Avg Loss: 2.2811 Avg Acc: 0.4125 Elapsed: 12.8s
+Epoch [17/75] Batch [80/105] Avg Loss: 2.3836 Avg Acc: 0.3875 Elapsed: 12.1s
+Epoch [17/75] Batch [90/105] Avg Loss: 2.4903 Avg Acc: 0.3375 Elapsed: 12.0s
+Epoch [17/75] Batch [100/105] Avg Loss: 2.3018 Avg Acc: 0.4156 Elapsed: 13.5s
+Epoch [17/75] Batch [105/105] Avg Loss: 2.2829 Avg Acc: 0.4125 Elapsed: 5.1s
+[INFO] Epoch 17 training complete. Avg train_loss: 2.3431, Avg train_acc: 0.3812
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.2310
+[INFO] Test accuracy computed for first batch: 0.0312
+[INFO] First test batch - Predicted classes: tensor([98, 11, 55, 91, 84])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 23%|███████▍                         | 17/75 [1:01:49<3:30:14, 217.50s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.1538, Avg test_acc: 0.2548
+Epoch: 17 | train_loss: 2.3431 | train_acc: 0.3812 | test_loss: 3.1538 | test_acc: 0.2548
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 18/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.6598
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.5312
+[INFO] First batch - Predicted classes: tensor([ 5, 72, 29, 88, 90])
+[INFO] First batch - True labels: tensor([ 3, 72, 29, 44, 90])
+[INFO] First batch - Prediction probabilities (max): tensor([0.2658, 0.9619, 0.8545, 0.1971, 0.9735], grad_fn=<SliceBackward0>)
+Epoch [18/75] Batch [10/105] Avg Loss: 2.0567 Avg Acc: 0.4594 Elapsed: 12.0s
+Epoch [18/75] Batch [20/105] Avg Loss: 2.1137 Avg Acc: 0.4219 Elapsed: 12.1s
+Epoch [18/75] Batch [30/105] Avg Loss: 2.0990 Avg Acc: 0.4375 Elapsed: 37.2s
+Epoch [18/75] Batch [40/105] Avg Loss: 2.1710 Avg Acc: 0.4031 Elapsed: 13.5s
+Epoch [18/75] Batch [50/105] Avg Loss: 2.1222 Avg Acc: 0.4406 Elapsed: 12.6s
+Epoch [18/75] Batch [60/105] Avg Loss: 2.1552 Avg Acc: 0.4000 Elapsed: 12.1s
+Epoch [18/75] Batch [70/105] Avg Loss: 2.2981 Avg Acc: 0.3781 Elapsed: 12.6s
+Epoch [18/75] Batch [80/105] Avg Loss: 2.1744 Avg Acc: 0.4250 Elapsed: 12.0s
+Epoch [18/75] Batch [90/105] Avg Loss: 2.1288 Avg Acc: 0.4437 Elapsed: 12.5s
+Epoch [18/75] Batch [100/105] Avg Loss: 2.3706 Avg Acc: 0.3937 Elapsed: 12.2s
+Epoch [18/75] Batch [105/105] Avg Loss: 2.3105 Avg Acc: 0.3646 Elapsed: 4.7s
+[INFO] Epoch 18 training complete. Avg train_loss: 2.1757, Avg train_acc: 0.4177
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.7940
+[INFO] Test accuracy computed for first batch: 0.1250
+[INFO] First test batch - Predicted classes: tensor([18, 11, 17,  2, 48])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 24%|███████▉                         | 18/75 [1:05:50<3:33:20, 224.57s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.0044, Avg test_acc: 0.2488
+Epoch: 18 | train_loss: 2.1757 | train_acc: 0.4177 | test_loss: 3.0044 | test_acc: 0.2488
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 19/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.9213
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.4062
+[INFO] First batch - Predicted classes: tensor([92, 66, 95,  6,  6])
+[INFO] First batch - True labels: tensor([92, 65, 96, 23, 85])
+[INFO] First batch - Prediction probabilities (max): tensor([0.7400, 0.4286, 0.4191, 0.3610, 0.2743], grad_fn=<SliceBackward0>)
+Epoch [19/75] Batch [10/105] Avg Loss: 1.6856 Avg Acc: 0.5188 Elapsed: 12.7s
+Epoch [19/75] Batch [20/105] Avg Loss: 1.8650 Avg Acc: 0.4781 Elapsed: 12.2s
+Epoch [19/75] Batch [30/105] Avg Loss: 1.8476 Avg Acc: 0.5125 Elapsed: 11.8s
+Epoch [19/75] Batch [40/105] Avg Loss: 1.8195 Avg Acc: 0.4781 Elapsed: 12.0s
+Epoch [19/75] Batch [50/105] Avg Loss: 2.1201 Avg Acc: 0.4437 Elapsed: 12.3s
+Epoch [19/75] Batch [60/105] Avg Loss: 2.2376 Avg Acc: 0.3969 Elapsed: 12.9s
+Epoch [19/75] Batch [70/105] Avg Loss: 1.9305 Avg Acc: 0.4625 Elapsed: 12.6s
+Epoch [19/75] Batch [80/105] Avg Loss: 2.0801 Avg Acc: 0.4344 Elapsed: 12.5s
+Epoch [19/75] Batch [90/105] Avg Loss: 1.9407 Avg Acc: 0.5031 Elapsed: 12.8s
+Epoch [19/75] Batch [100/105] Avg Loss: 2.0401 Avg Acc: 0.4437 Elapsed: 12.1s
+Epoch [19/75] Batch [105/105] Avg Loss: 1.8155 Avg Acc: 0.5208 Elapsed: 5.2s
+[INFO] Epoch 19 training complete. Avg train_loss: 1.9499, Avg train_acc: 0.4697
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 2.0650
+[INFO] Test accuracy computed for first batch: 0.4062
+[INFO] First test batch - Predicted classes: tensor([ 0, 29,  0,  2, 48])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 25%|████████▎                        | 19/75 [1:09:26<3:27:19, 222.13s/it]
+[INFO] Evaluation complete. Avg test_loss: 2.9472, Avg test_acc: 0.2964
+Epoch: 19 | train_loss: 1.9499 | train_acc: 0.4697 | test_loss: 2.9472 | test_acc: 0.2964
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 20/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.5778
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.5000
+[INFO] First batch - Predicted classes: tensor([26, 29, 39, 98, 54])
+[INFO] First batch - True labels: tensor([15, 29, 39, 20, 54])
+[INFO] First batch - Prediction probabilities (max): tensor([0.3838, 0.4442, 0.2395, 0.4573, 0.9247], grad_fn=<SliceBackward0>)
+Epoch [20/75] Batch [10/105] Avg Loss: 1.6086 Avg Acc: 0.5656 Elapsed: 12.9s
+Epoch [20/75] Batch [20/105] Avg Loss: 1.8112 Avg Acc: 0.4875 Elapsed: 11.7s
+Epoch [20/75] Batch [30/105] Avg Loss: 1.8158 Avg Acc: 0.4969 Elapsed: 12.0s
+Epoch [20/75] Batch [40/105] Avg Loss: 1.7641 Avg Acc: 0.5094 Elapsed: 12.2s
+Epoch [20/75] Batch [50/105] Avg Loss: 1.7939 Avg Acc: 0.4844 Elapsed: 12.0s
+Epoch [20/75] Batch [60/105] Avg Loss: 1.7379 Avg Acc: 0.5188 Elapsed: 12.1s
+Epoch [20/75] Batch [70/105] Avg Loss: 1.9081 Avg Acc: 0.5000 Elapsed: 12.8s
+Epoch [20/75] Batch [80/105] Avg Loss: 1.9966 Avg Acc: 0.4719 Elapsed: 12.8s
+Epoch [20/75] Batch [90/105] Avg Loss: 1.9816 Avg Acc: 0.4656 Elapsed: 12.4s
+Epoch [20/75] Batch [100/105] Avg Loss: 1.7992 Avg Acc: 0.5000 Elapsed: 12.2s
+Epoch [20/75] Batch [105/105] Avg Loss: 1.7760 Avg Acc: 0.4958 Elapsed: 5.4s
+[INFO] Epoch 20 training complete. Avg train_loss: 1.8195, Avg train_acc: 0.4998
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.8504
+[INFO] Test accuracy computed for first batch: 0.0625
+[INFO] First test batch - Predicted classes: tensor([ 1, 29,  1,  2, 47])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 27%|████████▊                        | 20/75 [1:13:04<3:22:18, 220.71s/it]
+[INFO] Evaluation complete. Avg test_loss: 2.9832, Avg test_acc: 0.2883
+Epoch: 20 | train_loss: 1.8195 | train_acc: 0.4998 | test_loss: 2.9832 | test_acc: 0.2883
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 21/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 2.0312
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.4062
+[INFO] First batch - Predicted classes: tensor([93, 35, 71, 78, 27])
+[INFO] First batch - True labels: tensor([ 7, 35, 71, 65, 25])
+[INFO] First batch - Prediction probabilities (max): tensor([0.1612, 0.9378, 0.9945, 0.0386, 0.1022], grad_fn=<SliceBackward0>)
+Epoch [21/75] Batch [10/105] Avg Loss: 1.6090 Avg Acc: 0.5625 Elapsed: 13.2s
+Epoch [21/75] Batch [20/105] Avg Loss: 1.3682 Avg Acc: 0.6188 Elapsed: 11.9s
+Epoch [21/75] Batch [30/105] Avg Loss: 1.5969 Avg Acc: 0.5875 Elapsed: 13.0s
+Epoch [21/75] Batch [40/105] Avg Loss: 1.6694 Avg Acc: 0.5625 Elapsed: 11.9s
+Epoch [21/75] Batch [50/105] Avg Loss: 1.6696 Avg Acc: 0.5344 Elapsed: 12.4s
+Epoch [21/75] Batch [60/105] Avg Loss: 1.8016 Avg Acc: 0.5062 Elapsed: 12.0s
+Epoch [21/75] Batch [70/105] Avg Loss: 1.6302 Avg Acc: 0.5563 Elapsed: 12.4s
+Epoch [21/75] Batch [80/105] Avg Loss: 1.8683 Avg Acc: 0.5000 Elapsed: 12.2s
+Epoch [21/75] Batch [90/105] Avg Loss: 1.8356 Avg Acc: 0.5375 Elapsed: 12.1s
+Epoch [21/75] Batch [100/105] Avg Loss: 1.8726 Avg Acc: 0.4781 Elapsed: 12.1s
+Epoch [21/75] Batch [105/105] Avg Loss: 1.9026 Avg Acc: 0.3646 Elapsed: 5.2s
+[INFO] Epoch 21 training complete. Avg train_loss: 1.7022, Avg train_acc: 0.5358
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.1864
+[INFO] Test accuracy computed for first batch: 0.0625
+[INFO] First test batch - Predicted classes: tensor([55, 29,  0,  2, 47])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 28%|█████████▏                       | 21/75 [1:16:41<3:17:48, 219.79s/it]
+[INFO] Evaluation complete. Avg test_loss: 2.9362, Avg test_acc: 0.2977
+Epoch: 21 | train_loss: 1.7022 | train_acc: 0.5358 | test_loss: 2.9362 | test_acc: 0.2977
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 22/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.7262
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.5000
+[INFO] First batch - Predicted classes: tensor([73, 55, 68, 25,  3])
+[INFO] First batch - True labels: tensor([73, 15, 68, 65, 66])
+[INFO] First batch - Prediction probabilities (max): tensor([0.4385, 0.5562, 0.1266, 0.1595, 0.4512], grad_fn=<SliceBackward0>)
+Epoch [22/75] Batch [10/105] Avg Loss: 1.5969 Avg Acc: 0.5656 Elapsed: 12.3s
+Epoch [22/75] Batch [20/105] Avg Loss: 1.4517 Avg Acc: 0.6188 Elapsed: 12.4s
+Epoch [22/75] Batch [30/105] Avg Loss: 1.5907 Avg Acc: 0.5469 Elapsed: 11.8s
+Epoch [22/75] Batch [40/105] Avg Loss: 1.6744 Avg Acc: 0.5563 Elapsed: 11.6s
+Epoch [22/75] Batch [50/105] Avg Loss: 1.7109 Avg Acc: 0.5656 Elapsed: 12.0s
+Epoch [22/75] Batch [60/105] Avg Loss: 1.6633 Avg Acc: 0.5625 Elapsed: 11.9s
+Epoch [22/75] Batch [70/105] Avg Loss: 1.7268 Avg Acc: 0.5375 Elapsed: 11.8s
+Epoch [22/75] Batch [80/105] Avg Loss: 1.6687 Avg Acc: 0.5312 Elapsed: 12.0s
+Epoch [22/75] Batch [90/105] Avg Loss: 1.6426 Avg Acc: 0.5469 Elapsed: 11.6s
+Epoch [22/75] Batch [100/105] Avg Loss: 1.9813 Avg Acc: 0.4656 Elapsed: 12.0s
+Epoch [22/75] Batch [105/105] Avg Loss: 1.8114 Avg Acc: 0.5104 Elapsed: 5.3s
+[INFO] Epoch 22 training complete. Avg train_loss: 1.6774, Avg train_acc: 0.5478
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 2.9628
+[INFO] Test accuracy computed for first batch: 0.2188
+[INFO] First test batch - Predicted classes: tensor([56, 11,  0, 84, 47])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 29%|█████████▋                       | 22/75 [1:20:15<3:12:38, 218.08s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.0706, Avg test_acc: 0.3068
+Epoch: 22 | train_loss: 1.6774 | train_acc: 0.5478 | test_loss: 3.0706 | test_acc: 0.3068
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 23/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.4580
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.7188
+[INFO] First batch - Predicted classes: tensor([31, 84, 20, 83, 11])
+[INFO] First batch - True labels: tensor([66, 84, 20, 36, 11])
+[INFO] First batch - Prediction probabilities (max): tensor([0.4432, 0.2953, 0.9589, 0.1304, 0.4214], grad_fn=<SliceBackward0>)
+Epoch [23/75] Batch [10/105] Avg Loss: 1.3443 Avg Acc: 0.6375 Elapsed: 12.6s
+Epoch [23/75] Batch [20/105] Avg Loss: 1.3824 Avg Acc: 0.6156 Elapsed: 12.6s
+Epoch [23/75] Batch [30/105] Avg Loss: 1.6731 Avg Acc: 0.5375 Elapsed: 12.6s
+Epoch [23/75] Batch [40/105] Avg Loss: 1.5559 Avg Acc: 0.5906 Elapsed: 12.3s
+Epoch [23/75] Batch [50/105] Avg Loss: 1.5469 Avg Acc: 0.5938 Elapsed: 12.5s
+Epoch [23/75] Batch [60/105] Avg Loss: 1.6733 Avg Acc: 0.5781 Elapsed: 12.3s
+Epoch [23/75] Batch [70/105] Avg Loss: 1.6119 Avg Acc: 0.5625 Elapsed: 12.6s
+Epoch [23/75] Batch [80/105] Avg Loss: 1.8214 Avg Acc: 0.4844 Elapsed: 12.9s
+Epoch [23/75] Batch [90/105] Avg Loss: 1.8464 Avg Acc: 0.4781 Elapsed: 12.3s
+Epoch [23/75] Batch [100/105] Avg Loss: 1.7218 Avg Acc: 0.5250 Elapsed: 12.2s
+Epoch [23/75] Batch [105/105] Avg Loss: 1.5929 Avg Acc: 0.5917 Elapsed: 5.2s
+[INFO] Epoch 23 training complete. Avg train_loss: 1.6166, Avg train_acc: 0.5618
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.6028
+[INFO] Test accuracy computed for first batch: 0.0938
+[INFO] First test batch - Predicted classes: tensor([55, 30,  0, 84, 55])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 31%|██████████                       | 23/75 [1:23:55<3:09:29, 218.65s/it]
+[INFO] Evaluation complete. Avg test_loss: 2.9811, Avg test_acc: 0.2882
+Epoch: 23 | train_loss: 1.6166 | train_acc: 0.5618 | test_loss: 2.9811 | test_acc: 0.2882
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 24/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.7300
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.5625
+[INFO] First batch - Predicted classes: tensor([71, 59, 90,  4, 60])
+[INFO] First batch - True labels: tensor([71, 59, 90,  7, 60])
+[INFO] First batch - Prediction probabilities (max): tensor([0.9714, 0.3316, 0.8396, 0.3233, 0.8754], grad_fn=<SliceBackward0>)
+Epoch [24/75] Batch [10/105] Avg Loss: 1.4904 Avg Acc: 0.6094 Elapsed: 13.3s
+Epoch [24/75] Batch [20/105] Avg Loss: 1.3827 Avg Acc: 0.6344 Elapsed: 12.6s
+Epoch [24/75] Batch [30/105] Avg Loss: 1.5076 Avg Acc: 0.6031 Elapsed: 12.4s
+Epoch [24/75] Batch [40/105] Avg Loss: 1.7354 Avg Acc: 0.5469 Elapsed: 12.7s
+Epoch [24/75] Batch [50/105] Avg Loss: 1.7193 Avg Acc: 0.5375 Elapsed: 12.4s
+Epoch [24/75] Batch [60/105] Avg Loss: 1.6660 Avg Acc: 0.5500 Elapsed: 12.7s
+Epoch [24/75] Batch [70/105] Avg Loss: 1.8174 Avg Acc: 0.5312 Elapsed: 12.1s
+Epoch [24/75] Batch [80/105] Avg Loss: 1.5899 Avg Acc: 0.6125 Elapsed: 12.5s
+Epoch [24/75] Batch [90/105] Avg Loss: 1.5696 Avg Acc: 0.5563 Elapsed: 12.7s
+Epoch [24/75] Batch [100/105] Avg Loss: 1.6842 Avg Acc: 0.5312 Elapsed: 12.2s
+Epoch [24/75] Batch [105/105] Avg Loss: 1.9082 Avg Acc: 0.4792 Elapsed: 5.5s
+[INFO] Epoch 24 training complete. Avg train_loss: 1.6302, Avg train_acc: 0.5669
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 2.8986
+[INFO] Test accuracy computed for first batch: 0.1875
+[INFO] First test batch - Predicted classes: tensor([ 0, 54,  0,  1,  0])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 32%|██████████▌                      | 24/75 [1:27:35<3:06:06, 218.94s/it]
+[INFO] Evaluation complete. Avg test_loss: 2.8932, Avg test_acc: 0.3133
+Epoch: 24 | train_loss: 1.6302 | train_acc: 0.5669 | test_loss: 2.8932 | test_acc: 0.3133
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 25/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.5167
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.5000
+[INFO] First batch - Predicted classes: tensor([46, 20, 44, 94, 87])
+[INFO] First batch - True labels: tensor([86, 55, 69, 94,  8])
+[INFO] First batch - Prediction probabilities (max): tensor([0.4074, 0.1993, 0.2680, 0.7988, 0.1882], grad_fn=<SliceBackward0>)
+Epoch [25/75] Batch [10/105] Avg Loss: 1.5342 Avg Acc: 0.6156 Elapsed: 13.9s
+Epoch [25/75] Batch [20/105] Avg Loss: 1.4427 Avg Acc: 0.6188 Elapsed: 12.7s
+Epoch [25/75] Batch [30/105] Avg Loss: 1.3640 Avg Acc: 0.6375 Elapsed: 14.5s
+Epoch [25/75] Batch [40/105] Avg Loss: 1.4540 Avg Acc: 0.6062 Elapsed: 12.9s
+Epoch [25/75] Batch [50/105] Avg Loss: 1.6133 Avg Acc: 0.5625 Elapsed: 12.5s
+Epoch [25/75] Batch [60/105] Avg Loss: 1.7154 Avg Acc: 0.5281 Elapsed: 13.0s
+Epoch [25/75] Batch [70/105] Avg Loss: 1.9022 Avg Acc: 0.5000 Elapsed: 12.0s
+Epoch [25/75] Batch [80/105] Avg Loss: 2.1854 Avg Acc: 0.4406 Elapsed: 11.7s
+Epoch [25/75] Batch [90/105] Avg Loss: 2.0450 Avg Acc: 0.4594 Elapsed: 11.6s
+Epoch [25/75] Batch [100/105] Avg Loss: 2.3233 Avg Acc: 0.3937 Elapsed: 12.7s
+Epoch [25/75] Batch [105/105] Avg Loss: 1.9089 Avg Acc: 0.4188 Elapsed: 5.1s
+[INFO] Epoch 25 training complete. Avg train_loss: 1.7651, Avg train_acc: 0.5307
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.0427
+[INFO] Test accuracy computed for first batch: 0.0625
+[INFO] First test batch - Predicted classes: tensor([10, 54, 87,  1, 10])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+[INFO] First test batch - Prediction probabilities (max): tensor([0.1530, 0.2105, 0.1663, 0.4962, 0.2518])
+[INFO] Evaluation complete. Avg test_loss: 3.0292, Avg test_acc: 0.2754
+Epoch: 25 | train_loss: 1.7651 | train_acc: 0.5307 | test_loss: 3.0292 | test_acc: 0.2754
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 26/75
+
+ 33%|███████████                      | 25/75 [1:31:21<3:04:10, 221.01s/it]
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 2.0452
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.4375
+[INFO] First batch - Predicted classes: tensor([ 8,  7, 58, 56,  7])
+[INFO] First batch - True labels: tensor([ 4,  6, 58, 56,  8])
+[INFO] First batch - Prediction probabilities (max): tensor([0.1151, 0.3866, 0.9626, 0.7616, 0.4648], grad_fn=<SliceBackward0>)
+Epoch [26/75] Batch [10/105] Avg Loss: 2.1034 Avg Acc: 0.4313 Elapsed: 12.5s
+Epoch [26/75] Batch [20/105] Avg Loss: 1.7938 Avg Acc: 0.5188 Elapsed: 11.9s
+Epoch [26/75] Batch [30/105] Avg Loss: 1.7760 Avg Acc: 0.5281 Elapsed: 12.0s
+Epoch [26/75] Batch [40/105] Avg Loss: 1.8852 Avg Acc: 0.4500 Elapsed: 12.0s
+Epoch [26/75] Batch [50/105] Avg Loss: 2.1270 Avg Acc: 0.4125 Elapsed: 12.1s
+Epoch [26/75] Batch [60/105] Avg Loss: 2.6113 Avg Acc: 0.3187 Elapsed: 12.5s
+Epoch [26/75] Batch [70/105] Avg Loss: 3.4321 Avg Acc: 0.1781 Elapsed: 12.5s
+Epoch [26/75] Batch [80/105] Avg Loss: 3.2724 Avg Acc: 0.1875 Elapsed: 12.1s
+Epoch [26/75] Batch [90/105] Avg Loss: 3.6240 Avg Acc: 0.1437 Elapsed: 12.5s
+Epoch [26/75] Batch [100/105] Avg Loss: 3.3295 Avg Acc: 0.1656 Elapsed: 12.6s
+Epoch [26/75] Batch [105/105] Avg Loss: 3.1053 Avg Acc: 0.2375 Elapsed: 5.4s
+[INFO] Epoch 26 training complete. Avg train_loss: 2.6197, Avg train_acc: 0.3289
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 1.8692
+[INFO] Test accuracy computed for first batch: 0.5625
+[INFO] First test batch - Predicted classes: tensor([ 0, 55, 18,  0, 55])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 35%|███████████▍                     | 26/75 [1:34:59<2:59:45, 220.11s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.4772, Avg test_acc: 0.1567
+Epoch: 26 | train_loss: 2.6197 | train_acc: 0.3289 | test_loss: 3.4772 | test_acc: 0.1567
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 27/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 3.2306
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.2812
+[INFO] First batch - Predicted classes: tensor([93, 55, 88, 23,  2])
+[INFO] First batch - True labels: tensor([68, 55, 44, 40, 68])
+[INFO] First batch - Prediction probabilities (max): tensor([0.0783, 0.1455, 0.1007, 0.1061, 0.0901], grad_fn=<SliceBackward0>)
+Epoch [27/75] Batch [10/105] Avg Loss: 2.9078 Avg Acc: 0.2562 Elapsed: 12.8s
+Epoch [27/75] Batch [20/105] Avg Loss: 2.8553 Avg Acc: 0.2969 Elapsed: 12.5s
+Epoch [27/75] Batch [30/105] Avg Loss: 2.8888 Avg Acc: 0.2719 Elapsed: 12.1s
+Epoch [27/75] Batch [40/105] Avg Loss: 3.0016 Avg Acc: 0.2406 Elapsed: 12.8s
+Epoch [27/75] Batch [50/105] Avg Loss: 2.9981 Avg Acc: 0.2219 Elapsed: 12.2s
+Epoch [27/75] Batch [60/105] Avg Loss: 2.9652 Avg Acc: 0.2875 Elapsed: 12.3s
+Epoch [27/75] Batch [70/105] Avg Loss: 2.7973 Avg Acc: 0.3031 Elapsed: 11.5s
+Epoch [27/75] Batch [80/105] Avg Loss: 2.7843 Avg Acc: 0.2781 Elapsed: 11.6s
+Epoch [27/75] Batch [90/105] Avg Loss: 2.8049 Avg Acc: 0.2750 Elapsed: 11.8s
+Epoch [27/75] Batch [100/105] Avg Loss: 2.7695 Avg Acc: 0.2687 Elapsed: 11.6s
+Epoch [27/75] Batch [105/105] Avg Loss: 2.8897 Avg Acc: 0.2208 Elapsed: 5.0s
+[INFO] Epoch 27 training complete. Avg train_loss: 2.8779, Avg train_acc: 0.2677
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.5036
+[INFO] Test accuracy computed for first batch: 0.1250
+[INFO] First test batch - Predicted classes: tensor([ 0, 55,  1,  1, 56])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 36%|███████████▉                     | 27/75 [1:38:32<2:54:27, 218.07s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.1594, Avg test_acc: 0.2105
+Epoch: 27 | train_loss: 2.8779 | train_acc: 0.2677 | test_loss: 3.1594 | test_acc: 0.2105
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 28/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 2.3152
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.4375
+[INFO] First batch - Predicted classes: tensor([85, 19, 79,  1,  1])
+[INFO] First batch - True labels: tensor([52, 19, 47, 52,  2])
+[INFO] First batch - Prediction probabilities (max): tensor([0.4822, 0.1300, 0.1328, 0.0795, 0.2256], grad_fn=<SliceBackward0>)
+Epoch [28/75] Batch [10/105] Avg Loss: 2.6042 Avg Acc: 0.3250 Elapsed: 13.2s
+Epoch [28/75] Batch [20/105] Avg Loss: 2.5126 Avg Acc: 0.3000 Elapsed: 12.2s
+Epoch [28/75] Batch [30/105] Avg Loss: 2.5087 Avg Acc: 0.3375 Elapsed: 11.7s
+Epoch [28/75] Batch [40/105] Avg Loss: 2.5204 Avg Acc: 0.3563 Elapsed: 11.5s
+Epoch [28/75] Batch [50/105] Avg Loss: 2.5120 Avg Acc: 0.3438 Elapsed: 11.4s
+Epoch [28/75] Batch [60/105] Avg Loss: 2.3289 Avg Acc: 0.3625 Elapsed: 11.6s
+Epoch [28/75] Batch [70/105] Avg Loss: 2.4187 Avg Acc: 0.3688 Elapsed: 13.1s
+Epoch [28/75] Batch [80/105] Avg Loss: 2.4968 Avg Acc: 0.3438 Elapsed: 13.0s
+Epoch [28/75] Batch [90/105] Avg Loss: 2.6765 Avg Acc: 0.3000 Elapsed: 12.3s
+Epoch [28/75] Batch [100/105] Avg Loss: 2.8246 Avg Acc: 0.2906 Elapsed: 11.8s
+Epoch [28/75] Batch [105/105] Avg Loss: 2.6245 Avg Acc: 0.3354 Elapsed: 4.9s
+[INFO] Epoch 28 training complete. Avg train_loss: 2.5443, Avg train_acc: 0.3329
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 2.3251
+[INFO] Test accuracy computed for first batch: 0.3750
+[INFO] First test batch - Predicted classes: tensor([0, 0, 1, 2, 0])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 37%|████████████▎                    | 28/75 [1:42:07<2:50:10, 217.25s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.2849, Avg test_acc: 0.2096
+Epoch: 28 | train_loss: 2.5443 | train_acc: 0.3329 | test_loss: 3.2849 | test_acc: 0.2096
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 29/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.8393
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.5625
+[INFO] First batch - Predicted classes: tensor([15, 65, 42,  4,  0])
+[INFO] First batch - True labels: tensor([15, 46, 42, 28,  0])
+[INFO] First batch - Prediction probabilities (max): tensor([0.1481, 0.1816, 0.3327, 0.1006, 0.6229], grad_fn=<SliceBackward0>)
+Epoch [29/75] Batch [10/105] Avg Loss: 2.4032 Avg Acc: 0.3656 Elapsed: 13.4s
+Epoch [29/75] Batch [20/105] Avg Loss: 2.3748 Avg Acc: 0.4062 Elapsed: 12.8s
+Epoch [29/75] Batch [30/105] Avg Loss: 2.0566 Avg Acc: 0.4594 Elapsed: 12.8s
+Epoch [29/75] Batch [40/105] Avg Loss: 2.1519 Avg Acc: 0.4281 Elapsed: 11.6s
+Epoch [29/75] Batch [50/105] Avg Loss: 2.4159 Avg Acc: 0.3500 Elapsed: 12.4s
+Epoch [29/75] Batch [60/105] Avg Loss: 2.3305 Avg Acc: 0.4000 Elapsed: 11.6s
+Epoch [29/75] Batch [70/105] Avg Loss: 2.3617 Avg Acc: 0.3937 Elapsed: 11.6s
+Epoch [29/75] Batch [80/105] Avg Loss: 2.2286 Avg Acc: 0.3875 Elapsed: 11.6s
+Epoch [29/75] Batch [90/105] Avg Loss: 2.3426 Avg Acc: 0.3625 Elapsed: 11.8s
+Epoch [29/75] Batch [100/105] Avg Loss: 2.4165 Avg Acc: 0.3906 Elapsed: 11.6s
+Epoch [29/75] Batch [105/105] Avg Loss: 2.4771 Avg Acc: 0.2771 Elapsed: 4.9s
+[INFO] Epoch 29 training complete. Avg train_loss: 2.3163, Avg train_acc: 0.3888
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 2.5496
+[INFO] Test accuracy computed for first batch: 0.3125
+[INFO] First test batch - Predicted classes: tensor([ 0,  0,  1, 84,  0])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 39%|████████████▊                    | 29/75 [1:45:43<2:46:03, 216.59s/it]
+[INFO] Evaluation complete. Avg test_loss: 2.9780, Avg test_acc: 0.2527
+Epoch: 29 | train_loss: 2.3163 | train_acc: 0.3888 | test_loss: 2.9780 | test_acc: 0.2527
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 30/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 2.6404
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.4375
+[INFO] First batch - Predicted classes: tensor([55, 58, 17, 72, 60])
+[INFO] First batch - True labels: tensor([55, 58, 76, 72, 25])
+[INFO] First batch - Prediction probabilities (max): tensor([0.1826, 0.7825, 0.0741, 0.7806, 0.2115], grad_fn=<SliceBackward0>)
+Epoch [30/75] Batch [10/105] Avg Loss: 2.0534 Avg Acc: 0.4688 Elapsed: 12.6s
+Epoch [30/75] Batch [20/105] Avg Loss: 2.1047 Avg Acc: 0.4469 Elapsed: 12.5s
+Epoch [30/75] Batch [30/105] Avg Loss: 2.1709 Avg Acc: 0.4531 Elapsed: 12.0s
+Epoch [30/75] Batch [40/105] Avg Loss: 2.1637 Avg Acc: 0.4406 Elapsed: 12.3s
+Epoch [30/75] Batch [50/105] Avg Loss: 2.1473 Avg Acc: 0.4250 Elapsed: 14.0s
+Epoch [30/75] Batch [60/105] Avg Loss: 2.0438 Avg Acc: 0.4656 Elapsed: 12.3s
+Epoch [30/75] Batch [70/105] Avg Loss: 2.2206 Avg Acc: 0.4344 Elapsed: 12.7s
+Epoch [30/75] Batch [80/105] Avg Loss: 2.3239 Avg Acc: 0.3688 Elapsed: 12.4s
+Epoch [30/75] Batch [90/105] Avg Loss: 2.3183 Avg Acc: 0.4313 Elapsed: 12.5s
+Epoch [30/75] Batch [100/105] Avg Loss: 2.2756 Avg Acc: 0.3969 Elapsed: 12.9s
+Epoch [30/75] Batch [105/105] Avg Loss: 2.0731 Avg Acc: 0.4062 Elapsed: 5.0s
+[INFO] Epoch 30 training complete. Avg train_loss: 2.1770, Avg train_acc: 0.4318
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.4417
+[INFO] Test accuracy computed for first batch: 0.0312
+[INFO] First test batch - Predicted classes: tensor([11, 55, 87, 52, 97])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 40%|█████████████▏                   | 30/75 [1:49:22<2:43:01, 217.37s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.0668, Avg test_acc: 0.2766
+Epoch: 30 | train_loss: 2.1770 | train_acc: 0.4318 | test_loss: 3.0668 | test_acc: 0.2766
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 31/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.7847
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.5312
+[INFO] First batch - Predicted classes: tensor([ 1, 42, 31, 33, 38])
+[INFO] First batch - True labels: tensor([ 1, 42, 32, 54, 36])
+[INFO] First batch - Prediction probabilities (max): tensor([0.5939, 0.4603, 0.3053, 0.2223, 0.5096], grad_fn=<SliceBackward0>)
+Epoch [31/75] Batch [10/105] Avg Loss: 2.1216 Avg Acc: 0.4531 Elapsed: 12.1s
+Epoch [31/75] Batch [20/105] Avg Loss: 1.8127 Avg Acc: 0.4844 Elapsed: 12.0s
+Epoch [31/75] Batch [30/105] Avg Loss: 2.1330 Avg Acc: 0.4437 Elapsed: 11.8s
+Epoch [31/75] Batch [40/105] Avg Loss: 2.1527 Avg Acc: 0.4437 Elapsed: 12.1s
+Epoch [31/75] Batch [50/105] Avg Loss: 1.9934 Avg Acc: 0.4594 Elapsed: 11.9s
+Epoch [31/75] Batch [60/105] Avg Loss: 1.9619 Avg Acc: 0.4906 Elapsed: 11.9s
+Epoch [31/75] Batch [70/105] Avg Loss: 2.1138 Avg Acc: 0.4406 Elapsed: 12.2s
+Epoch [31/75] Batch [80/105] Avg Loss: 1.9015 Avg Acc: 0.4938 Elapsed: 12.4s
+Epoch [31/75] Batch [90/105] Avg Loss: 2.2499 Avg Acc: 0.3906 Elapsed: 13.1s
+Epoch [31/75] Batch [100/105] Avg Loss: 1.9819 Avg Acc: 0.4375 Elapsed: 11.9s
+Epoch [31/75] Batch [105/105] Avg Loss: 1.9926 Avg Acc: 0.4542 Elapsed: 5.2s
+[INFO] Epoch 31 training complete. Avg train_loss: 2.0399, Avg train_acc: 0.4538
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 2.8251
+[INFO] Test accuracy computed for first batch: 0.2500
+[INFO] First test batch - Predicted classes: tensor([ 0, 55, 14, 52, 56])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 41%|█████████████▋                   | 31/75 [1:52:56<2:38:42, 216.42s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.1144, Avg test_acc: 0.2830
+Epoch: 31 | train_loss: 2.0399 | train_acc: 0.4538 | test_loss: 3.1144 | test_acc: 0.2830
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 32/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.6452
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.5625
+[INFO] First batch - Predicted classes: tensor([42, 34, 61, 41, 61])
+[INFO] First batch - True labels: tensor([42, 42, 61, 41, 61])
+[INFO] First batch - Prediction probabilities (max): tensor([0.9565, 0.2720, 0.7422, 0.8719, 0.9909], grad_fn=<SliceBackward0>)
+Epoch [32/75] Batch [10/105] Avg Loss: 1.8684 Avg Acc: 0.5156 Elapsed: 11.9s
+Epoch [32/75] Batch [20/105] Avg Loss: 1.8978 Avg Acc: 0.5219 Elapsed: 11.8s
+Epoch [32/75] Batch [30/105] Avg Loss: 1.6903 Avg Acc: 0.5375 Elapsed: 11.9s
+Epoch [32/75] Batch [40/105] Avg Loss: 1.8065 Avg Acc: 0.4969 Elapsed: 11.7s
+Epoch [32/75] Batch [50/105] Avg Loss: 1.9998 Avg Acc: 0.4813 Elapsed: 11.8s
+Epoch [32/75] Batch [60/105] Avg Loss: 1.8052 Avg Acc: 0.5406 Elapsed: 11.7s
+Epoch [32/75] Batch [70/105] Avg Loss: 1.6737 Avg Acc: 0.5687 Elapsed: 12.2s
+Epoch [32/75] Batch [80/105] Avg Loss: 1.8412 Avg Acc: 0.5188 Elapsed: 11.8s
+Epoch [32/75] Batch [90/105] Avg Loss: 2.0458 Avg Acc: 0.4531 Elapsed: 11.9s
+Epoch [32/75] Batch [100/105] Avg Loss: 1.9950 Avg Acc: 0.4688 Elapsed: 11.6s
+Epoch [32/75] Batch [105/105] Avg Loss: 1.8800 Avg Acc: 0.4813 Elapsed: 5.0s
+[INFO] Epoch 32 training complete. Avg train_loss: 1.8632, Avg train_acc: 0.5089
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.5397
+[INFO] Test accuracy computed for first batch: 0.0000
+[INFO] First test batch - Predicted classes: tensor([12, 32,  1, 52, 14])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 43%|██████████████                   | 32/75 [1:56:25<2:33:28, 214.15s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.0539, Avg test_acc: 0.3169
+Epoch: 32 | train_loss: 1.8632 | train_acc: 0.5089 | test_loss: 3.0539 | test_acc: 0.3169
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 33/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.1397
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.6562
+[INFO] First batch - Predicted classes: tensor([87, 83, 73, 99, 61])
+[INFO] First batch - True labels: tensor([87, 83, 73, 66, 61])
+[INFO] First batch - Prediction probabilities (max): tensor([0.6159, 0.5374, 0.1393, 0.3151, 0.9957], grad_fn=<SliceBackward0>)
+Epoch [33/75] Batch [10/105] Avg Loss: 1.5664 Avg Acc: 0.5781 Elapsed: 11.9s
+Epoch [33/75] Batch [20/105] Avg Loss: 1.7573 Avg Acc: 0.5312 Elapsed: 11.5s
+Epoch [33/75] Batch [30/105] Avg Loss: 1.7287 Avg Acc: 0.5219 Elapsed: 11.2s
+Epoch [33/75] Batch [40/105] Avg Loss: 1.7580 Avg Acc: 0.5219 Elapsed: 11.6s
+Epoch [33/75] Batch [50/105] Avg Loss: 1.9848 Avg Acc: 0.4531 Elapsed: 11.4s
+Epoch [33/75] Batch [60/105] Avg Loss: 1.8772 Avg Acc: 0.5125 Elapsed: 11.4s
+Epoch [33/75] Batch [70/105] Avg Loss: 1.7419 Avg Acc: 0.5312 Elapsed: 11.4s
+Epoch [33/75] Batch [80/105] Avg Loss: 1.8251 Avg Acc: 0.5000 Elapsed: 11.4s
+Epoch [33/75] Batch [90/105] Avg Loss: 1.7192 Avg Acc: 0.5500 Elapsed: 11.4s
+Epoch [33/75] Batch [100/105] Avg Loss: 1.6514 Avg Acc: 0.5750 Elapsed: 11.5s
+Epoch [33/75] Batch [105/105] Avg Loss: 1.8600 Avg Acc: 0.4813 Elapsed: 4.8s
+[INFO] Epoch 33 training complete. Avg train_loss: 1.7657, Avg train_acc: 0.5253
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 2.0442
+[INFO] Test accuracy computed for first batch: 0.4375
+[INFO] First test batch - Predicted classes: tensor([11,  0,  1, 52,  0])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 44%|██████████████▌                  | 33/75 [1:59:48<2:27:40, 210.96s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.0296, Avg test_acc: 0.3016
+Epoch: 33 | train_loss: 1.7657 | train_acc: 0.5253 | test_loss: 3.0296 | test_acc: 0.3016
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 34/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.9861
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.8438
+[INFO] First batch - Predicted classes: tensor([57, 16, 82,  9, 17])
+[INFO] First batch - True labels: tensor([57, 27, 82,  9, 17])
+[INFO] First batch - Prediction probabilities (max): tensor([0.3811, 0.2472, 0.9999, 0.9795, 0.9488], grad_fn=<SliceBackward0>)
+Epoch [34/75] Batch [10/105] Avg Loss: 1.4818 Avg Acc: 0.6281 Elapsed: 11.8s
+Epoch [34/75] Batch [20/105] Avg Loss: 1.5366 Avg Acc: 0.6031 Elapsed: 11.5s
+Epoch [34/75] Batch [30/105] Avg Loss: 1.6503 Avg Acc: 0.5250 Elapsed: 11.6s
+Epoch [34/75] Batch [40/105] Avg Loss: 1.4764 Avg Acc: 0.5906 Elapsed: 12.0s
+Epoch [34/75] Batch [50/105] Avg Loss: 1.4407 Avg Acc: 0.5906 Elapsed: 12.0s
+Epoch [34/75] Batch [60/105] Avg Loss: 1.5942 Avg Acc: 0.5844 Elapsed: 12.1s
+Epoch [34/75] Batch [70/105] Avg Loss: 1.7205 Avg Acc: 0.5250 Elapsed: 12.2s
+Epoch [34/75] Batch [80/105] Avg Loss: 1.7184 Avg Acc: 0.5437 Elapsed: 12.0s
+Epoch [34/75] Batch [90/105] Avg Loss: 1.7414 Avg Acc: 0.5156 Elapsed: 11.9s
+Epoch [34/75] Batch [100/105] Avg Loss: 1.8991 Avg Acc: 0.4781 Elapsed: 11.9s
+Epoch [34/75] Batch [105/105] Avg Loss: 1.7785 Avg Acc: 0.5333 Elapsed: 5.1s
+[INFO] Epoch 34 training complete. Avg train_loss: 1.6332, Avg train_acc: 0.5572
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 2.6480
+[INFO] Test accuracy computed for first batch: 0.2812
+[INFO] First test batch - Predicted classes: tensor([ 0,  0, 26, 52,  0])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 45%|██████████████▉                  | 34/75 [2:03:40<2:28:24, 217.17s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.1074, Avg test_acc: 0.2971
+Epoch: 34 | train_loss: 1.6332 | train_acc: 0.5572 | test_loss: 3.1074 | test_acc: 0.2971
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 35/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.3056
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.6562
+[INFO] First batch - Predicted classes: tensor([95, 46, 94, 29, 23])
+[INFO] First batch - True labels: tensor([95, 44, 94, 29, 23])
+[INFO] First batch - Prediction probabilities (max): tensor([0.6185, 0.2697, 0.9272, 0.9032, 0.9295], grad_fn=<SliceBackward0>)
+Epoch [35/75] Batch [10/105] Avg Loss: 1.5578 Avg Acc: 0.5625 Elapsed: 12.1s
+Epoch [35/75] Batch [20/105] Avg Loss: 1.5156 Avg Acc: 0.6000 Elapsed: 12.1s
+Epoch [35/75] Batch [30/105] Avg Loss: 1.8058 Avg Acc: 0.5469 Elapsed: 11.8s
+Epoch [35/75] Batch [40/105] Avg Loss: 1.7329 Avg Acc: 0.5344 Elapsed: 12.1s
+Epoch [35/75] Batch [50/105] Avg Loss: 1.5480 Avg Acc: 0.5844 Elapsed: 12.1s
+Epoch [35/75] Batch [60/105] Avg Loss: 1.7206 Avg Acc: 0.5406 Elapsed: 12.0s
+Epoch [35/75] Batch [70/105] Avg Loss: 1.6370 Avg Acc: 0.5938 Elapsed: 12.2s
+Epoch [35/75] Batch [80/105] Avg Loss: 1.5514 Avg Acc: 0.5875 Elapsed: 11.8s
+Epoch [35/75] Batch [90/105] Avg Loss: 1.8375 Avg Acc: 0.5125 Elapsed: 12.2s
+Epoch [35/75] Batch [100/105] Avg Loss: 1.7356 Avg Acc: 0.5406 Elapsed: 11.9s
+Epoch [35/75] Batch [105/105] Avg Loss: 1.7842 Avg Acc: 0.4958 Elapsed: 5.2s
+[INFO] Epoch 35 training complete. Avg train_loss: 1.6699, Avg train_acc: 0.5572
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.4302
+[INFO] Test accuracy computed for first batch: 0.0938
+[INFO] First test batch - Predicted classes: tensor([ 0,  0,  1, 52, 84])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 47%|███████████████▍                 | 35/75 [2:07:13<2:24:02, 216.07s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.0812, Avg test_acc: 0.2960
+Epoch: 35 | train_loss: 1.6699 | train_acc: 0.5572 | test_loss: 3.0812 | test_acc: 0.2960
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 36/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.8685
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.5625
+[INFO] First batch - Predicted classes: tensor([85, 47, 61, 16, 75])
+[INFO] First batch - True labels: tensor([76, 47, 77, 11, 75])
+[INFO] First batch - Prediction probabilities (max): tensor([0.2336, 0.9606, 0.7361, 0.1490, 0.9423], grad_fn=<SliceBackward0>)
+Epoch [36/75] Batch [10/105] Avg Loss: 1.6618 Avg Acc: 0.5500 Elapsed: 11.8s
+Epoch [36/75] Batch [20/105] Avg Loss: 1.4248 Avg Acc: 0.6312 Elapsed: 11.7s
+Epoch [36/75] Batch [30/105] Avg Loss: 1.6566 Avg Acc: 0.5437 Elapsed: 11.5s
+Epoch [36/75] Batch [40/105] Avg Loss: 1.8162 Avg Acc: 0.5156 Elapsed: 11.7s
+Epoch [36/75] Batch [50/105] Avg Loss: 1.6055 Avg Acc: 0.5625 Elapsed: 11.8s
+Epoch [36/75] Batch [60/105] Avg Loss: 1.6557 Avg Acc: 0.5563 Elapsed: 11.8s
+Epoch [36/75] Batch [70/105] Avg Loss: 1.7745 Avg Acc: 0.5219 Elapsed: 11.7s
+Epoch [36/75] Batch [80/105] Avg Loss: 1.6756 Avg Acc: 0.5625 Elapsed: 11.7s
+Epoch [36/75] Batch [90/105] Avg Loss: 1.7411 Avg Acc: 0.5500 Elapsed: 11.7s
+Epoch [36/75] Batch [100/105] Avg Loss: 1.4835 Avg Acc: 0.5750 Elapsed: 11.6s
+Epoch [36/75] Batch [105/105] Avg Loss: 1.3260 Avg Acc: 0.6354 Elapsed: 5.0s
+[INFO] Epoch 36 training complete. Avg train_loss: 1.6341, Avg train_acc: 0.5606
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.0845
+[INFO] Test accuracy computed for first batch: 0.2188
+[INFO] First test batch - Predicted classes: tensor([ 0,  0,  1, 52,  0])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 48%|███████████████▊                 | 36/75 [2:10:41<2:18:51, 213.62s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.4738, Avg test_acc: 0.2789
+Epoch: 36 | train_loss: 1.6341 | train_acc: 0.5606 | test_loss: 3.4738 | test_acc: 0.2789
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 37/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.5224
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.6562
+[INFO] First batch - Predicted classes: tensor([26, 49, 21, 67, 43])
+[INFO] First batch - True labels: tensor([16, 49, 21, 67, 43])
+[INFO] First batch - Prediction probabilities (max): tensor([0.2126, 0.9962, 0.3686, 0.9599, 0.7539], grad_fn=<SliceBackward0>)
+Epoch [37/75] Batch [10/105] Avg Loss: 1.4168 Avg Acc: 0.6375 Elapsed: 11.4s
+Epoch [37/75] Batch [20/105] Avg Loss: 1.1524 Avg Acc: 0.6781 Elapsed: 11.5s
+Epoch [37/75] Batch [30/105] Avg Loss: 1.5737 Avg Acc: 0.5844 Elapsed: 11.4s
+Epoch [37/75] Batch [40/105] Avg Loss: 1.3812 Avg Acc: 0.6188 Elapsed: 11.4s
+Epoch [37/75] Batch [50/105] Avg Loss: 1.5538 Avg Acc: 0.6062 Elapsed: 11.6s
+Epoch [37/75] Batch [60/105] Avg Loss: 1.4845 Avg Acc: 0.6188 Elapsed: 11.7s
+Epoch [37/75] Batch [70/105] Avg Loss: 1.4491 Avg Acc: 0.6094 Elapsed: 11.4s
+Epoch [37/75] Batch [80/105] Avg Loss: 1.5160 Avg Acc: 0.5906 Elapsed: 11.6s
+Epoch [37/75] Batch [90/105] Avg Loss: 1.6578 Avg Acc: 0.5719 Elapsed: 11.5s
+Epoch [37/75] Batch [100/105] Avg Loss: 1.7015 Avg Acc: 0.5312 Elapsed: 11.5s
+Epoch [37/75] Batch [105/105] Avg Loss: 1.3802 Avg Acc: 0.6333 Elapsed: 4.9s
+[INFO] Epoch 37 training complete. Avg train_loss: 1.4835, Avg train_acc: 0.6061
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 2.2877
+[INFO] Test accuracy computed for first batch: 0.4688
+[INFO] First test batch - Predicted classes: tensor([ 0,  0,  1, 52,  0])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 49%|████████████████▎                | 37/75 [2:14:07<2:13:45, 211.21s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.1320, Avg test_acc: 0.3168
+Epoch: 37 | train_loss: 1.4835 | train_acc: 0.6061 | test_loss: 3.1320 | test_acc: 0.3168
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 38/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.9664
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.7500
+[INFO] First batch - Predicted classes: tensor([ 6, 73, 71, 48, 83])
+[INFO] First batch - True labels: tensor([ 6, 72, 71, 48, 80])
+[INFO] First batch - Prediction probabilities (max): tensor([0.7112, 0.2384, 0.9801, 0.6329, 0.1582], grad_fn=<SliceBackward0>)
+Epoch [38/75] Batch [10/105] Avg Loss: 1.3804 Avg Acc: 0.6656 Elapsed: 11.6s
+Epoch [38/75] Batch [20/105] Avg Loss: 1.2960 Avg Acc: 0.6500 Elapsed: 11.5s
+Epoch [38/75] Batch [30/105] Avg Loss: 1.3711 Avg Acc: 0.6312 Elapsed: 11.5s
+Epoch [38/75] Batch [40/105] Avg Loss: 1.3175 Avg Acc: 0.6438 Elapsed: 11.4s
+Epoch [38/75] Batch [50/105] Avg Loss: 1.3419 Avg Acc: 0.6469 Elapsed: 11.7s
+Epoch [38/75] Batch [60/105] Avg Loss: 1.6139 Avg Acc: 0.5687 Elapsed: 11.4s
+Epoch [38/75] Batch [70/105] Avg Loss: 1.4722 Avg Acc: 0.6125 Elapsed: 11.5s
+Epoch [38/75] Batch [80/105] Avg Loss: 1.3291 Avg Acc: 0.6719 Elapsed: 11.5s
+Epoch [38/75] Batch [90/105] Avg Loss: 1.2631 Avg Acc: 0.6750 Elapsed: 11.7s
+Epoch [38/75] Batch [100/105] Avg Loss: 1.3311 Avg Acc: 0.6344 Elapsed: 11.6s
+Epoch [38/75] Batch [105/105] Avg Loss: 1.1653 Avg Acc: 0.6979 Elapsed: 4.9s
+[INFO] Epoch 38 training complete. Avg train_loss: 1.3618, Avg train_acc: 0.6428
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.6578
+[INFO] Test accuracy computed for first batch: 0.1875
+[INFO] First test batch - Predicted classes: tensor([ 0,  0, 87, 56, 84])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 51%|████████████████▋                | 38/75 [2:17:32<2:09:09, 209.43s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.1844, Avg test_acc: 0.3208
+Epoch: 38 | train_loss: 1.3618 | train_acc: 0.6428 | test_loss: 3.1844 | test_acc: 0.3208
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 39/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.9913
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.7188
+[INFO] First batch - Predicted classes: tensor([96, 84, 98, 54,  3])
+[INFO] First batch - True labels: tensor([96, 84, 98, 67,  3])
+[INFO] First batch - Prediction probabilities (max): tensor([0.9485, 0.9166, 0.3065, 0.1981, 0.9590], grad_fn=<SliceBackward0>)
+Epoch [39/75] Batch [10/105] Avg Loss: 1.2869 Avg Acc: 0.6656 Elapsed: 11.5s
+Epoch [39/75] Batch [20/105] Avg Loss: 1.2792 Avg Acc: 0.6594 Elapsed: 11.4s
+Epoch [39/75] Batch [30/105] Avg Loss: 1.4235 Avg Acc: 0.6312 Elapsed: 11.4s
+Epoch [39/75] Batch [40/105] Avg Loss: 1.3122 Avg Acc: 0.6562 Elapsed: 11.5s
+Epoch [39/75] Batch [50/105] Avg Loss: 1.2601 Avg Acc: 0.6781 Elapsed: 11.3s
+Epoch [39/75] Batch [60/105] Avg Loss: 1.1929 Avg Acc: 0.6781 Elapsed: 11.3s
+Epoch [39/75] Batch [70/105] Avg Loss: 1.3500 Avg Acc: 0.6469 Elapsed: 11.5s
+Epoch [39/75] Batch [80/105] Avg Loss: 1.3476 Avg Acc: 0.6469 Elapsed: 11.7s
+Epoch [39/75] Batch [90/105] Avg Loss: 1.5118 Avg Acc: 0.6219 Elapsed: 11.6s
+Epoch [39/75] Batch [100/105] Avg Loss: 1.3406 Avg Acc: 0.6438 Elapsed: 11.5s
+Epoch [39/75] Batch [105/105] Avg Loss: 1.5001 Avg Acc: 0.5938 Elapsed: 4.9s
+[INFO] Epoch 39 training complete. Avg train_loss: 1.3386, Avg train_acc: 0.6500
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.0264
+[INFO] Test accuracy computed for first batch: 0.3125
+[INFO] First test batch - Predicted classes: tensor([ 0, 55, 87, 56,  0])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 52%|█████████████████▏               | 39/75 [2:20:57<2:04:49, 208.05s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.2464, Avg test_acc: 0.3179
+Epoch: 39 | train_loss: 1.3386 | train_acc: 0.6500 | test_loss: 3.2464 | test_acc: 0.3179
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 40/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.1605
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.6875
+[INFO] First batch - Predicted classes: tensor([21, 39, 45, 41, 44])
+[INFO] First batch - True labels: tensor([21, 39, 69, 87, 44])
+[INFO] First batch - Prediction probabilities (max): tensor([0.8927, 0.9963, 0.4565, 0.5876, 0.8909], grad_fn=<SliceBackward0>)
+Epoch [40/75] Batch [10/105] Avg Loss: 1.2829 Avg Acc: 0.6656 Elapsed: 11.5s
+Epoch [40/75] Batch [20/105] Avg Loss: 1.3335 Avg Acc: 0.6469 Elapsed: 11.5s
+Epoch [40/75] Batch [30/105] Avg Loss: 1.2657 Avg Acc: 0.6656 Elapsed: 11.6s
+Epoch [40/75] Batch [40/105] Avg Loss: 1.1903 Avg Acc: 0.6813 Elapsed: 11.6s
+Epoch [40/75] Batch [50/105] Avg Loss: 1.1489 Avg Acc: 0.6969 Elapsed: 11.5s
+Epoch [40/75] Batch [60/105] Avg Loss: 1.3539 Avg Acc: 0.6219 Elapsed: 11.3s
+Epoch [40/75] Batch [70/105] Avg Loss: 1.5303 Avg Acc: 0.5969 Elapsed: 11.7s
+Epoch [40/75] Batch [80/105] Avg Loss: 1.2152 Avg Acc: 0.6813 Elapsed: 11.6s
+Epoch [40/75] Batch [90/105] Avg Loss: 1.4594 Avg Acc: 0.6281 Elapsed: 11.6s
+Epoch [40/75] Batch [100/105] Avg Loss: 1.2243 Avg Acc: 0.6656 Elapsed: 11.6s
+Epoch [40/75] Batch [105/105] Avg Loss: 1.2328 Avg Acc: 0.6542 Elapsed: 4.8s
+[INFO] Epoch 40 training complete. Avg train_loss: 1.2972, Avg train_acc: 0.6550
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.9471
+[INFO] Test accuracy computed for first batch: 0.0312
+[INFO] First test batch - Predicted classes: tensor([11, 55, 87, 56, 56])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+[INFO] First test batch - Prediction probabilities (max): tensor([0.5345, 0.3792, 0.4405, 0.2597, 0.4596])
+[INFO] Evaluation complete. Avg test_loss: 3.6594, Avg test_acc: 0.3173
+Epoch: 40 | train_loss: 1.2972 | train_acc: 0.6550 | test_loss: 3.6594 | test_acc: 0.3173
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 41/75
+
+ 53%|█████████████████▌               | 40/75 [2:24:23<2:00:59, 207.43s/it]
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.0622
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.7188
+[INFO] First batch - Predicted classes: tensor([13,  3, 30, 21, 71])
+[INFO] First batch - True labels: tensor([13,  3, 30, 21, 71])
+[INFO] First batch - Prediction probabilities (max): tensor([0.7760, 0.9902, 0.4575, 0.5930, 1.0000], grad_fn=<SliceBackward0>)
+Epoch [41/75] Batch [10/105] Avg Loss: 1.1996 Avg Acc: 0.6813 Elapsed: 11.4s
+Epoch [41/75] Batch [20/105] Avg Loss: 1.2989 Avg Acc: 0.6344 Elapsed: 11.4s
+Epoch [41/75] Batch [30/105] Avg Loss: 1.1837 Avg Acc: 0.6719 Elapsed: 11.3s
+Epoch [41/75] Batch [40/105] Avg Loss: 1.0590 Avg Acc: 0.7063 Elapsed: 11.9s
+Epoch [41/75] Batch [50/105] Avg Loss: 1.2711 Avg Acc: 0.6625 Elapsed: 11.6s
+Epoch [41/75] Batch [60/105] Avg Loss: 1.4133 Avg Acc: 0.6469 Elapsed: 11.3s
+Epoch [41/75] Batch [70/105] Avg Loss: 1.0234 Avg Acc: 0.7125 Elapsed: 11.5s
+Epoch [41/75] Batch [80/105] Avg Loss: 1.2315 Avg Acc: 0.6719 Elapsed: 11.4s
+Epoch [41/75] Batch [90/105] Avg Loss: 1.3362 Avg Acc: 0.6562 Elapsed: 11.6s
+Epoch [41/75] Batch [100/105] Avg Loss: 1.4562 Avg Acc: 0.5875 Elapsed: 11.4s
+Epoch [41/75] Batch [105/105] Avg Loss: 1.3564 Avg Acc: 0.6646 Elapsed: 4.8s
+[INFO] Epoch 41 training complete. Avg train_loss: 1.2525, Avg train_acc: 0.6632
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.7069
+[INFO] Test accuracy computed for first batch: 0.0938
+[INFO] First test batch - Predicted classes: tensor([12, 55,  1, 52, 56])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 55%|██████████████████               | 41/75 [2:27:48<1:57:04, 206.60s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.3528, Avg test_acc: 0.3129
+Epoch: 41 | train_loss: 1.2525 | train_acc: 0.6632 | test_loss: 3.3528 | test_acc: 0.3129
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 42/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.2904
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.6562
+[INFO] First batch - Predicted classes: tensor([31, 50, 31, 98, 70])
+[INFO] First batch - True labels: tensor([33, 47, 27,  1, 68])
+[INFO] First batch - Prediction probabilities (max): tensor([0.2408, 0.4949, 0.4921, 0.8543, 0.2867], grad_fn=<SliceBackward0>)
+Epoch [42/75] Batch [10/105] Avg Loss: 1.1211 Avg Acc: 0.7156 Elapsed: 11.4s
+Epoch [42/75] Batch [20/105] Avg Loss: 1.2326 Avg Acc: 0.6844 Elapsed: 11.4s
+Epoch [42/75] Batch [30/105] Avg Loss: 1.0654 Avg Acc: 0.7094 Elapsed: 11.6s
+Epoch [42/75] Batch [40/105] Avg Loss: 1.0436 Avg Acc: 0.7031 Elapsed: 11.5s
+Epoch [42/75] Batch [50/105] Avg Loss: 1.3239 Avg Acc: 0.6500 Elapsed: 11.5s
+Epoch [42/75] Batch [60/105] Avg Loss: 1.3109 Avg Acc: 0.6375 Elapsed: 11.3s
+Epoch [42/75] Batch [70/105] Avg Loss: 1.3415 Avg Acc: 0.6281 Elapsed: 11.3s
+Epoch [42/75] Batch [80/105] Avg Loss: 1.2523 Avg Acc: 0.6687 Elapsed: 11.5s
+Epoch [42/75] Batch [90/105] Avg Loss: 1.3031 Avg Acc: 0.6656 Elapsed: 11.4s
+Epoch [42/75] Batch [100/105] Avg Loss: 1.1828 Avg Acc: 0.7063 Elapsed: 11.5s
+Epoch [42/75] Batch [105/105] Avg Loss: 1.0957 Avg Acc: 0.7167 Elapsed: 4.8s
+[INFO] Epoch 42 training complete. Avg train_loss: 1.2119, Avg train_acc: 0.6788
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.5563
+[INFO] Test accuracy computed for first batch: 0.2500
+[INFO] First test batch - Predicted classes: tensor([ 0,  0,  1, 52, 56])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 56%|██████████████████▍              | 42/75 [2:31:12<1:53:10, 205.78s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.7057, Avg test_acc: 0.3055
+Epoch: 42 | train_loss: 1.2119 | train_acc: 0.6788 | test_loss: 3.7057 | test_acc: 0.3055
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 43/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.3714
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.6562
+[INFO] First batch - Predicted classes: tensor([99, 14, 87, 88, 62])
+[INFO] First batch - True labels: tensor([99, 40, 46, 94, 62])
+[INFO] First batch - Prediction probabilities (max): tensor([0.9801, 0.0972, 0.1653, 0.1241, 0.5895], grad_fn=<SliceBackward0>)
+Epoch [43/75] Batch [10/105] Avg Loss: 1.1712 Avg Acc: 0.6531 Elapsed: 11.7s
+Epoch [43/75] Batch [20/105] Avg Loss: 1.2811 Avg Acc: 0.6750 Elapsed: 11.3s
+Epoch [43/75] Batch [30/105] Avg Loss: 1.2459 Avg Acc: 0.6656 Elapsed: 11.4s
+Epoch [43/75] Batch [40/105] Avg Loss: 1.1691 Avg Acc: 0.7188 Elapsed: 13.5s
+Epoch [43/75] Batch [50/105] Avg Loss: 1.2543 Avg Acc: 0.6781 Elapsed: 13.6s
+Epoch [43/75] Batch [60/105] Avg Loss: 1.2385 Avg Acc: 0.6656 Elapsed: 11.4s
+Epoch [43/75] Batch [70/105] Avg Loss: 1.1533 Avg Acc: 0.6875 Elapsed: 11.3s
+Epoch [43/75] Batch [80/105] Avg Loss: 1.2051 Avg Acc: 0.6594 Elapsed: 11.4s
+Epoch [43/75] Batch [90/105] Avg Loss: 1.0954 Avg Acc: 0.6750 Elapsed: 11.5s
+Epoch [43/75] Batch [100/105] Avg Loss: 1.1381 Avg Acc: 0.7031 Elapsed: 11.6s
+Epoch [43/75] Batch [105/105] Avg Loss: 1.1851 Avg Acc: 0.7104 Elapsed: 5.0s
+[INFO] Epoch 43 training complete. Avg train_loss: 1.1947, Avg train_acc: 0.6797
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.4964
+[INFO] Test accuracy computed for first batch: 0.2188
+[INFO] First test batch - Predicted classes: tensor([ 0,  0,  9, 52, 56])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 57%|██████████████████▉              | 43/75 [2:34:40<1:50:11, 206.59s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.7700, Avg test_acc: 0.3338
+Epoch: 43 | train_loss: 1.1947 | train_acc: 0.6797 | test_loss: 3.7700 | test_acc: 0.3338
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 44/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.3156
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.6562
+[INFO] First batch - Predicted classes: tensor([45, 98, 79, 13, 17])
+[INFO] First batch - True labels: tensor([46, 98, 79, 26, 17])
+[INFO] First batch - Prediction probabilities (max): tensor([0.3978, 0.9913, 0.8343, 0.1532, 0.3691], grad_fn=<SliceBackward0>)
+Epoch [44/75] Batch [10/105] Avg Loss: 1.3567 Avg Acc: 0.6375 Elapsed: 11.6s
+Epoch [44/75] Batch [20/105] Avg Loss: 1.2638 Avg Acc: 0.6719 Elapsed: 11.7s
+Epoch [44/75] Batch [30/105] Avg Loss: 1.2728 Avg Acc: 0.6906 Elapsed: 11.5s
+Epoch [44/75] Batch [40/105] Avg Loss: 1.1226 Avg Acc: 0.7094 Elapsed: 11.8s
+Epoch [44/75] Batch [50/105] Avg Loss: 1.1888 Avg Acc: 0.7094 Elapsed: 11.5s
+Epoch [44/75] Batch [60/105] Avg Loss: 1.2424 Avg Acc: 0.6781 Elapsed: 11.5s
+Epoch [44/75] Batch [70/105] Avg Loss: 1.2335 Avg Acc: 0.6781 Elapsed: 11.5s
+Epoch [44/75] Batch [80/105] Avg Loss: 1.0662 Avg Acc: 0.6656 Elapsed: 11.7s
+Epoch [44/75] Batch [90/105] Avg Loss: 1.2501 Avg Acc: 0.6781 Elapsed: 11.5s
+Epoch [44/75] Batch [100/105] Avg Loss: 1.0913 Avg Acc: 0.7156 Elapsed: 11.7s
+Epoch [44/75] Batch [105/105] Avg Loss: 1.0800 Avg Acc: 0.6458 Elapsed: 4.9s
+[INFO] Epoch 44 training complete. Avg train_loss: 1.2027, Avg train_acc: 0.6816
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.4541
+[INFO] Test accuracy computed for first batch: 0.1562
+[INFO] First test batch - Predicted classes: tensor([ 0, 55, 87, 52, 56])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 59%|███████████████████▎             | 44/75 [2:38:06<1:46:33, 206.26s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.6593, Avg test_acc: 0.3345
+Epoch: 44 | train_loss: 1.2027 | train_acc: 0.6816 | test_loss: 3.6593 | test_acc: 0.3345
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 45/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.2838
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.5938
+[INFO] First batch - Predicted classes: tensor([98, 23, 74, 99, 96])
+[INFO] First batch - True labels: tensor([97, 23, 81, 99, 96])
+[INFO] First batch - Prediction probabilities (max): tensor([0.6483, 0.4659, 0.2138, 0.9773, 1.0000], grad_fn=<SliceBackward0>)
+Epoch [45/75] Batch [10/105] Avg Loss: 1.3200 Avg Acc: 0.6594 Elapsed: 11.6s
+Epoch [45/75] Batch [20/105] Avg Loss: 1.0330 Avg Acc: 0.7281 Elapsed: 11.6s
+Epoch [45/75] Batch [30/105] Avg Loss: 1.0844 Avg Acc: 0.7188 Elapsed: 11.4s
+Epoch [45/75] Batch [40/105] Avg Loss: 1.0150 Avg Acc: 0.7219 Elapsed: 11.6s
+Epoch [45/75] Batch [50/105] Avg Loss: 1.1800 Avg Acc: 0.6969 Elapsed: 11.5s
+Epoch [45/75] Batch [60/105] Avg Loss: 1.1147 Avg Acc: 0.7094 Elapsed: 11.7s
+Epoch [45/75] Batch [70/105] Avg Loss: 1.1985 Avg Acc: 0.6656 Elapsed: 11.6s
+Epoch [45/75] Batch [80/105] Avg Loss: 1.1269 Avg Acc: 0.6750 Elapsed: 11.7s
+Epoch [45/75] Batch [90/105] Avg Loss: 1.3096 Avg Acc: 0.6562 Elapsed: 11.5s
+Epoch [45/75] Batch [100/105] Avg Loss: 1.1666 Avg Acc: 0.6750 Elapsed: 11.6s
+Epoch [45/75] Batch [105/105] Avg Loss: 1.1110 Avg Acc: 0.7167 Elapsed: 4.8s
+[INFO] Epoch 45 training complete. Avg train_loss: 1.1528, Avg train_acc: 0.6919
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.0640
+[INFO] Test accuracy computed for first batch: 0.2812
+[INFO] First test batch - Predicted classes: tensor([ 0,  0, 87, 52,  0])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+[INFO] First test batch - Prediction probabilities (max): tensor([0.7927, 0.5001, 0.2605, 0.8196, 0.4827])
+[INFO] Evaluation complete. Avg test_loss: 3.6573, Avg test_acc: 0.3138
+Epoch: 45 | train_loss: 1.1528 | train_acc: 0.6919 | test_loss: 3.6573 | test_acc: 0.3138
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 46/75
+
+ 60%|███████████████████▊             | 45/75 [2:41:31<1:43:01, 206.04s/it]
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.2436
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.6875
+[INFO] First batch - Predicted classes: tensor([69, 81, 72, 68, 89])
+[INFO] First batch - True labels: tensor([65, 81, 11, 68, 89])
+[INFO] First batch - Prediction probabilities (max): tensor([0.2291, 0.8195, 0.4299, 0.9510, 0.8827], grad_fn=<SliceBackward0>)
+Epoch [46/75] Batch [10/105] Avg Loss: 0.9823 Avg Acc: 0.7469 Elapsed: 11.7s
+Epoch [46/75] Batch [20/105] Avg Loss: 1.1192 Avg Acc: 0.6687 Elapsed: 11.5s
+Epoch [46/75] Batch [30/105] Avg Loss: 1.1617 Avg Acc: 0.7125 Elapsed: 11.6s
+Epoch [46/75] Batch [40/105] Avg Loss: 0.9394 Avg Acc: 0.7250 Elapsed: 11.6s
+Epoch [46/75] Batch [50/105] Avg Loss: 0.9343 Avg Acc: 0.7781 Elapsed: 11.4s
+Epoch [46/75] Batch [60/105] Avg Loss: 1.1913 Avg Acc: 0.6906 Elapsed: 11.5s
+Epoch [46/75] Batch [70/105] Avg Loss: 1.2219 Avg Acc: 0.7156 Elapsed: 11.6s
+Epoch [46/75] Batch [80/105] Avg Loss: 1.1114 Avg Acc: 0.6937 Elapsed: 11.6s
+Epoch [46/75] Batch [90/105] Avg Loss: 1.1604 Avg Acc: 0.6781 Elapsed: 11.7s
+Epoch [46/75] Batch [100/105] Avg Loss: 1.2380 Avg Acc: 0.6781 Elapsed: 11.4s
+Epoch [46/75] Batch [105/105] Avg Loss: 0.9910 Avg Acc: 0.7479 Elapsed: 4.9s
+[INFO] Epoch 46 training complete. Avg train_loss: 1.1005, Avg train_acc: 0.7106
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.2114
+[INFO] Test accuracy computed for first batch: 0.2188
+[INFO] First test batch - Predicted classes: tensor([ 0,  0, 87, 52, 56])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+[INFO] First test batch - Prediction probabilities (max): tensor([0.4166, 0.6218, 0.5458, 0.9868, 0.5953])
+[INFO] Evaluation complete. Avg test_loss: 3.3880, Avg test_acc: 0.3436
+Epoch: 46 | train_loss: 1.1005 | train_acc: 0.7106 | test_loss: 3.3880 | test_acc: 0.3436
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 47/75
+
+ 61%|████████████████████▏            | 46/75 [2:44:56<1:39:25, 205.70s/it]
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.2030
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.7188
+[INFO] First batch - Predicted classes: tensor([44,  2, 40, 29, 39])
+[INFO] First batch - True labels: tensor([44, 22, 40, 29, 77])
+[INFO] First batch - Prediction probabilities (max): tensor([0.9807, 0.5906, 0.8630, 0.6969, 0.0888], grad_fn=<SliceBackward0>)
+Epoch [47/75] Batch [10/105] Avg Loss: 1.1254 Avg Acc: 0.7156 Elapsed: 11.5s
+Epoch [47/75] Batch [20/105] Avg Loss: 1.0453 Avg Acc: 0.7188 Elapsed: 11.6s
+Epoch [47/75] Batch [30/105] Avg Loss: 0.9903 Avg Acc: 0.7344 Elapsed: 11.8s
+Epoch [47/75] Batch [40/105] Avg Loss: 1.1113 Avg Acc: 0.7094 Elapsed: 11.7s
+Epoch [47/75] Batch [50/105] Avg Loss: 1.0659 Avg Acc: 0.7156 Elapsed: 11.8s
+Epoch [47/75] Batch [60/105] Avg Loss: 1.0711 Avg Acc: 0.7031 Elapsed: 11.6s
+Epoch [47/75] Batch [70/105] Avg Loss: 1.2306 Avg Acc: 0.6625 Elapsed: 11.6s
+Epoch [47/75] Batch [80/105] Avg Loss: 1.1252 Avg Acc: 0.6937 Elapsed: 11.6s
+Epoch [47/75] Batch [90/105] Avg Loss: 1.1162 Avg Acc: 0.7031 Elapsed: 11.8s
+Epoch [47/75] Batch [100/105] Avg Loss: 1.0821 Avg Acc: 0.6875 Elapsed: 11.6s
+Epoch [47/75] Batch [105/105] Avg Loss: 1.5996 Avg Acc: 0.6292 Elapsed: 4.9s
+[INFO] Epoch 47 training complete. Avg train_loss: 1.1203, Avg train_acc: 0.7008
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 2.5315
+[INFO] Test accuracy computed for first batch: 0.5000
+[INFO] First test batch - Predicted classes: tensor([ 0,  0,  4,  0, 97])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+[INFO] First test batch - Prediction probabilities (max): tensor([0.9603, 0.9462, 0.2813, 0.3506, 0.3961])
+[INFO] Evaluation complete. Avg test_loss: 3.5620, Avg test_acc: 0.3250
+Epoch: 47 | train_loss: 1.1203 | train_acc: 0.7008 | test_loss: 3.5620 | test_acc: 0.3250
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 48/75
+
+ 63%|████████████████████▋            | 47/75 [2:48:22<1:36:06, 205.93s/it]
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.8507
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.7500
+[INFO] First batch - Predicted classes: tensor([48, 76, 39, 67, 38])
+[INFO] First batch - True labels: tensor([48, 76, 39, 67, 38])
+[INFO] First batch - Prediction probabilities (max): tensor([0.9081, 0.9755, 0.7431, 0.9939, 0.6769], grad_fn=<SliceBackward0>)
+Epoch [48/75] Batch [10/105] Avg Loss: 1.1367 Avg Acc: 0.6781 Elapsed: 11.4s
+Epoch [48/75] Batch [20/105] Avg Loss: 1.1525 Avg Acc: 0.7031 Elapsed: 11.7s
+Epoch [48/75] Batch [30/105] Avg Loss: 0.9678 Avg Acc: 0.7281 Elapsed: 11.9s
+Epoch [48/75] Batch [40/105] Avg Loss: 1.1214 Avg Acc: 0.7156 Elapsed: 11.9s
+Epoch [48/75] Batch [50/105] Avg Loss: 1.0728 Avg Acc: 0.7094 Elapsed: 11.7s
+Epoch [48/75] Batch [60/105] Avg Loss: 1.0026 Avg Acc: 0.7250 Elapsed: 11.9s
+Epoch [48/75] Batch [70/105] Avg Loss: 1.1272 Avg Acc: 0.6937 Elapsed: 11.6s
+Epoch [48/75] Batch [80/105] Avg Loss: 0.9001 Avg Acc: 0.7625 Elapsed: 11.6s
+Epoch [48/75] Batch [90/105] Avg Loss: 1.0621 Avg Acc: 0.7375 Elapsed: 11.6s
+Epoch [48/75] Batch [100/105] Avg Loss: 1.1785 Avg Acc: 0.7063 Elapsed: 11.6s
+Epoch [48/75] Batch [105/105] Avg Loss: 1.2013 Avg Acc: 0.6792 Elapsed: 5.1s
+[INFO] Epoch 48 training complete. Avg train_loss: 1.0783, Avg train_acc: 0.7142
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.8778
+[INFO] Test accuracy computed for first batch: 0.1250
+[INFO] First test batch - Predicted classes: tensor([ 0,  0, 33, 52, 56])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 64%|█████████████████████            | 48/75 [2:51:52<1:33:08, 206.99s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.4903, Avg test_acc: 0.3355
+Epoch: 48 | train_loss: 1.0783 | train_acc: 0.7142 | test_loss: 3.4903 | test_acc: 0.3355
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 49/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.8306
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.7812
+[INFO] First batch - Predicted classes: tensor([64, 98, 65, 61,  6])
+[INFO] First batch - True labels: tensor([64, 75, 65, 61,  6])
+[INFO] First batch - Prediction probabilities (max): tensor([0.8328, 0.2191, 0.9961, 0.2442, 0.9254], grad_fn=<SliceBackward0>)
+Epoch [49/75] Batch [10/105] Avg Loss: 1.1207 Avg Acc: 0.6969 Elapsed: 11.5s
+Epoch [49/75] Batch [20/105] Avg Loss: 1.1944 Avg Acc: 0.7031 Elapsed: 11.7s
+Epoch [49/75] Batch [30/105] Avg Loss: 0.9264 Avg Acc: 0.7469 Elapsed: 11.5s
+Epoch [49/75] Batch [40/105] Avg Loss: 1.1353 Avg Acc: 0.7000 Elapsed: 11.4s
+Epoch [49/75] Batch [50/105] Avg Loss: 1.1818 Avg Acc: 0.7000 Elapsed: 11.7s
+Epoch [49/75] Batch [60/105] Avg Loss: 1.0041 Avg Acc: 0.7344 Elapsed: 11.6s
+Epoch [49/75] Batch [70/105] Avg Loss: 0.9921 Avg Acc: 0.7125 Elapsed: 11.7s
+Epoch [49/75] Batch [80/105] Avg Loss: 1.2083 Avg Acc: 0.7031 Elapsed: 11.6s
+Epoch [49/75] Batch [90/105] Avg Loss: 1.0327 Avg Acc: 0.7156 Elapsed: 11.7s
+Epoch [49/75] Batch [100/105] Avg Loss: 0.9497 Avg Acc: 0.7562 Elapsed: 11.8s
+Epoch [49/75] Batch [105/105] Avg Loss: 1.3782 Avg Acc: 0.6562 Elapsed: 5.1s
+[INFO] Epoch 49 training complete. Avg train_loss: 1.0890, Avg train_acc: 0.7140
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.1383
+[INFO] Test accuracy computed for first batch: 0.0938
+[INFO] First test batch - Predicted classes: tensor([ 0,  0, 33, 52, 97])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 65%|█████████████████████▌           | 49/75 [2:55:20<1:29:48, 207.26s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.5260, Avg test_acc: 0.3281
+Epoch: 49 | train_loss: 1.0890 | train_acc: 0.7140 | test_loss: 3.5260 | test_acc: 0.3281
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 50/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.2022
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.6875
+[INFO] First batch - Predicted classes: tensor([52, 35,  2, 80, 68])
+[INFO] First batch - True labels: tensor([67, 37,  2, 80, 68])
+[INFO] First batch - Prediction probabilities (max): tensor([0.1267, 0.5065, 0.3232, 0.9394, 0.6805], grad_fn=<SliceBackward0>)
+Epoch [50/75] Batch [10/105] Avg Loss: 1.1771 Avg Acc: 0.7063 Elapsed: 11.8s
+Epoch [50/75] Batch [20/105] Avg Loss: 1.0629 Avg Acc: 0.7125 Elapsed: 11.6s
+Epoch [50/75] Batch [30/105] Avg Loss: 1.2593 Avg Acc: 0.6781 Elapsed: 11.5s
+Epoch [50/75] Batch [40/105] Avg Loss: 1.0258 Avg Acc: 0.7031 Elapsed: 11.7s
+Epoch [50/75] Batch [50/105] Avg Loss: 0.9730 Avg Acc: 0.7531 Elapsed: 11.7s
+Epoch [50/75] Batch [60/105] Avg Loss: 1.2180 Avg Acc: 0.7094 Elapsed: 11.8s
+Epoch [50/75] Batch [70/105] Avg Loss: 1.1015 Avg Acc: 0.6875 Elapsed: 11.9s
+Epoch [50/75] Batch [80/105] Avg Loss: 1.1290 Avg Acc: 0.6844 Elapsed: 11.7s
+Epoch [50/75] Batch [90/105] Avg Loss: 1.0675 Avg Acc: 0.7031 Elapsed: 11.7s
+Epoch [50/75] Batch [100/105] Avg Loss: 1.3011 Avg Acc: 0.6531 Elapsed: 11.8s
+Epoch [50/75] Batch [105/105] Avg Loss: 1.1825 Avg Acc: 0.6562 Elapsed: 5.0s
+[INFO] Epoch 50 training complete. Avg train_loss: 1.1339, Avg train_acc: 0.6970
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.1995
+[INFO] Test accuracy computed for first batch: 0.1250
+[INFO] First test batch - Predicted classes: tensor([ 0,  0,  1, 52, 56])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 67%|██████████████████████           | 50/75 [2:58:48<1:26:25, 207.41s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.1780, Avg test_acc: 0.3391
+Epoch: 50 | train_loss: 1.1339 | train_acc: 0.6970 | test_loss: 3.1780 | test_acc: 0.3391
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 51/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.8643
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.7812
+[INFO] First batch - Predicted classes: tensor([72, 59, 48,  2, 49])
+[INFO] First batch - True labels: tensor([72, 59, 53, 94, 49])
+[INFO] First batch - Prediction probabilities (max): tensor([0.6705, 0.9488, 0.1339, 0.5667, 0.9858], grad_fn=<SliceBackward0>)
+Epoch [51/75] Batch [10/105] Avg Loss: 1.0498 Avg Acc: 0.7094 Elapsed: 11.5s
+Epoch [51/75] Batch [20/105] Avg Loss: 1.2013 Avg Acc: 0.6813 Elapsed: 11.6s
+Epoch [51/75] Batch [30/105] Avg Loss: 1.0542 Avg Acc: 0.7219 Elapsed: 11.4s
+Epoch [51/75] Batch [40/105] Avg Loss: 1.1257 Avg Acc: 0.7031 Elapsed: 11.5s
+Epoch [51/75] Batch [50/105] Avg Loss: 1.1388 Avg Acc: 0.7063 Elapsed: 11.7s
+Epoch [51/75] Batch [60/105] Avg Loss: 0.9482 Avg Acc: 0.7531 Elapsed: 11.6s
+Epoch [51/75] Batch [70/105] Avg Loss: 1.0421 Avg Acc: 0.7250 Elapsed: 11.7s
+Epoch [51/75] Batch [80/105] Avg Loss: 1.0006 Avg Acc: 0.7094 Elapsed: 11.5s
+Epoch [51/75] Batch [90/105] Avg Loss: 0.9620 Avg Acc: 0.7500 Elapsed: 11.5s
+Epoch [51/75] Batch [100/105] Avg Loss: 1.0028 Avg Acc: 0.7344 Elapsed: 11.6s
+Epoch [51/75] Batch [105/105] Avg Loss: 0.9791 Avg Acc: 0.7396 Elapsed: 5.1s
+[INFO] Epoch 51 training complete. Avg train_loss: 1.0491, Avg train_acc: 0.7203
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.6265
+[INFO] Test accuracy computed for first batch: 0.1562
+[INFO] First test batch - Predicted classes: tensor([ 0,  0,  1, 52, 56])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+[INFO] First test batch - Prediction probabilities (max): tensor([0.9636, 0.2716, 0.3090, 0.4388, 0.4299])
+[INFO] Evaluation complete. Avg test_loss: 3.4551, Avg test_acc: 0.3406
+Epoch: 51 | train_loss: 1.0491 | train_acc: 0.7203 | test_loss: 3.4551 | test_acc: 0.3406
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 52/75
+
+ 68%|██████████████████████▍          | 51/75 [3:02:14<1:22:50, 207.11s/it]
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.1696
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.6562
+[INFO] First batch - Predicted classes: tensor([99, 58, 37, 30, 18])
+[INFO] First batch - True labels: tensor([78, 58, 37, 30, 18])
+[INFO] First batch - Prediction probabilities (max): tensor([0.3813, 0.9955, 0.9966, 0.9423, 0.9968], grad_fn=<SliceBackward0>)
+Epoch [52/75] Batch [10/105] Avg Loss: 1.1029 Avg Acc: 0.6875 Elapsed: 11.6s
+Epoch [52/75] Batch [20/105] Avg Loss: 0.9448 Avg Acc: 0.7438 Elapsed: 11.6s
+Epoch [52/75] Batch [30/105] Avg Loss: 1.0101 Avg Acc: 0.7250 Elapsed: 11.4s
+Epoch [52/75] Batch [40/105] Avg Loss: 0.9447 Avg Acc: 0.7312 Elapsed: 11.5s
+Epoch [52/75] Batch [50/105] Avg Loss: 0.9978 Avg Acc: 0.7312 Elapsed: 11.7s
+Epoch [52/75] Batch [60/105] Avg Loss: 1.0754 Avg Acc: 0.7250 Elapsed: 11.6s
+Epoch [52/75] Batch [70/105] Avg Loss: 0.9315 Avg Acc: 0.7281 Elapsed: 11.6s
+Epoch [52/75] Batch [80/105] Avg Loss: 1.0568 Avg Acc: 0.7219 Elapsed: 11.5s
+Epoch [52/75] Batch [90/105] Avg Loss: 1.1815 Avg Acc: 0.6906 Elapsed: 11.5s
+Epoch [52/75] Batch [100/105] Avg Loss: 1.0868 Avg Acc: 0.6844 Elapsed: 11.6s
+Epoch [52/75] Batch [105/105] Avg Loss: 1.0188 Avg Acc: 0.7292 Elapsed: 4.9s
+[INFO] Epoch 52 training complete. Avg train_loss: 1.0325, Avg train_acc: 0.7175
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.7147
+[INFO] Test accuracy computed for first batch: 0.0938
+[INFO] First test batch - Predicted classes: tensor([ 0, 31, 14, 10, 56])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+[INFO] First test batch - Prediction probabilities (max): tensor([0.9502, 0.4245, 0.1824, 0.3017, 0.7355])
+[INFO] Evaluation complete. Avg test_loss: 3.4119, Avg test_acc: 0.3480
+Epoch: 52 | train_loss: 1.0325 | train_acc: 0.7175 | test_loss: 3.4119 | test_acc: 0.3480
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 53/75
+
+ 69%|██████████████████████▉          | 52/75 [3:05:41<1:19:21, 207.03s/it]
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.6911
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.8125
+[INFO] First batch - Predicted classes: tensor([42, 23, 11, 68, 71])
+[INFO] First batch - True labels: tensor([42, 24, 11, 68, 71])
+[INFO] First batch - Prediction probabilities (max): tensor([0.9999, 0.2130, 0.7889, 0.9593, 0.9995], grad_fn=<SliceBackward0>)
+Epoch [53/75] Batch [10/105] Avg Loss: 0.9562 Avg Acc: 0.7625 Elapsed: 11.6s
+Epoch [53/75] Batch [20/105] Avg Loss: 0.9684 Avg Acc: 0.7344 Elapsed: 11.7s
+Epoch [53/75] Batch [30/105] Avg Loss: 1.0247 Avg Acc: 0.7656 Elapsed: 11.7s
+Epoch [53/75] Batch [40/105] Avg Loss: 0.8775 Avg Acc: 0.7750 Elapsed: 11.7s
+Epoch [53/75] Batch [50/105] Avg Loss: 1.0471 Avg Acc: 0.7375 Elapsed: 11.6s
+Epoch [53/75] Batch [60/105] Avg Loss: 1.0176 Avg Acc: 0.7562 Elapsed: 11.5s
+Epoch [53/75] Batch [70/105] Avg Loss: 0.9697 Avg Acc: 0.7469 Elapsed: 11.7s
+Epoch [53/75] Batch [80/105] Avg Loss: 1.0178 Avg Acc: 0.7000 Elapsed: 11.6s
+Epoch [53/75] Batch [90/105] Avg Loss: 0.9139 Avg Acc: 0.7500 Elapsed: 11.7s
+Epoch [53/75] Batch [100/105] Avg Loss: 0.9027 Avg Acc: 0.7531 Elapsed: 11.8s
+Epoch [53/75] Batch [105/105] Avg Loss: 1.1288 Avg Acc: 0.6833 Elapsed: 5.0s
+[INFO] Epoch 53 training complete. Avg train_loss: 0.9772, Avg train_acc: 0.7450
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.6956
+[INFO] Test accuracy computed for first batch: 0.0938
+[INFO] First test batch - Predicted classes: tensor([ 0, 84,  1, 52, 56])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 71%|███████████████████████▎         | 53/75 [3:09:09<1:16:02, 207.40s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.5761, Avg test_acc: 0.3333
+Epoch: 53 | train_loss: 0.9772 | train_acc: 0.7450 | test_loss: 3.5761 | test_acc: 0.3333
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 54/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.6819
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.8125
+[INFO] First batch - Predicted classes: tensor([36, 61, 19, 27, 83])
+[INFO] First batch - True labels: tensor([36, 61, 21, 22, 83])
+[INFO] First batch - Prediction probabilities (max): tensor([0.5514, 0.9970, 0.7557, 0.1116, 0.9995], grad_fn=<SliceBackward0>)
+Epoch [54/75] Batch [10/105] Avg Loss: 1.0043 Avg Acc: 0.7594 Elapsed: 11.6s
+Epoch [54/75] Batch [20/105] Avg Loss: 1.0833 Avg Acc: 0.7031 Elapsed: 11.5s
+Epoch [54/75] Batch [30/105] Avg Loss: 1.0007 Avg Acc: 0.7250 Elapsed: 11.7s
+Epoch [54/75] Batch [40/105] Avg Loss: 1.0245 Avg Acc: 0.7281 Elapsed: 11.5s
+Epoch [54/75] Batch [50/105] Avg Loss: 0.8573 Avg Acc: 0.7812 Elapsed: 11.5s
+Epoch [54/75] Batch [60/105] Avg Loss: 1.0346 Avg Acc: 0.7156 Elapsed: 11.8s
+Epoch [54/75] Batch [70/105] Avg Loss: 1.0251 Avg Acc: 0.7094 Elapsed: 11.6s
+Epoch [54/75] Batch [80/105] Avg Loss: 0.9493 Avg Acc: 0.7625 Elapsed: 11.5s
+Epoch [54/75] Batch [90/105] Avg Loss: 0.9894 Avg Acc: 0.7344 Elapsed: 11.7s
+Epoch [54/75] Batch [100/105] Avg Loss: 1.0088 Avg Acc: 0.7312 Elapsed: 11.7s
+Epoch [54/75] Batch [105/105] Avg Loss: 1.4145 Avg Acc: 0.6750 Elapsed: 4.9s
+[INFO] Epoch 54 training complete. Avg train_loss: 1.0176, Avg train_acc: 0.7321
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.9892
+[INFO] Test accuracy computed for first batch: 0.0312
+[INFO] First test batch - Predicted classes: tensor([98, 30,  1, 52, 56])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 72%|███████████████████████▊         | 54/75 [3:12:37<1:12:38, 207.56s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.3031, Avg test_acc: 0.3385
+Epoch: 54 | train_loss: 1.0176 | train_acc: 0.7321 | test_loss: 3.3031 | test_acc: 0.3385
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 55/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.6828
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.8125
+[INFO] First batch - Predicted classes: tensor([26, 52, 67, 91, 87])
+[INFO] First batch - True labels: tensor([26, 16, 67, 91, 87])
+[INFO] First batch - Prediction probabilities (max): tensor([0.9457, 0.1022, 0.9936, 0.9998, 0.9998], grad_fn=<SliceBackward0>)
+Epoch [55/75] Batch [10/105] Avg Loss: 1.0570 Avg Acc: 0.6906 Elapsed: 11.5s
+Epoch [55/75] Batch [20/105] Avg Loss: 0.9037 Avg Acc: 0.7438 Elapsed: 11.3s
+Epoch [55/75] Batch [30/105] Avg Loss: 1.0477 Avg Acc: 0.7438 Elapsed: 11.7s
+Epoch [55/75] Batch [40/105] Avg Loss: 0.8760 Avg Acc: 0.7656 Elapsed: 11.5s
+Epoch [55/75] Batch [50/105] Avg Loss: 0.9963 Avg Acc: 0.7094 Elapsed: 11.5s
+Epoch [55/75] Batch [60/105] Avg Loss: 1.0604 Avg Acc: 0.7250 Elapsed: 11.6s
+Epoch [55/75] Batch [70/105] Avg Loss: 0.8199 Avg Acc: 0.7719 Elapsed: 11.3s
+Epoch [55/75] Batch [80/105] Avg Loss: 1.1428 Avg Acc: 0.7188 Elapsed: 11.4s
+Epoch [55/75] Batch [90/105] Avg Loss: 0.9794 Avg Acc: 0.7125 Elapsed: 11.5s
+Epoch [55/75] Batch [100/105] Avg Loss: 1.0695 Avg Acc: 0.7156 Elapsed: 11.4s
+Epoch [55/75] Batch [105/105] Avg Loss: 1.0263 Avg Acc: 0.7417 Elapsed: 5.0s
+[INFO] Epoch 55 training complete. Avg train_loss: 0.9967, Avg train_acc: 0.7303
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.6349
+[INFO] Test accuracy computed for first batch: 0.0625
+[INFO] First test batch - Predicted classes: tensor([98, 84,  1, 52, 56])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 73%|████████████████████████▏        | 55/75 [3:16:02<1:08:57, 206.88s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.6425, Avg test_acc: 0.3373
+Epoch: 55 | train_loss: 0.9967 | train_acc: 0.7303 | test_loss: 3.6425 | test_acc: 0.3373
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 56/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.8055
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.7812
+[INFO] First batch - Predicted classes: tensor([66, 28, 23, 60, 81])
+[INFO] First batch - True labels: tensor([66, 28, 23, 77, 81])
+[INFO] First batch - Prediction probabilities (max): tensor([0.6270, 0.8806, 0.3248, 0.6994, 0.9459], grad_fn=<SliceBackward0>)
+Epoch [56/75] Batch [10/105] Avg Loss: 0.9718 Avg Acc: 0.7406 Elapsed: 11.7s
+Epoch [56/75] Batch [20/105] Avg Loss: 0.8723 Avg Acc: 0.7656 Elapsed: 11.4s
+Epoch [56/75] Batch [30/105] Avg Loss: 0.7723 Avg Acc: 0.8094 Elapsed: 11.4s
+Epoch [56/75] Batch [40/105] Avg Loss: 0.7686 Avg Acc: 0.7875 Elapsed: 11.6s
+Epoch [56/75] Batch [50/105] Avg Loss: 0.8196 Avg Acc: 0.7594 Elapsed: 11.4s
+Epoch [56/75] Batch [60/105] Avg Loss: 0.8317 Avg Acc: 0.7812 Elapsed: 11.7s
+Epoch [56/75] Batch [70/105] Avg Loss: 1.0853 Avg Acc: 0.6969 Elapsed: 11.4s
+Epoch [56/75] Batch [80/105] Avg Loss: 0.9941 Avg Acc: 0.7562 Elapsed: 11.5s
+Epoch [56/75] Batch [90/105] Avg Loss: 0.9399 Avg Acc: 0.7688 Elapsed: 11.5s
+Epoch [56/75] Batch [100/105] Avg Loss: 1.1242 Avg Acc: 0.6813 Elapsed: 11.5s
+Epoch [56/75] Batch [105/105] Avg Loss: 0.9720 Avg Acc: 0.6958 Elapsed: 5.0s
+[INFO] Epoch 56 training complete. Avg train_loss: 0.9206, Avg train_acc: 0.7519
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 2.4380
+[INFO] Test accuracy computed for first batch: 0.4062
+[INFO] First test batch - Predicted classes: tensor([0, 0, 1, 0, 0])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+[INFO] First test batch - Prediction probabilities (max): tensor([0.9643, 0.4782, 0.2141, 0.2814, 0.3378])
+[INFO] Evaluation complete. Avg test_loss: 3.4637, Avg test_acc: 0.3412
+Epoch: 56 | train_loss: 0.9206 | train_acc: 0.7519 | test_loss: 3.4637 | test_acc: 0.3412
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 57/75
+
+ 75%|████████████████████████▋        | 56/75 [3:19:28<1:05:22, 206.43s/it]
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.8268
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.7500
+[INFO] First batch - Predicted classes: tensor([24, 18, 62, 87, 24])
+[INFO] First batch - True labels: tensor([24, 18, 62, 87, 63])
+[INFO] First batch - Prediction probabilities (max): tensor([0.9923, 0.9992, 0.9977, 0.7385, 0.3108], grad_fn=<SliceBackward0>)
+Epoch [57/75] Batch [10/105] Avg Loss: 0.8213 Avg Acc: 0.7750 Elapsed: 11.6s
+Epoch [57/75] Batch [20/105] Avg Loss: 0.8444 Avg Acc: 0.7594 Elapsed: 11.6s
+Epoch [57/75] Batch [30/105] Avg Loss: 0.9727 Avg Acc: 0.7469 Elapsed: 11.5s
+Epoch [57/75] Batch [40/105] Avg Loss: 1.0151 Avg Acc: 0.7094 Elapsed: 11.6s
+Epoch [57/75] Batch [50/105] Avg Loss: 0.9246 Avg Acc: 0.7469 Elapsed: 11.7s
+Epoch [57/75] Batch [60/105] Avg Loss: 0.8418 Avg Acc: 0.7375 Elapsed: 11.6s
+Epoch [57/75] Batch [70/105] Avg Loss: 1.0244 Avg Acc: 0.7219 Elapsed: 11.8s
+Epoch [57/75] Batch [80/105] Avg Loss: 0.9933 Avg Acc: 0.7375 Elapsed: 11.9s
+Epoch [57/75] Batch [90/105] Avg Loss: 0.9258 Avg Acc: 0.7281 Elapsed: 11.7s
+Epoch [57/75] Batch [100/105] Avg Loss: 0.9600 Avg Acc: 0.7375 Elapsed: 11.6s
+Epoch [57/75] Batch [105/105] Avg Loss: 0.9410 Avg Acc: 0.8104 Elapsed: 4.9s
+[INFO] Epoch 57 training complete. Avg train_loss: 0.9328, Avg train_acc: 0.7434
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 5.2423
+[INFO] Test accuracy computed for first batch: 0.0938
+[INFO] First test batch - Predicted classes: tensor([ 0, 55, 33, 10, 10])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+[INFO] First test batch - Prediction probabilities (max): tensor([0.4506, 0.2979, 0.5712, 0.4229, 0.4738])
+[INFO] Evaluation complete. Avg test_loss: 3.6149, Avg test_acc: 0.3586
+Epoch: 57 | train_loss: 0.9328 | train_acc: 0.7434 | test_loss: 3.6149 | test_acc: 0.3586
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 58/75
+
+ 76%|█████████████████████████        | 57/75 [3:22:55<1:02:00, 206.69s/it]
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.9727
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.6875
+[INFO] First batch - Predicted classes: tensor([48, 37, 61, 15, 91])
+[INFO] First batch - True labels: tensor([43, 37, 61, 29, 91])
+[INFO] First batch - Prediction probabilities (max): tensor([0.3161, 0.9671, 0.9878, 0.6082, 0.9934], grad_fn=<SliceBackward0>)
+Epoch [58/75] Batch [10/105] Avg Loss: 0.9080 Avg Acc: 0.7625 Elapsed: 11.6s
+Epoch [58/75] Batch [20/105] Avg Loss: 0.9491 Avg Acc: 0.7656 Elapsed: 11.6s
+Epoch [58/75] Batch [30/105] Avg Loss: 0.9590 Avg Acc: 0.7781 Elapsed: 11.6s
+Epoch [58/75] Batch [40/105] Avg Loss: 0.7775 Avg Acc: 0.7875 Elapsed: 11.8s
+Epoch [58/75] Batch [50/105] Avg Loss: 0.8765 Avg Acc: 0.7688 Elapsed: 11.6s
+Epoch [58/75] Batch [60/105] Avg Loss: 0.9026 Avg Acc: 0.7469 Elapsed: 11.8s
+Epoch [58/75] Batch [70/105] Avg Loss: 1.0243 Avg Acc: 0.7406 Elapsed: 11.4s
+Epoch [58/75] Batch [80/105] Avg Loss: 1.0523 Avg Acc: 0.7156 Elapsed: 11.7s
+Epoch [58/75] Batch [90/105] Avg Loss: 0.8149 Avg Acc: 0.7562 Elapsed: 11.6s
+Epoch [58/75] Batch [100/105] Avg Loss: 0.9701 Avg Acc: 0.7188 Elapsed: 11.4s
+Epoch [58/75] Batch [105/105] Avg Loss: 0.9360 Avg Acc: 0.7562 Elapsed: 4.9s
+[INFO] Epoch 58 training complete. Avg train_loss: 0.9240, Avg train_acc: 0.7542
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.3439
+[INFO] Test accuracy computed for first batch: 0.1875
+[INFO] First test batch - Predicted classes: tensor([ 0,  0,  1, 10, 10])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 77%|███████████████████████████        | 58/75 [3:26:22<58:34, 206.73s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.4653, Avg test_acc: 0.3415
+Epoch: 58 | train_loss: 0.9240 | train_acc: 0.7542 | test_loss: 3.4653 | test_acc: 0.3415
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 59/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.1818
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.7812
+[INFO] First batch - Predicted classes: tensor([35, 12, 18, 92, 53])
+[INFO] First batch - True labels: tensor([35, 12, 14, 92, 53])
+[INFO] First batch - Prediction probabilities (max): tensor([0.9929, 0.8511, 0.9567, 0.9671, 0.9463], grad_fn=<SliceBackward0>)
+Epoch [59/75] Batch [10/105] Avg Loss: 0.9811 Avg Acc: 0.7469 Elapsed: 11.6s
+Epoch [59/75] Batch [20/105] Avg Loss: 0.9780 Avg Acc: 0.7281 Elapsed: 11.5s
+Epoch [59/75] Batch [30/105] Avg Loss: 0.9422 Avg Acc: 0.7281 Elapsed: 11.5s
+Epoch [59/75] Batch [40/105] Avg Loss: 0.9186 Avg Acc: 0.7562 Elapsed: 11.5s
+Epoch [59/75] Batch [50/105] Avg Loss: 0.8550 Avg Acc: 0.7562 Elapsed: 11.6s
+Epoch [59/75] Batch [60/105] Avg Loss: 0.8994 Avg Acc: 0.7719 Elapsed: 11.6s
+Epoch [59/75] Batch [70/105] Avg Loss: 0.8934 Avg Acc: 0.8000 Elapsed: 11.8s
+Epoch [59/75] Batch [80/105] Avg Loss: 0.9980 Avg Acc: 0.7125 Elapsed: 11.7s
+Epoch [59/75] Batch [90/105] Avg Loss: 1.0492 Avg Acc: 0.7188 Elapsed: 11.4s
+Epoch [59/75] Batch [100/105] Avg Loss: 1.1411 Avg Acc: 0.7188 Elapsed: 11.6s
+Epoch [59/75] Batch [105/105] Avg Loss: 1.1214 Avg Acc: 0.7188 Elapsed: 4.9s
+[INFO] Epoch 59 training complete. Avg train_loss: 0.9730, Avg train_acc: 0.7426
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.6150
+[INFO] Test accuracy computed for first batch: 0.0625
+[INFO] First test batch - Predicted classes: tensor([ 0, 84, 33, 52, 10])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+[INFO] First test batch - Prediction probabilities (max): tensor([0.9958, 0.6348, 0.2409, 0.3473, 0.4571])
+[INFO] Evaluation complete. Avg test_loss: 3.3750, Avg test_acc: 0.3477
+Epoch: 59 | train_loss: 0.9730 | train_acc: 0.7426 | test_loss: 3.3750 | test_acc: 0.3477
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 60/75
+
+ 79%|███████████████████████████▌       | 59/75 [3:29:48<55:07, 206.71s/it]
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.1886
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.6875
+[INFO] First batch - Predicted classes: tensor([87, 25, 36, 12,  3])
+[INFO] First batch - True labels: tensor([56, 25, 36, 12,  3])
+[INFO] First batch - Prediction probabilities (max): tensor([0.4532, 0.5963, 0.3459, 0.5373, 0.3488], grad_fn=<SliceBackward0>)
+Epoch [60/75] Batch [10/105] Avg Loss: 1.0233 Avg Acc: 0.7156 Elapsed: 11.5s
+Epoch [60/75] Batch [20/105] Avg Loss: 0.9223 Avg Acc: 0.7625 Elapsed: 11.6s
+Epoch [60/75] Batch [30/105] Avg Loss: 0.6856 Avg Acc: 0.8156 Elapsed: 11.5s
+Epoch [60/75] Batch [40/105] Avg Loss: 0.6689 Avg Acc: 0.8187 Elapsed: 11.3s
+Epoch [60/75] Batch [50/105] Avg Loss: 0.9871 Avg Acc: 0.7344 Elapsed: 11.6s
+Epoch [60/75] Batch [60/105] Avg Loss: 0.8363 Avg Acc: 0.7781 Elapsed: 11.5s
+Epoch [60/75] Batch [70/105] Avg Loss: 0.9726 Avg Acc: 0.7219 Elapsed: 11.7s
+Epoch [60/75] Batch [80/105] Avg Loss: 0.9410 Avg Acc: 0.7281 Elapsed: 11.6s
+Epoch [60/75] Batch [90/105] Avg Loss: 0.9271 Avg Acc: 0.7719 Elapsed: 11.9s
+Epoch [60/75] Batch [100/105] Avg Loss: 1.0960 Avg Acc: 0.7125 Elapsed: 11.9s
+Epoch [60/75] Batch [105/105] Avg Loss: 1.2103 Avg Acc: 0.7208 Elapsed: 4.8s
+[INFO] Epoch 60 training complete. Avg train_loss: 0.9205, Avg train_acc: 0.7543
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.2522
+[INFO] Test accuracy computed for first batch: 0.0625
+[INFO] First test batch - Predicted classes: tensor([ 0,  0,  1,  2, 97])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+[INFO] First test batch - Prediction probabilities (max): tensor([0.9360, 0.2387, 0.5071, 0.3401, 0.3686])
+[INFO] Evaluation complete. Avg test_loss: 3.2083, Avg test_acc: 0.3489
+Epoch: 60 | train_loss: 0.9205 | train_acc: 0.7543 | test_loss: 3.2083 | test_acc: 0.3489
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 61/75
+
+ 80%|████████████████████████████       | 60/75 [3:33:15<51:41, 206.76s/it]
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.8990
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.7812
+[INFO] First batch - Predicted classes: tensor([51, 42, 94, 33, 49])
+[INFO] First batch - True labels: tensor([79, 42, 94, 33, 49])
+[INFO] First batch - Prediction probabilities (max): tensor([0.7024, 0.6747, 0.9298, 0.9899, 0.6181], grad_fn=<SliceBackward0>)
+Epoch [61/75] Batch [10/105] Avg Loss: 1.0547 Avg Acc: 0.7250 Elapsed: 13.8s
+Epoch [61/75] Batch [20/105] Avg Loss: 0.8885 Avg Acc: 0.7625 Elapsed: 11.5s
+Epoch [61/75] Batch [30/105] Avg Loss: 0.8740 Avg Acc: 0.7562 Elapsed: 11.5s
+Epoch [61/75] Batch [40/105] Avg Loss: 0.8366 Avg Acc: 0.7688 Elapsed: 11.6s
+Epoch [61/75] Batch [50/105] Avg Loss: 0.9125 Avg Acc: 0.7562 Elapsed: 11.5s
+Epoch [61/75] Batch [60/105] Avg Loss: 1.0537 Avg Acc: 0.7250 Elapsed: 11.5s
+Epoch [61/75] Batch [70/105] Avg Loss: 0.9565 Avg Acc: 0.7656 Elapsed: 11.4s
+Epoch [61/75] Batch [80/105] Avg Loss: 0.8708 Avg Acc: 0.7719 Elapsed: 11.4s
+Epoch [61/75] Batch [90/105] Avg Loss: 1.0777 Avg Acc: 0.7250 Elapsed: 11.6s
+Epoch [61/75] Batch [100/105] Avg Loss: 0.9760 Avg Acc: 0.7375 Elapsed: 11.5s
+Epoch [61/75] Batch [105/105] Avg Loss: 1.0508 Avg Acc: 0.7771 Elapsed: 4.9s
+[INFO] Epoch 61 training complete. Avg train_loss: 0.9549, Avg train_acc: 0.7507
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.3538
+[INFO] Test accuracy computed for first batch: 0.0625
+[INFO] First test batch - Predicted classes: tensor([ 0, 84,  1, 52,  1])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 81%|████████████████████████████▍      | 61/75 [3:36:43<48:16, 206.89s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.2522, Avg test_acc: 0.3617
+Epoch: 61 | train_loss: 0.9549 | train_acc: 0.7507 | test_loss: 3.2522 | test_acc: 0.3617
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 62/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.9719
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.7812
+[INFO] First batch - Predicted classes: tensor([52, 74, 32, 96, 62])
+[INFO] First batch - True labels: tensor([52, 74, 32, 96, 91])
+[INFO] First batch - Prediction probabilities (max): tensor([0.5913, 0.3897, 0.7571, 0.7629, 0.1329], grad_fn=<SliceBackward0>)
+Epoch [62/75] Batch [10/105] Avg Loss: 1.0515 Avg Acc: 0.7219 Elapsed: 11.4s
+Epoch [62/75] Batch [20/105] Avg Loss: 1.0573 Avg Acc: 0.7469 Elapsed: 11.5s
+Epoch [62/75] Batch [30/105] Avg Loss: 0.9358 Avg Acc: 0.7656 Elapsed: 11.9s
+Epoch [62/75] Batch [40/105] Avg Loss: 0.9301 Avg Acc: 0.7438 Elapsed: 11.6s
+Epoch [62/75] Batch [50/105] Avg Loss: 0.8539 Avg Acc: 0.7531 Elapsed: 11.6s
+Epoch [62/75] Batch [60/105] Avg Loss: 0.9704 Avg Acc: 0.7438 Elapsed: 11.5s
+Epoch [62/75] Batch [70/105] Avg Loss: 0.9872 Avg Acc: 0.7438 Elapsed: 11.5s
+Epoch [62/75] Batch [80/105] Avg Loss: 0.9564 Avg Acc: 0.7344 Elapsed: 11.6s
+Epoch [62/75] Batch [90/105] Avg Loss: 0.9757 Avg Acc: 0.7344 Elapsed: 11.8s
+Epoch [62/75] Batch [100/105] Avg Loss: 0.9897 Avg Acc: 0.7469 Elapsed: 11.5s
+Epoch [62/75] Batch [105/105] Avg Loss: 1.1985 Avg Acc: 0.6875 Elapsed: 5.0s
+[INFO] Epoch 62 training complete. Avg train_loss: 0.9816, Avg train_acc: 0.7408
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.8028
+[INFO] Test accuracy computed for first batch: 0.1250
+[INFO] First test batch - Predicted classes: tensor([ 0, 84,  1, 10, 97])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+[INFO] First test batch - Prediction probabilities (max): tensor([0.8933, 0.6546, 0.3348, 0.4119, 0.8844])
+[INFO] Evaluation complete. Avg test_loss: 3.5669, Avg test_acc: 0.3464
+Epoch: 62 | train_loss: 0.9816 | train_acc: 0.7408 | test_loss: 3.5669 | test_acc: 0.3464
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 63/75
+
+ 83%|████████████████████████████▉      | 62/75 [3:40:09<44:48, 206.83s/it]
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.7743
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.8125
+[INFO] First batch - Predicted classes: tensor([93, 29, 51, 29,  4])
+[INFO] First batch - True labels: tensor([93, 29, 85, 29,  4])
+[INFO] First batch - Prediction probabilities (max): tensor([0.9000, 0.6537, 0.1113, 0.9202, 0.9833], grad_fn=<SliceBackward0>)
+Epoch [63/75] Batch [10/105] Avg Loss: 0.9081 Avg Acc: 0.7500 Elapsed: 11.8s
+Epoch [63/75] Batch [20/105] Avg Loss: 0.8124 Avg Acc: 0.7937 Elapsed: 11.5s
+Epoch [63/75] Batch [30/105] Avg Loss: 0.9286 Avg Acc: 0.7406 Elapsed: 11.2s
+Epoch [63/75] Batch [40/105] Avg Loss: 1.0402 Avg Acc: 0.7375 Elapsed: 11.5s
+Epoch [63/75] Batch [50/105] Avg Loss: 0.9274 Avg Acc: 0.7250 Elapsed: 11.3s
+Epoch [63/75] Batch [60/105] Avg Loss: 0.8666 Avg Acc: 0.7781 Elapsed: 11.7s
+Epoch [63/75] Batch [70/105] Avg Loss: 1.1873 Avg Acc: 0.6813 Elapsed: 11.5s
+Epoch [63/75] Batch [80/105] Avg Loss: 1.0373 Avg Acc: 0.7406 Elapsed: 11.6s
+Epoch [63/75] Batch [90/105] Avg Loss: 0.8542 Avg Acc: 0.7719 Elapsed: 11.6s
+Epoch [63/75] Batch [100/105] Avg Loss: 0.8625 Avg Acc: 0.7594 Elapsed: 11.5s
+Epoch [63/75] Batch [105/105] Avg Loss: 1.2216 Avg Acc: 0.6750 Elapsed: 5.2s
+[INFO] Epoch 63 training complete. Avg train_loss: 0.9558, Avg train_acc: 0.7443
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.3418
+[INFO] Test accuracy computed for first batch: 0.3125
+[INFO] First test batch - Predicted classes: tensor([ 0,  0, 87, 52,  0])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+[INFO] First test batch - Prediction probabilities (max): tensor([0.9983, 0.4466, 0.7928, 0.6310, 0.8934])
+[INFO] Evaluation complete. Avg test_loss: 3.7674, Avg test_acc: 0.3406
+Epoch: 63 | train_loss: 0.9558 | train_acc: 0.7443 | test_loss: 3.7674 | test_acc: 0.3406
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 64/75
+
+ 84%|█████████████████████████████▍     | 63/75 [3:43:36<41:20, 206.70s/it]
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.9997
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.6875
+[INFO] First batch - Predicted classes: tensor([ 9,  9, 39, 82, 28])
+[INFO] First batch - True labels: tensor([67,  9, 39, 84, 28])
+[INFO] First batch - Prediction probabilities (max): tensor([0.5210, 0.9968, 0.9959, 0.1898, 0.9987], grad_fn=<SliceBackward0>)
+Epoch [64/75] Batch [10/105] Avg Loss: 0.9070 Avg Acc: 0.7594 Elapsed: 11.7s
+Epoch [64/75] Batch [20/105] Avg Loss: 0.9376 Avg Acc: 0.7625 Elapsed: 11.6s
+Epoch [64/75] Batch [30/105] Avg Loss: 0.7643 Avg Acc: 0.7969 Elapsed: 11.5s
+Epoch [64/75] Batch [40/105] Avg Loss: 0.9301 Avg Acc: 0.7531 Elapsed: 11.4s
+Epoch [64/75] Batch [50/105] Avg Loss: 0.8899 Avg Acc: 0.7688 Elapsed: 11.4s
+Epoch [64/75] Batch [60/105] Avg Loss: 0.8348 Avg Acc: 0.7812 Elapsed: 11.5s
+Epoch [64/75] Batch [70/105] Avg Loss: 1.0025 Avg Acc: 0.7219 Elapsed: 11.4s
+Epoch [64/75] Batch [80/105] Avg Loss: 1.0773 Avg Acc: 0.7438 Elapsed: 11.6s
+Epoch [64/75] Batch [90/105] Avg Loss: 1.0299 Avg Acc: 0.7438 Elapsed: 11.5s
+Epoch [64/75] Batch [100/105] Avg Loss: 0.9212 Avg Acc: 0.7531 Elapsed: 11.4s
+Epoch [64/75] Batch [105/105] Avg Loss: 1.1459 Avg Acc: 0.7063 Elapsed: 4.9s
+[INFO] Epoch 64 training complete. Avg train_loss: 0.9398, Avg train_acc: 0.7560
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.4357
+[INFO] Test accuracy computed for first batch: 0.0938
+[INFO] First test batch - Predicted classes: tensor([ 0, 84, 87, 25, 56])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 85%|█████████████████████████████▊     | 64/75 [3:46:59<37:42, 205.68s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.5270, Avg test_acc: 0.3653
+Epoch: 64 | train_loss: 0.9398 | train_acc: 0.7560 | test_loss: 3.5270 | test_acc: 0.3653
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 65/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.1320
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.7188
+[INFO] First batch - Predicted classes: tensor([53, 35, 44, 92, 62])
+[INFO] First batch - True labels: tensor([53, 35, 44, 92, 62])
+[INFO] First batch - Prediction probabilities (max): tensor([0.9987, 0.9968, 0.9170, 0.9037, 0.9991], grad_fn=<SliceBackward0>)
+Epoch [65/75] Batch [10/105] Avg Loss: 0.9794 Avg Acc: 0.7562 Elapsed: 11.7s
+Epoch [65/75] Batch [20/105] Avg Loss: 0.8218 Avg Acc: 0.7875 Elapsed: 11.3s
+Epoch [65/75] Batch [30/105] Avg Loss: 0.7426 Avg Acc: 0.8094 Elapsed: 11.6s
+Epoch [65/75] Batch [40/105] Avg Loss: 0.9310 Avg Acc: 0.7281 Elapsed: 11.6s
+Epoch [65/75] Batch [50/105] Avg Loss: 0.9075 Avg Acc: 0.7625 Elapsed: 11.4s
+Epoch [65/75] Batch [60/105] Avg Loss: 0.8953 Avg Acc: 0.7531 Elapsed: 11.4s
+Epoch [65/75] Batch [70/105] Avg Loss: 0.9011 Avg Acc: 0.7656 Elapsed: 11.5s
+Epoch [65/75] Batch [80/105] Avg Loss: 0.8427 Avg Acc: 0.7750 Elapsed: 11.5s
+Epoch [65/75] Batch [90/105] Avg Loss: 0.7616 Avg Acc: 0.7844 Elapsed: 11.5s
+Epoch [65/75] Batch [100/105] Avg Loss: 0.8584 Avg Acc: 0.7812 Elapsed: 11.6s
+Epoch [65/75] Batch [105/105] Avg Loss: 0.8870 Avg Acc: 0.7125 Elapsed: 5.0s
+[INFO] Epoch 65 training complete. Avg train_loss: 0.8652, Avg train_acc: 0.7676
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 2.3418
+[INFO] Test accuracy computed for first batch: 0.5000
+[INFO] First test batch - Predicted classes: tensor([ 0,  0, 87,  0,  0])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 87%|██████████████████████████████▎    | 65/75 [3:50:24<34:14, 205.46s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.8845, Avg test_acc: 0.3549
+Epoch: 65 | train_loss: 0.8652 | train_acc: 0.7676 | test_loss: 3.8845 | test_acc: 0.3549
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 66/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.2871
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.9062
+[INFO] First batch - Predicted classes: tensor([ 0, 37, 15, 22, 96])
+[INFO] First batch - True labels: tensor([ 0, 37, 15, 16, 96])
+[INFO] First batch - Prediction probabilities (max): tensor([0.9618, 0.6513, 0.9978, 0.3396, 0.9965], grad_fn=<SliceBackward0>)
+Epoch [66/75] Batch [10/105] Avg Loss: 0.6801 Avg Acc: 0.8344 Elapsed: 11.7s
+Epoch [66/75] Batch [20/105] Avg Loss: 0.8725 Avg Acc: 0.7812 Elapsed: 11.6s
+Epoch [66/75] Batch [30/105] Avg Loss: 0.7832 Avg Acc: 0.7781 Elapsed: 11.7s
+Epoch [66/75] Batch [40/105] Avg Loss: 0.9932 Avg Acc: 0.7625 Elapsed: 11.6s
+Epoch [66/75] Batch [50/105] Avg Loss: 0.8900 Avg Acc: 0.7656 Elapsed: 11.4s
+Epoch [66/75] Batch [60/105] Avg Loss: 0.7888 Avg Acc: 0.7937 Elapsed: 11.4s
+Epoch [66/75] Batch [70/105] Avg Loss: 0.9187 Avg Acc: 0.7875 Elapsed: 11.7s
+Epoch [66/75] Batch [80/105] Avg Loss: 0.8618 Avg Acc: 0.7562 Elapsed: 11.4s
+Epoch [66/75] Batch [90/105] Avg Loss: 0.8947 Avg Acc: 0.7562 Elapsed: 11.8s
+Epoch [66/75] Batch [100/105] Avg Loss: 0.8309 Avg Acc: 0.7625 Elapsed: 11.9s
+Epoch [66/75] Batch [105/105] Avg Loss: 0.7065 Avg Acc: 0.8125 Elapsed: 5.1s
+[INFO] Epoch 66 training complete. Avg train_loss: 0.8445, Avg train_acc: 0.7795
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.7232
+[INFO] Test accuracy computed for first batch: 0.2188
+[INFO] First test batch - Predicted classes: tensor([ 0, 84, 33, 25, 17])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 88%|██████████████████████████████▊    | 66/75 [3:53:49<30:48, 205.38s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.9505, Avg test_acc: 0.3510
+Epoch: 66 | train_loss: 0.8445 | train_acc: 0.7795 | test_loss: 3.9505 | test_acc: 0.3510
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 67/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.9483
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.7812
+[INFO] First batch - Predicted classes: tensor([26, 36, 43, 22, 51])
+[INFO] First batch - True labels: tensor([ 7, 36, 43, 18, 51])
+[INFO] First batch - Prediction probabilities (max): tensor([0.6509, 0.9995, 0.6906, 0.6401, 1.0000], grad_fn=<SliceBackward0>)
+Epoch [67/75] Batch [10/105] Avg Loss: 0.7250 Avg Acc: 0.8063 Elapsed: 11.4s
+Epoch [67/75] Batch [20/105] Avg Loss: 0.8581 Avg Acc: 0.7812 Elapsed: 11.4s
+Epoch [67/75] Batch [30/105] Avg Loss: 0.8326 Avg Acc: 0.7906 Elapsed: 11.3s
+Epoch [67/75] Batch [40/105] Avg Loss: 0.8196 Avg Acc: 0.7656 Elapsed: 11.4s
+Epoch [67/75] Batch [50/105] Avg Loss: 0.8885 Avg Acc: 0.7719 Elapsed: 11.6s
+Epoch [67/75] Batch [60/105] Avg Loss: 0.8105 Avg Acc: 0.7844 Elapsed: 11.2s
+Epoch [67/75] Batch [70/105] Avg Loss: 0.6889 Avg Acc: 0.8344 Elapsed: 11.5s
+Epoch [67/75] Batch [80/105] Avg Loss: 0.7695 Avg Acc: 0.7750 Elapsed: 11.5s
+Epoch [67/75] Batch [90/105] Avg Loss: 0.9638 Avg Acc: 0.7438 Elapsed: 11.4s
+Epoch [67/75] Batch [100/105] Avg Loss: 0.8999 Avg Acc: 0.7625 Elapsed: 11.3s
+Epoch [67/75] Batch [105/105] Avg Loss: 0.8838 Avg Acc: 0.7792 Elapsed: 5.0s
+[INFO] Epoch 67 training complete. Avg train_loss: 0.8284, Avg train_acc: 0.7814
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.0523
+[INFO] Test accuracy computed for first batch: 0.2188
+[INFO] First test batch - Predicted classes: tensor([ 0, 84, 55, 52,  0])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 89%|███████████████████████████████▎   | 67/75 [3:57:13<27:18, 204.87s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.5386, Avg test_acc: 0.3513
+Epoch: 67 | train_loss: 0.8284 | train_acc: 0.7814 | test_loss: 3.5386 | test_acc: 0.3513
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 68/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.2229
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.6562
+[INFO] First batch - Predicted classes: tensor([26, 66, 27,  5, 19])
+[INFO] First batch - True labels: tensor([26, 66, 87,  7, 19])
+[INFO] First batch - Prediction probabilities (max): tensor([0.8555, 0.9999, 0.1343, 0.3478, 0.5467], grad_fn=<SliceBackward0>)
+Epoch [68/75] Batch [10/105] Avg Loss: 0.9272 Avg Acc: 0.7438 Elapsed: 11.4s
+Epoch [68/75] Batch [20/105] Avg Loss: 0.7193 Avg Acc: 0.8125 Elapsed: 11.4s
+Epoch [68/75] Batch [30/105] Avg Loss: 0.8364 Avg Acc: 0.7875 Elapsed: 11.4s
+Epoch [68/75] Batch [40/105] Avg Loss: 0.8760 Avg Acc: 0.7625 Elapsed: 11.4s
+Epoch [68/75] Batch [50/105] Avg Loss: 0.8394 Avg Acc: 0.7719 Elapsed: 11.4s
+Epoch [68/75] Batch [60/105] Avg Loss: 0.7294 Avg Acc: 0.8000 Elapsed: 11.4s
+Epoch [68/75] Batch [70/105] Avg Loss: 0.9354 Avg Acc: 0.7844 Elapsed: 11.5s
+Epoch [68/75] Batch [80/105] Avg Loss: 0.9451 Avg Acc: 0.7469 Elapsed: 11.4s
+Epoch [68/75] Batch [90/105] Avg Loss: 0.8049 Avg Acc: 0.7844 Elapsed: 11.4s
+Epoch [68/75] Batch [100/105] Avg Loss: 1.0020 Avg Acc: 0.7406 Elapsed: 11.4s
+Epoch [68/75] Batch [105/105] Avg Loss: 0.8641 Avg Acc: 0.7896 Elapsed: 4.9s
+[INFO] Epoch 68 training complete. Avg train_loss: 0.8616, Avg train_acc: 0.7742
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 5.7075
+[INFO] Test accuracy computed for first batch: 0.0938
+[INFO] First test batch - Predicted classes: tensor([ 0, 30, 33, 52, 86])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 91%|███████████████████████████████▋   | 68/75 [4:00:37<23:52, 204.65s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.7628, Avg test_acc: 0.3599
+Epoch: 68 | train_loss: 0.8616 | train_acc: 0.7742 | test_loss: 3.7628 | test_acc: 0.3599
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 69/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.6299
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.8750
+[INFO] First batch - Predicted classes: tensor([81, 33, 67, 96, 40])
+[INFO] First batch - True labels: tensor([81, 33, 67, 96, 40])
+[INFO] First batch - Prediction probabilities (max): tensor([0.9999, 0.9999, 0.9995, 0.9995, 0.9931], grad_fn=<SliceBackward0>)
+Epoch [69/75] Batch [10/105] Avg Loss: 0.8558 Avg Acc: 0.7781 Elapsed: 11.5s
+Epoch [69/75] Batch [20/105] Avg Loss: 0.8466 Avg Acc: 0.7875 Elapsed: 11.4s
+Epoch [69/75] Batch [30/105] Avg Loss: 0.8734 Avg Acc: 0.7781 Elapsed: 11.2s
+Epoch [69/75] Batch [40/105] Avg Loss: 0.8694 Avg Acc: 0.7781 Elapsed: 11.3s
+Epoch [69/75] Batch [50/105] Avg Loss: 0.7940 Avg Acc: 0.7656 Elapsed: 11.6s
+Epoch [69/75] Batch [60/105] Avg Loss: 0.7887 Avg Acc: 0.7812 Elapsed: 11.5s
+Epoch [69/75] Batch [70/105] Avg Loss: 0.9886 Avg Acc: 0.7406 Elapsed: 11.4s
+Epoch [69/75] Batch [80/105] Avg Loss: 0.7962 Avg Acc: 0.7781 Elapsed: 11.4s
+Epoch [69/75] Batch [90/105] Avg Loss: 0.8105 Avg Acc: 0.7625 Elapsed: 11.6s
+Epoch [69/75] Batch [100/105] Avg Loss: 0.8423 Avg Acc: 0.8031 Elapsed: 11.5s
+Epoch [69/75] Batch [105/105] Avg Loss: 0.6253 Avg Acc: 0.8542 Elapsed: 4.8s
+[INFO] Epoch 69 training complete. Avg train_loss: 0.8360, Avg train_acc: 0.7791
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 4.0901
+[INFO] Test accuracy computed for first batch: 0.1562
+[INFO] First test batch - Predicted classes: tensor([ 0, 54, 33, 52,  0])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 92%|████████████████████████████████▏  | 69/75 [4:04:01<20:26, 204.41s/it]
+[INFO] Evaluation complete. Avg test_loss: 4.0586, Avg test_acc: 0.3701
+Epoch: 69 | train_loss: 0.8360 | train_acc: 0.7791 | test_loss: 4.0586 | test_acc: 0.3701
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 70/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.7276
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.8125
+[INFO] First batch - Predicted classes: tensor([58, 11, 75, 40, 12])
+[INFO] First batch - True labels: tensor([58, 11, 75, 40, 12])
+[INFO] First batch - Prediction probabilities (max): tensor([0.9836, 0.9416, 0.9942, 1.0000, 0.9982], grad_fn=<SliceBackward0>)
+Epoch [70/75] Batch [10/105] Avg Loss: 0.8374 Avg Acc: 0.7750 Elapsed: 11.4s
+Epoch [70/75] Batch [20/105] Avg Loss: 0.8515 Avg Acc: 0.8063 Elapsed: 11.2s
+Epoch [70/75] Batch [30/105] Avg Loss: 0.7911 Avg Acc: 0.8000 Elapsed: 11.4s
+Epoch [70/75] Batch [40/105] Avg Loss: 0.6171 Avg Acc: 0.8313 Elapsed: 11.5s
+Epoch [70/75] Batch [50/105] Avg Loss: 0.8043 Avg Acc: 0.7812 Elapsed: 11.5s
+Epoch [70/75] Batch [60/105] Avg Loss: 0.8955 Avg Acc: 0.7781 Elapsed: 11.5s
+Epoch [70/75] Batch [70/105] Avg Loss: 0.8621 Avg Acc: 0.7844 Elapsed: 11.1s
+Epoch [70/75] Batch [80/105] Avg Loss: 0.6883 Avg Acc: 0.8000 Elapsed: 11.3s
+Epoch [70/75] Batch [90/105] Avg Loss: 0.8854 Avg Acc: 0.7750 Elapsed: 11.6s
+Epoch [70/75] Batch [100/105] Avg Loss: 0.9175 Avg Acc: 0.7594 Elapsed: 11.5s
+Epoch [70/75] Batch [105/105] Avg Loss: 0.9113 Avg Acc: 0.7646 Elapsed: 5.0s
+[INFO] Epoch 70 training complete. Avg train_loss: 0.8196, Avg train_acc: 0.7879
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 2.9351
+[INFO] Test accuracy computed for first batch: 0.2812
+[INFO] First test batch - Predicted classes: tensor([ 0, 54, 56, 10, 56])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 93%|████████████████████████████████▋  | 70/75 [4:07:25<17:01, 204.23s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.2869, Avg test_acc: 0.3635
+Epoch: 70 | train_loss: 0.8196 | train_acc: 0.7879 | test_loss: 3.2869 | test_acc: 0.3635
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 71/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.7946
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.8125
+[INFO] First batch - Predicted classes: tensor([31, 57, 15, 12,  4])
+[INFO] First batch - True labels: tensor([30, 57, 15, 13,  4])
+[INFO] First batch - Prediction probabilities (max): tensor([0.6820, 0.9998, 0.4065, 0.7799, 0.8622], grad_fn=<SliceBackward0>)
+Epoch [71/75] Batch [10/105] Avg Loss: 0.8513 Avg Acc: 0.7719 Elapsed: 11.3s
+Epoch [71/75] Batch [20/105] Avg Loss: 0.7419 Avg Acc: 0.8094 Elapsed: 11.7s
+Epoch [71/75] Batch [30/105] Avg Loss: 0.6844 Avg Acc: 0.8375 Elapsed: 11.4s
+Epoch [71/75] Batch [40/105] Avg Loss: 0.7747 Avg Acc: 0.8031 Elapsed: 11.5s
+Epoch [71/75] Batch [50/105] Avg Loss: 0.8921 Avg Acc: 0.7594 Elapsed: 11.6s
+Epoch [71/75] Batch [60/105] Avg Loss: 0.7952 Avg Acc: 0.7844 Elapsed: 11.4s
+Epoch [71/75] Batch [70/105] Avg Loss: 0.8126 Avg Acc: 0.7906 Elapsed: 11.4s
+Epoch [71/75] Batch [80/105] Avg Loss: 0.7750 Avg Acc: 0.8125 Elapsed: 11.4s
+Epoch [71/75] Batch [90/105] Avg Loss: 0.9121 Avg Acc: 0.7406 Elapsed: 11.5s
+Epoch [71/75] Batch [100/105] Avg Loss: 0.9352 Avg Acc: 0.7688 Elapsed: 11.4s
+Epoch [71/75] Batch [105/105] Avg Loss: 0.7855 Avg Acc: 0.7896 Elapsed: 4.9s
+[INFO] Epoch 71 training complete. Avg train_loss: 0.8159, Avg train_acc: 0.7879
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 5.8225
+[INFO] Test accuracy computed for first batch: 0.0625
+[INFO] First test batch - Predicted classes: tensor([ 0, 54, 87, 52, 14])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 95%|█████████████████████████████████▏ | 71/75 [4:10:48<13:35, 203.96s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.5655, Avg test_acc: 0.3550
+Epoch: 71 | train_loss: 0.8159 | train_acc: 0.7879 | test_loss: 3.5655 | test_acc: 0.3550
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 72/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.7353
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.7812
+[INFO] First batch - Predicted classes: tensor([87, 88, 16, 12,  5])
+[INFO] First batch - True labels: tensor([88, 33, 16, 12, 26])
+[INFO] First batch - Prediction probabilities (max): tensor([0.4006, 0.3616, 0.9623, 0.9327, 0.2712], grad_fn=<SliceBackward0>)
+Epoch [72/75] Batch [10/105] Avg Loss: 0.7220 Avg Acc: 0.8094 Elapsed: 11.5s
+Epoch [72/75] Batch [20/105] Avg Loss: 0.8290 Avg Acc: 0.7656 Elapsed: 11.3s
+Epoch [72/75] Batch [30/105] Avg Loss: 0.7640 Avg Acc: 0.7969 Elapsed: 11.2s
+Epoch [72/75] Batch [40/105] Avg Loss: 0.6802 Avg Acc: 0.8406 Elapsed: 11.3s
+Epoch [72/75] Batch [50/105] Avg Loss: 0.8292 Avg Acc: 0.7656 Elapsed: 11.7s
+Epoch [72/75] Batch [60/105] Avg Loss: 0.7554 Avg Acc: 0.7937 Elapsed: 11.6s
+Epoch [72/75] Batch [70/105] Avg Loss: 0.7034 Avg Acc: 0.8344 Elapsed: 11.5s
+Epoch [72/75] Batch [80/105] Avg Loss: 0.7565 Avg Acc: 0.7906 Elapsed: 11.4s
+Epoch [72/75] Batch [90/105] Avg Loss: 0.7340 Avg Acc: 0.8063 Elapsed: 11.4s
+Epoch [72/75] Batch [100/105] Avg Loss: 0.9590 Avg Acc: 0.7562 Elapsed: 11.5s
+Epoch [72/75] Batch [105/105] Avg Loss: 1.0217 Avg Acc: 0.7521 Elapsed: 4.9s
+[INFO] Epoch 72 training complete. Avg train_loss: 0.7851, Avg train_acc: 0.7938
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.7068
+[INFO] Test accuracy computed for first batch: 0.1562
+[INFO] First test batch - Predicted classes: tensor([ 0, 84, 33, 25, 97])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 96%|█████████████████████████████████▌ | 72/75 [4:14:12<10:12, 204.06s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.2370, Avg test_acc: 0.3540
+Epoch: 72 | train_loss: 0.7851 | train_acc: 0.7938 | test_loss: 3.2370 | test_acc: 0.3540
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 73/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.3890
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.9062
+[INFO] First batch - Predicted classes: tensor([58,  2, 16, 16, 29])
+[INFO] First batch - True labels: tensor([58,  2, 16, 16, 42])
+[INFO] First batch - Prediction probabilities (max): tensor([0.9953, 0.8165, 0.9746, 0.9358, 0.2484], grad_fn=<SliceBackward0>)
+Epoch [73/75] Batch [10/105] Avg Loss: 0.7801 Avg Acc: 0.8063 Elapsed: 11.3s
+Epoch [73/75] Batch [20/105] Avg Loss: 0.8710 Avg Acc: 0.7719 Elapsed: 11.3s
+Epoch [73/75] Batch [30/105] Avg Loss: 0.6290 Avg Acc: 0.8313 Elapsed: 11.5s
+Epoch [73/75] Batch [40/105] Avg Loss: 0.6751 Avg Acc: 0.8250 Elapsed: 11.2s
+Epoch [73/75] Batch [50/105] Avg Loss: 0.9461 Avg Acc: 0.7531 Elapsed: 11.3s
+Epoch [73/75] Batch [60/105] Avg Loss: 0.8365 Avg Acc: 0.7969 Elapsed: 11.6s
+Epoch [73/75] Batch [70/105] Avg Loss: 0.8432 Avg Acc: 0.7969 Elapsed: 11.3s
+Epoch [73/75] Batch [80/105] Avg Loss: 0.8682 Avg Acc: 0.7844 Elapsed: 11.5s
+Epoch [73/75] Batch [90/105] Avg Loss: 0.9173 Avg Acc: 0.7594 Elapsed: 11.5s
+Epoch [73/75] Batch [100/105] Avg Loss: 0.8024 Avg Acc: 0.8031 Elapsed: 11.5s
+Epoch [73/75] Batch [105/105] Avg Loss: 0.7514 Avg Acc: 0.8354 Elapsed: 4.8s
+[INFO] Epoch 73 training complete. Avg train_loss: 0.8138, Avg train_acc: 0.7948
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 3.0310
+[INFO] Test accuracy computed for first batch: 0.2500
+[INFO] First test batch - Predicted classes: tensor([ 0, 14, 33, 52, 97])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 97%|██████████████████████████████████ | 73/75 [4:17:36<06:47, 203.96s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.5139, Avg test_acc: 0.3647
+Epoch: 73 | train_loss: 0.8138 | train_acc: 0.7948 | test_loss: 3.5139 | test_acc: 0.3647
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 74/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 1.2908
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.6250
+[INFO] First batch - Predicted classes: tensor([58, 88, 57, 68, 57])
+[INFO] First batch - True labels: tensor([58, 88, 57, 70, 57])
+[INFO] First batch - Prediction probabilities (max): tensor([1.0000, 0.8162, 0.8998, 0.6997, 0.9997], grad_fn=<SliceBackward0>)
+Epoch [74/75] Batch [10/105] Avg Loss: 1.0665 Avg Acc: 0.7375 Elapsed: 11.7s
+Epoch [74/75] Batch [20/105] Avg Loss: 0.9047 Avg Acc: 0.7625 Elapsed: 11.3s
+Epoch [74/75] Batch [30/105] Avg Loss: 0.8367 Avg Acc: 0.7750 Elapsed: 11.4s
+Epoch [74/75] Batch [40/105] Avg Loss: 0.7122 Avg Acc: 0.8063 Elapsed: 11.3s
+Epoch [74/75] Batch [50/105] Avg Loss: 0.5494 Avg Acc: 0.8594 Elapsed: 11.3s
+Epoch [74/75] Batch [60/105] Avg Loss: 0.8109 Avg Acc: 0.7594 Elapsed: 11.5s
+Epoch [74/75] Batch [70/105] Avg Loss: 0.7192 Avg Acc: 0.8344 Elapsed: 11.2s
+Epoch [74/75] Batch [80/105] Avg Loss: 0.8743 Avg Acc: 0.7750 Elapsed: 11.4s
+Epoch [74/75] Batch [90/105] Avg Loss: 0.8252 Avg Acc: 0.7562 Elapsed: 11.5s
+Epoch [74/75] Batch [100/105] Avg Loss: 0.7997 Avg Acc: 0.7594 Elapsed: 11.4s
+Epoch [74/75] Batch [105/105] Avg Loss: 0.6547 Avg Acc: 0.8417 Elapsed: 5.0s
+[INFO] Epoch 74 training complete. Avg train_loss: 0.8025, Avg train_acc: 0.7853
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 7.4246
+[INFO] Test accuracy computed for first batch: 0.0938
+[INFO] First test batch - Predicted classes: tensor([ 0, 84, 88, 52, 97])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+ 99%|██████████████████████████████████▌| 74/75 [4:21:00<03:24, 204.12s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.9862, Avg test_acc: 0.3701
+Epoch: 74 | train_loss: 0.8025 | train_acc: 0.7853 | test_loss: 3.9862 | test_acc: 0.3701
+[INFO] Logging metrics to wandb.
+[INFO] Starting epoch 75/75
+[INFO] Model moved to device and set to train mode.
+[INFO] First batch loaded and moved to device.
+[INFO] Forward pass complete for first batch.
+[INFO] Loss computed for first batch: 0.9275
+[INFO] Optimizer gradients zeroed.
+[INFO] Backward pass complete for first batch.
+[INFO] Optimizer step complete for first batch.
+[INFO] Accuracy computed for first batch: 0.8125
+[INFO] First batch - Predicted classes: tensor([10, 63, 16, 81, 58])
+[INFO] First batch - True labels: tensor([10,  3, 16, 81, 58])
+[INFO] First batch - Prediction probabilities (max): tensor([0.9023, 0.9392, 0.8827, 0.9999, 1.0000], grad_fn=<SliceBackward0>)
+Epoch [75/75] Batch [10/105] Avg Loss: 0.8377 Avg Acc: 0.7969 Elapsed: 11.5s
+Epoch [75/75] Batch [20/105] Avg Loss: 0.6777 Avg Acc: 0.8375 Elapsed: 11.3s
+Epoch [75/75] Batch [30/105] Avg Loss: 0.6978 Avg Acc: 0.8094 Elapsed: 11.4s
+Epoch [75/75] Batch [40/105] Avg Loss: 0.8721 Avg Acc: 0.7656 Elapsed: 11.5s
+Epoch [75/75] Batch [50/105] Avg Loss: 0.8858 Avg Acc: 0.7625 Elapsed: 11.3s
+Epoch [75/75] Batch [60/105] Avg Loss: 0.7289 Avg Acc: 0.8156 Elapsed: 11.2s
+Epoch [75/75] Batch [70/105] Avg Loss: 0.7279 Avg Acc: 0.8031 Elapsed: 11.5s
+Epoch [75/75] Batch [80/105] Avg Loss: 0.7293 Avg Acc: 0.8156 Elapsed: 11.4s
+Epoch [75/75] Batch [90/105] Avg Loss: 0.7480 Avg Acc: 0.7781 Elapsed: 11.4s
+Epoch [75/75] Batch [100/105] Avg Loss: 0.7096 Avg Acc: 0.7969 Elapsed: 11.3s
+Epoch [75/75] Batch [105/105] Avg Loss: 0.8954 Avg Acc: 0.7396 Elapsed: 4.8s
+[INFO] Epoch 75 training complete. Avg train_loss: 0.7678, Avg train_acc: 0.7953
+[INFO] Model set to eval mode.
+[INFO] Starting evaluation on test set...
+[INFO] First test batch loaded and moved to device.
+[INFO] Forward pass complete for first test batch.
+[INFO] Test loss computed for first batch: 2.7195
+[INFO] Test accuracy computed for first batch: 0.4062
+[INFO] First test batch - Predicted classes: tensor([ 0,  0,  1, 52, 97])
+[INFO] First test batch - True labels: tensor([0, 0, 0, 0, 0])
+
+100%|███████████████████████████████████| 75/75 [4:24:25<00:00, 211.54s/it]
+[INFO] Evaluation complete. Avg test_loss: 3.8296, Avg test_acc: 0.3752
+Epoch: 75 | train_loss: 0.7678 | train_acc: 0.7953 | test_loss: 3.8296 | test_acc: 0.3752
+[INFO] Logging metrics to wandb.
+[INFO] Saving layer_wise_learning_rate model to ./models
+[INFO] Model saved to models/layer_wise_learning_rate
